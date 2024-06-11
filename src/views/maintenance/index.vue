@@ -1,0 +1,284 @@
+<template>
+  <div class="container">
+    <div class="header">
+      <el-card shadow="always">
+        <el-button plain type="primary" :icon="Plus" @click="OpenAdd">新增</el-button>
+        <el-button plain type="danger" :icon="Delete" @click="OpenDel">批量删除</el-button>
+        <el-button plain type="success" :icon="Refresh" @click="RefreshData">刷新</el-button>
+        <el-popover placement="bottom" :width="300" trigger="click">
+          <template #reference>
+            <el-button plain type="info" :icon="Upload">导入</el-button>
+          </template>
+          <el-upload
+              ref="upload"
+              class="upload-demo"
+              action=""
+              drag
+              accept=".xls,.xlsx,"
+              :limit="1"
+              :on-exceed="handleExceed"
+              :on-success="uploadSuccess"
+              :on-error="uploadError"
+          >
+            <template #trigger>
+              <el-icon class="el-icon--upload">
+                <upload-filled/>
+              </el-icon>
+              <div class="el-upload__text">
+                拖动文件到此或 <em>点击</em>
+              </div>
+            </template>
+            <template #tip>
+              <div class="el-upload__tip">
+                请上传Excel文件
+              </div>
+            </template>
+          </el-upload>
+        </el-popover>
+        <el-button plain :icon="Download" @click="ExportData">导出</el-button>
+      </el-card>
+    </div>
+    <!--    表格-->
+    <div class="table-content">
+      <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :button="true"
+                @click-sel="rowSel" @click-del="rowDel" @click-row="rowGetDetail" @click-save="rowSave">
+        <template #origin>
+          <header-search :search="searchForm.origin" @click-search="handleSearchOrigin" placeholder="分类来源"/>
+        </template>
+        <template #type>
+          <el-select
+              v-model="searchForm.type"
+              filterable
+              clearable
+              @change="handleSearchType"
+              placeholder="对应类型"
+          >
+            <el-option
+                v-for="item in questionTypeList"
+                :key="item.value"
+                :label="item.label"
+                :value="item.value"
+            />
+          </el-select>
+        </template>
+        <template #decompose>
+          <el-select
+              v-model="searchForm.decompose"
+              filterable
+              clearable
+              @change="handleSearchDecompose"
+              placeholder="是否分解"
+          >
+            <el-option
+                v-for="item in isYesNoList"
+                :key="item.value"
+                :label="item.label"
+                :value="item.value"
+            />
+          </el-select>
+        </template>
+      </my-table>
+    </div>
+    <!--    分页-->
+    <pagination :total="store.total" :currentPage="store.params.page" :pageSize="store.params.limit"
+                @click-current="handleCurrentChange" @click-size="handleSizeChange"/>
+    <!--    新增弹窗-->
+    <add ref="addRef" :loading="store.loading" @click-submit="SubmitAdd"/>
+  </div>
+</template>
+
+<script setup lang="ts">
+import {nextTick, onMounted, onUnmounted, reactive, ref} from "vue";
+import {Plus, Delete, Refresh, Upload, Download, UploadFilled} from "@element-plus/icons-vue";
+import {UsePageSize} from "../../utils/use-page-size";
+import {SelectTableId} from "../../utils/row-sel";
+import {useMaintenanceStore} from "../../store/maintenance";
+import MyTable from "../../components/my-table/index.vue";
+import Pagination from "../../components/pagination/index.vue";
+import HeaderSearch from "../../components/header-search/index.vue";
+import Add from "./components/add.vue";
+import {RowDel} from "../../utils/row-del";
+import {addMaintenance, delMaintenance, editMaintenance, getMaintenanceDetail} from "../../api/maintenance";
+import {MoreDel} from "../../utils/more-del";
+import {ClickRowSave} from "../../utils/click-row-save.ts";
+import {IsAdd} from "../../utils/is-add";
+import {isYesNoList, questionTypeList} from "../../utils/select-list";
+import {genFileId, UploadInstance, UploadProps, UploadRawFile} from "element-plus";
+import {Message} from "../../utils/message.ts";
+
+
+const store = useMaintenanceStore()
+
+// 搜索表单
+const searchForm = reactive<{
+  origin: string
+  type: string
+  decompose: string
+}>({
+  origin: '',
+  type: '',
+  decompose: ''
+})
+
+// 分析来源搜索值
+function handleSearchOrigin(search: string) {
+  store.loading = true
+  searchForm.origin = search
+  if (searchForm.origin) {
+    store.params.filters = store.params.filters!.filter((item: any) => {
+      return item.column !== 'origin';
+    });
+    store.params.filters.push({
+      column: 'origin',
+      value: searchForm.origin,
+      operator: 'like'
+    });
+  } else {
+    store.params.filters = store.params.filters!.filter((item: any) => {
+      return item.column !== 'origin';
+    });
+  }
+  store.getTableData()
+}
+
+// 对应类型搜索值
+function handleSearchType(search: string) {
+  store.loading = true
+  searchForm.type = search
+  if (searchForm.type) {
+    store.params.filters = store.params.filters!.filter((item: any) => {
+      return item.column !== 'type';
+    });
+    store.params.filters.push({
+      column: 'type',
+      value: searchForm.type,
+      operator: '='
+    });
+  } else {
+    store.params.filters = store.params.filters!.filter((item: any) => {
+      return item.column !== 'type';
+    });
+  }
+  store.getTableData()
+}
+
+// 是否分解搜索值
+function handleSearchDecompose(search: string) {
+  store.loading = true
+  searchForm.decompose = search
+  if (searchForm.decompose) {
+    store.params.filters = store.params.filters!.filter((item: any) => {
+      return item.column !== 'decompose';
+    });
+    store.params.filters.push({
+      column: 'decompose',
+      value: searchForm.decompose,
+      operator: '='
+    });
+  } else {
+    store.params.filters = store.params.filters!.filter((item: any) => {
+      return item.column !== 'decompose';
+    });
+  }
+  store.getTableData()
+}
+
+const {
+  addRef,
+  OpenAdd,
+  SubmitAdd
+} = IsAdd(store, addMaintenance)
+
+// 表格多选id
+const {selId, rowSel} = SelectTableId()
+
+// 单个行删除
+const {rowDel} = RowDel(store, delMaintenance)
+
+// 批量删除
+const {OpenDel} = MoreDel(store, selId, delMaintenance)
+
+// 表格编辑保存
+const {rowGetDetail, rowSave} = ClickRowSave(store, getMaintenanceDetail, editMaintenance)
+
+// 刷新按钮
+function RefreshData() {
+  searchForm.origin = ''
+  searchForm.type = ''
+  searchForm.decompose = ''
+  store.params.filters = []
+  store.getTableData()
+}
+
+// 导入操作
+const upload = ref<UploadInstance>()
+
+const handleExceed: UploadProps['onExceed'] = (files: File[]) => {
+  upload.value!.clearFiles()
+  const file = files[0] as UploadRawFile
+  file.uid = genFileId()
+  upload.value!.handleStart(file)
+}
+
+function uploadSuccess() {
+  store.loading = true
+  Message('上传成功', 'success')
+  store.getTableData()
+}
+
+function uploadError() {
+  store.loading = true
+  Message('上传失败', 'error')
+  store.loading = false
+}
+
+// 导出
+function ExportData() {
+
+}
+
+// 生命周期操作
+onMounted(() => {
+  store.loading = true
+  nextTick(() => {
+    store.getTableData()
+  })
+})
+
+onUnmounted(() => {
+  store.params.filters = []
+})
+
+const {
+  handleCurrentChange,
+  handleSizeChange
+} = UsePageSize(store)
+</script>
+
+<style scoped>
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  height: 40px;
+  margin-bottom: 6px;
+}
+
+.header .el-card {
+  height: 100%;
+}
+
+:deep(.header .el-card__body) {
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.table-content {
+  height: calc(100% - 70px);
+  margin-bottom: 5px;
+}
+</style>
