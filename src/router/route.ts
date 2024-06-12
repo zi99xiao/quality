@@ -37,6 +37,33 @@ export const routes = [
                 },
                 component: () => import('../views/exception/index.vue'),
             },
+            {
+                path: '/test1',
+                name: 'test1',
+                meta: {
+                    title: '法律法规',
+                    icon: 'QuestionFilled',
+                },
+                component: () => import('../views/test1/index.vue'),
+            },
+            {
+                path: '/test2',
+                name: 'test2',
+                meta: {
+                    title: '企业文化',
+                    icon: 'Histogram',
+                },
+                component: () => import('../views/test2/index.vue'),
+            },
+            {
+                path: '/test3',
+                name: 'test3',
+                meta: {
+                    title: '管理制度',
+                    icon: 'Management',
+                },
+                component: () => import('../views/test3/index.vue'),
+            },
         ],
     },
 
