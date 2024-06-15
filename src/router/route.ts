@@ -1,13 +1,13 @@
 export const routes = [
     // 登录
-    // {
-    //     path: '/login',
-    //     name: 'login',
-    //     meta: {
-    //         title: '登录',
-    //     },
-    //     component: () => import('../views/login/Login.vue'),
-    // },
+    {
+        path: '/login',
+        name: 'login',
+        meta: {
+            title: '登录',
+        },
+        component: () => import('../views/login/Login.vue'),
+    },
 
     // 主页面
     {
@@ -19,6 +19,15 @@ export const routes = [
             title: '主页面',
         },
         children: [
+            {
+                path: '/home',
+                name: 'home',
+                meta: {
+                    title: '首页',
+                    icon: 'HomeFilled'
+                },
+                component: () => import('../views/home/index.vue'),
+            },
             {
                 path: '/maintenance',
                 name: 'maintenance',
@@ -36,33 +45,6 @@ export const routes = [
                     icon: 'Warning',
                 },
                 component: () => import('../views/exception/index.vue'),
-            },
-            {
-                path: '/test1',
-                name: 'test1',
-                meta: {
-                    title: '法律法规',
-                    icon: 'QuestionFilled',
-                },
-                component: () => import('../views/test1/index.vue'),
-            },
-            {
-                path: '/test2',
-                name: 'test2',
-                meta: {
-                    title: '企业文化',
-                    icon: 'Histogram',
-                },
-                component: () => import('../views/test2/index.vue'),
-            },
-            {
-                path: '/test3',
-                name: 'test3',
-                meta: {
-                    title: '管理制度',
-                    icon: 'Management',
-                },
-                component: () => import('../views/test3/index.vue'),
             },
         ],
     },

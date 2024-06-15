@@ -19,7 +19,7 @@
                 :default-active="currentPath"
                 style="border: 0;"
             >
-              <Menu :menus="routes[0].children"/>
+              <Menu :menus="routes[1].children"/>
             </el-menu>
           </el-scrollbar>
         </el-aside>

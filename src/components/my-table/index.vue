@@ -9,7 +9,7 @@
       :row-key="getKey"
       v-loading="loading"
       highlight-current-row
-      @row-click="dbRowEdit"
+      @row-dblclick="dbRowEdit"
       @selection-change="handleSelectionChange"
   >
     <el-table-column v-if="show" align="center" fixed type="selection" width="50" :reserve-selection="selected"/>
@@ -42,7 +42,7 @@
                 v-model="dbValue[val['propName']]"
                 clearable
                 placeholder="请输入"
-                @click.stop
+                @dblclick.stop
             />
             <span v-else>{{ row[val['propName']] }}</span>
           </template>
@@ -54,7 +54,7 @@
                 autosize
                 type="textarea"
                 placeholder="请输入"
-                @click.stop
+                @dblclick.stop
             />
             <span v-else>{{ row[val['propName']] }}</span>
           </template>
@@ -65,6 +65,7 @@
                 v-model="dbValue[val['propName']]"
                 filterable
                 placeholder="请选择"
+                @dblclick.stop
             >
               <el-option
                   v-for="item in val['data']"
@@ -100,7 +101,7 @@
             @cancel="cancelEvent('取消删除')"
         >
           <template #reference>
-            <el-button plain title="删除" type="danger" size="small" @click.stop :icon="DeleteFilled"/>
+            <el-button plain title="删除" type="danger" size="small" @dblclick.stop :icon="DeleteFilled"/>
           </template>
         </el-popconfirm>
 
@@ -115,7 +116,7 @@
             @cancel="cancelEvent('取消保存')"
         >
           <template #reference>
-            <el-button plain title="保存" type="success" size="small" @click.stop :icon="DocumentAdd"/>
+            <el-button plain title="保存" type="success" size="small" @dblclick.stop :icon="DocumentAdd"/>
           </template>
         </el-popconfirm>
       </template>
