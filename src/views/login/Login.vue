@@ -35,14 +35,12 @@ import {Md5} from 'ts-md5';
 import {useRouter} from "vue-router";
 import {login} from "../../api/login";
 import {Message} from "../../utils/message.ts";
+import {setCookie} from "../../utils/cookie.ts";
 
 
 const router = useRouter();
 
 const loading = ref<boolean>(false)
-
-// 接收明文密码，当登录失败时恢复密码展示
-let pwd = ref<string>('')
 
 const ruleFormRef = ref<any>()
 
@@ -62,19 +60,28 @@ const rules = reactive<FormRules<RuleForm>>({
 
 // 登录函数
 function postLogin() {
+  loading.value = true
+  // 接收明文密码，当登录失败时恢复密码展示
+  let pwd = ruleForm.pwd
+  // 定义MD5对象，开始加密密码
+  const md5: any = new Md5()
+  md5.appendAsciiStr(ruleForm.pwd)
+  // 完成加密
+  ruleForm.pwd = md5.end()
   login(ruleForm).then((res: any) => {
     if (res.data.code === 0) {
+      setCookie('Authorization', res.data.data, 7)
       router.push({name: 'home'})
-      pwd.value = ''
+      pwd = ''
       loading.value = false
       Message('登录成功', 'success')
     } else {
-      ruleForm.pwd = pwd.value
+      ruleForm.pwd = pwd
       loading.value = false
       Message(res.data['msg'], 'success')
     }
   }).catch(() => {
-    ruleForm.pwd = pwd.value
+    ruleForm.pwd = pwd
     loading.value = false
   })
 }
@@ -84,13 +91,6 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   if (!formEl) return
   await formEl.validate((valid, fields) => {
     if (valid) {
-      loading.value = true
-      pwd.value = ruleForm.pwd
-      // 定义MD5对象
-      const md5: any = new Md5()
-      md5.appendAsciiStr(ruleForm.pwd)
-      // 完成加密
-      ruleForm.pwd = md5.end()
       // 登录请求
       postLogin()
     } else {
@@ -103,14 +103,16 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 <style scoped>
 .login {
   display: flex;
-  background: #2d3a4b;
   height: 100vh;
   overflow: auto;
+  background: #2d3a4b url("../../assets/background.jpg");
+  background-size: 100%;
 }
 
 .input {
   height: 50px;
   background-color: #212534;
+  border-radius: 5px;
 }
 
 .submit {

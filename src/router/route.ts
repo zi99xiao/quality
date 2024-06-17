@@ -12,7 +12,7 @@ export const routes = [
     // 主页面
     {
         path: '/',
-        redirect: '/maintenance',
+        redirect: '/home',
         name: 'layout',
         component: () => import('../views/layout/Layout.vue'),
         meta: {

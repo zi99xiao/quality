@@ -4,6 +4,20 @@
       <!--      顶部-->
       <el-header class="header">
         <span class="title">质量分析平台</span>
+        <el-dropdown>
+          <el-button link>
+            用户名
+            <el-icon>
+              <ArrowDown/>
+            </el-icon>
+          </el-button>
+          <template #dropdown>
+            <el-dropdown-menu>
+              <el-dropdown-item :icon="Lock" @click="">修改密码</el-dropdown-item>
+              <el-dropdown-item :icon="SwitchButton" @click="">退出登录</el-dropdown-item>
+            </el-dropdown-menu>
+          </template>
+        </el-dropdown>
       </el-header>
 
       <el-container>
@@ -34,6 +48,7 @@
 </template>
 
 <script setup lang="ts">
+import {ArrowDown, Lock, SwitchButton} from "@element-plus/icons-vue";
 import {routes} from "../../router/route.ts";
 import {useRouter} from "vue-router";
 import {ref, watchEffect} from "vue";
@@ -53,6 +68,8 @@ watchEffect(() => {
   height: 64px;
   background: #222628;
   border-bottom: 1px solid #dcdfe6;
+  display: flex;
+  justify-content: space-between;
 }
 
 .title {
@@ -72,6 +89,6 @@ watchEffect(() => {
 .main-content {
   width: calc(100vw - 220px);
   height: calc(100vh - 64px);
-  padding: 10px;
+  padding: 0;
 }
 </style>

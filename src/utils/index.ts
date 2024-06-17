@@ -1,9 +1,9 @@
 import axios from 'axios';
 import {Message} from "./message";
-import Cookies from "js-cookie";
+import {getCookie} from "./cookie.ts";
 
 
-const token: string | undefined = Cookies.get('Authorization')
+const token: string | undefined = getCookie('Authorization')
 
 // axios封装
 const service = axios.create({

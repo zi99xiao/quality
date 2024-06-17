@@ -141,8 +141,9 @@ const {
 
 <style scoped>
 .container {
-  width: 100%;
-  height: 100%;
+  padding: 10px;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
 }
 
 .header {
