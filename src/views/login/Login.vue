@@ -53,6 +53,7 @@ const ruleForm = reactive<RuleForm>({
   name: "",
   pwd: ""
 })
+
 const rules = reactive<FormRules<RuleForm>>({
   name: [{required: true, message: '账号不能为空', trigger: 'blur'},],
   pwd: [{required: true, message: '密码不能为空', trigger: 'blur'},],
@@ -62,7 +63,7 @@ const rules = reactive<FormRules<RuleForm>>({
 function postLogin() {
   loading.value = true
   // 接收明文密码，当登录失败时恢复密码展示
-  let pwd = ruleForm.pwd
+  let pwd: string = ruleForm.pwd
   // 定义MD5对象，开始加密密码
   const md5: any = new Md5()
   md5.appendAsciiStr(ruleForm.pwd)
@@ -78,7 +79,7 @@ function postLogin() {
     } else {
       ruleForm.pwd = pwd
       loading.value = false
-      Message(res.data['msg'], 'success')
+      Message(res.data['message'], 'success')
     }
   }).catch(() => {
     ruleForm.pwd = pwd
