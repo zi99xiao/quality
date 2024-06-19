@@ -9,7 +9,7 @@ const token: string | undefined = getCookie('Authorization')
 const service = axios.create({
     baseURL: import.meta.env.VITE_APP_BASE_API,
     timeout: 10000,
-    // withCredentials: true
+    // withCredentials: true,
 })
 
 // 请求拦截器

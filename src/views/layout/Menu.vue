@@ -1,17 +1,21 @@
 <template>
   <template v-for="res in menus" :key="res.name">
     <el-menu-item v-if="!res.children || res.children.length<1" :index="res.path">
-      <el-icon>
-        <component :is='res.meta.icon'/>
-      </el-icon>
+      <template v-if="res.meta.icon">
+        <el-icon>
+          <component :is='res.meta.icon'/>
+        </el-icon>
+      </template>
       <span>{{ res.meta.title }}</span>
     </el-menu-item>
 
     <el-sub-menu v-else-if="res.children.length>0" :index="res.path">
       <template #title>
-        <el-icon>
-          <component :is='res.meta.icon'/>
-        </el-icon>
+        <template v-if="res.meta.icon">
+          <el-icon>
+            <component :is='res.meta.icon'/>
+          </el-icon>
+        </template>
         <span>{{ res.meta.title }}</span>
       </template>
       <Menu :menus="res.children"/>
@@ -22,25 +26,12 @@
 <script setup lang="ts">
 import Menu from "./Menu.vue";
 import {PropType} from "vue";
+import {Routes} from "../../utils/type/listType.ts";
 
 
 defineOptions({
   name: 'Menu'
 })
-
-interface Meta {
-  title: string
-  icon?: string
-}
-
-interface Routes {
-  path: string
-  redirect?: string
-  name: string
-  component: any
-  meta: Meta
-  children?: Routes[]
-}
 
 defineProps({
   menus: {

@@ -9,15 +9,14 @@ const router: Router = createRouter({
     routes,
 })
 
-const token: string | undefined = getCookie('Authorization')
-
-router.beforeEach((to, from) => {
+router.beforeEach(async (to, from) => {
     NStart()
+    const token: string | undefined = getCookie('Authorization')
     // 返回 false 以取消导航
     if (token && to.name !== 'login') {
         return true
     } else if (token && to.name === 'login') {
-        return from.fullPath
+        return from.path
     } else if (!token && to.name === 'login') {
         return true
     } else if (!token && to.meta.requireAuth) {
@@ -27,7 +26,7 @@ router.beforeEach((to, from) => {
     }
 })
 
-router.afterEach(() => {
+router.afterEach(async () => {
     NClose()
 })
 

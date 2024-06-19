@@ -4,20 +4,36 @@
       <!--      顶部-->
       <el-header class="header">
         <span class="title">质量分析平台</span>
-        <el-dropdown trigger="click">
-          <el-button class="el-dropdown-link" link>
-            用户名
-            <el-icon>
-              <ArrowDown/>
-            </el-icon>
-          </el-button>
-          <template #dropdown>
-            <el-dropdown-menu>
-              <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
-              <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
-            </el-dropdown-menu>
-          </template>
-        </el-dropdown>
+        <div class="dropdown">
+          <span style="padding: 0 5px">{{ userdata.orgName }}</span>
+          <el-dropdown style="padding: 0 5px" trigger="click">
+            <el-button class="el-dropdown-link" link>
+              <span style="color: white">{{ userdata.roleName }}</span>
+              <el-icon>
+                <ArrowDown/>
+              </el-icon>
+            </el-button>
+            <template #dropdown>
+              <el-dropdown-menu v-for="role in loginStore.roles">
+                <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
+              </el-dropdown-menu>
+            </template>
+          </el-dropdown>
+          <el-dropdown style="padding: 0 5px" trigger="click">
+            <el-button class="el-dropdown-link" link>
+              <span style="color: white">{{ userdata.name }}</span>
+              <el-icon>
+                <ArrowDown/>
+              </el-icon>
+            </el-button>
+            <template #dropdown>
+              <el-dropdown-menu>
+                <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
+                <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
+              </el-dropdown-menu>
+            </template>
+          </el-dropdown>
+        </div>
       </el-header>
       <!--      导航和内容区-->
       <el-container>
@@ -41,7 +57,8 @@
                 <span>首页</span>
               </el-menu-item>
               <!--              递归菜单组件-->
-              <Menu :menus="routes[2].children"/>
+              <!--              <Menu :menus="routes[2].children"/>-->
+              <Menu :menus="showMenus(loginStore.menus)"/>
             </el-menu>
           </el-scrollbar>
         </el-aside>
@@ -81,20 +98,65 @@
 
 <script setup lang="ts">
 import {ArrowDown, Lock, SwitchButton} from "@element-plus/icons-vue";
-import {routes} from "../../router/route.ts";
 import {useRouter} from "vue-router";
-import {reactive, ref, watchEffect} from "vue";
+import {nextTick, onMounted, reactive, ref, watchEffect} from "vue";
 import Menu from "./Menu.vue";
-import {delCookie} from "../../utils/cookie.ts";
+import {delCookie, getCookie, setCookie} from "../../utils/cookie.ts";
 import {FormInstance, FormRules} from "element-plus";
-import {Md5} from "ts-md5";
 import {editPwdData} from "../../api/login";
 import {Message} from "../../utils/message.ts";
+import {useLoginStore} from "../../store/login";
+import {showMenus} from "../../utils/menus.ts";
 
+
+const loginStore = useLoginStore()
 
 const router = useRouter()
 
 const loading = ref<boolean>(false)
+
+// 用户信息
+const userdata = reactive({
+  name: '',
+  roleName: '',
+  orgName: ''
+})
+
+onMounted(() => {
+  loginStore.getUserRoleData()
+  loginStore.getMenuButtonData()
+  nextTick(() => {
+    userdata.name = JSON.parse(localStorage.getItem('UserData')!)['name']
+    userdata.orgName = JSON.parse(localStorage.getItem('UserData')!)['orgName']
+    userdata.roleName = JSON.parse(localStorage.getItem('currentRole')!)['roleName']
+  })
+})
+
+// 切换角色
+function selectRole(val: any) {
+  setCookie('roleId', val.roleId, 7)
+  localStorage.setItem('currentRole', JSON.stringify(val))
+  userdata.roleName = val.roleName
+  loginStore.getMenuButtonData()
+}
+
+// 当前路由
+const currentPath = ref<string>('')
+
+// 监听获取当前路由
+watchEffect(() => {
+  currentPath.value = <string>router.currentRoute.value.fullPath
+
+  // 判断cookie是否存在，否则写入数据
+  if (!getCookie('roleId') || !getCookie('Authorization') || !getCookie('tenantId')) {
+    setCookie('roleId', loginStore.roles[0]['roleId'], 7)
+    localStorage.setItem('currentRole', JSON.stringify(loginStore.roles[0]))
+  }
+
+  // 写入菜单/按钮数据
+  localStorage.setItem('menus', JSON.stringify(loginStore.menus))
+  localStorage.setItem('buttons', JSON.stringify(loginStore.buttons))
+})
 
 // =============================修改密码=============================
 
@@ -135,37 +197,37 @@ function openEditPwd() {
 function editPwd() {
   loading.value = true
   // 接收明文密码，当登录失败时恢复密码展示
-  let originPwd: string = ruleForm.originPwd
-  let newPwd: string = ruleForm.newPwd
-  let againPwd: string = ruleForm.againPwd
-  // 定义MD5对象，开始加密密码
-  const md5: any = new Md5()
-  md5.appendAsciiStr(ruleForm.originPwd)
-  md5.appendAsciiStr(ruleForm.newPwd)
-  md5.appendAsciiStr(ruleForm.againPwd)
-  // 完成加密
-  ruleForm.originPwd = md5.end()
-  ruleForm.newPwd = md5.end()
-  ruleForm.againPwd = md5.end()
+  // let originPwd: string = ruleForm.originPwd
+  // let newPwd: string = ruleForm.newPwd
+  // let againPwd: string = ruleForm.againPwd
+  // // 定义MD5对象，开始加密密码
+  // const md5: any = new Md5()
+  // md5.appendAsciiStr(ruleForm.originPwd)
+  // md5.appendAsciiStr(ruleForm.newPwd)
+  // md5.appendAsciiStr(ruleForm.againPwd)
+  // // 完成加密
+  // ruleForm.originPwd = md5.end()
+  // ruleForm.newPwd = md5.end()
+  // ruleForm.againPwd = md5.end()
   editPwdData(ruleForm).then((res: any) => {
     if (res.data.code === 0) {
-      originPwd = ''
-      newPwd = ''
-      againPwd = ''
+      // originPwd = ''
+      // newPwd = ''
+      // againPwd = ''
       loading.value = false
       Message('密码修改成功,请重新登录', 'success')
       logout()
     } else {
-      ruleForm.originPwd = originPwd
-      ruleForm.newPwd = newPwd
-      ruleForm.againPwd = againPwd
+      // ruleForm.originPwd = originPwd
+      // ruleForm.newPwd = newPwd
+      // ruleForm.againPwd = againPwd
       loading.value = false
       Message(res.data['message'], 'success')
     }
   }).catch(() => {
-    ruleForm.originPwd = originPwd
-    ruleForm.newPwd = newPwd
-    ruleForm.againPwd = againPwd
+    // ruleForm.originPwd = originPwd
+    // ruleForm.newPwd = newPwd
+    // ruleForm.againPwd = againPwd
     loading.value = false
   })
 }
@@ -186,19 +248,13 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 
 // 退出登录
 function logout() {
-  delCookie('Authorization')
   localStorage.clear()
   sessionStorage.clear()
+  delCookie('Authorization')
+  delCookie('roleId')
+  delCookie('tenantId')
   router.push({name: 'login'})
 }
-
-// 当前路由
-const currentPath = ref<string>('')
-
-// 监听获取当前路由
-watchEffect(() => {
-  currentPath.value = <string>router.currentRoute.value.fullPath
-})
 </script>
 
 <style scoped>
