@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div style="text-align: center;padding-top: 20%">
-      <div style="font-size: 40px;font-weight: bold;">{{ nowText }}，欢迎使用质量分析平台</div>
+      <div style="font-size: 40px;font-weight: bold;">{{ nowText }}，{{ username }}，欢迎使用质量分析平台</div>
     </div>
   </div>
 </template>
@@ -9,10 +9,12 @@
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
 import dayjs from "dayjs";
+import {ElNotification} from "element-plus";
 
 
 const nowText = ref<string>('')
 const nowTime = ref<string>('')
+const username = ref<string>('')
 
 
 function timeText() {
@@ -30,6 +32,12 @@ function timeText() {
 
 onMounted(() => {
   timeText()
+  username.value = JSON.parse(localStorage.getItem('UserData')!)['name']
+  ElNotification({
+    message: username.value + '，' + nowText.value,
+    type: 'success',
+    offset: 100,
+  })
 })
 </script>
 
