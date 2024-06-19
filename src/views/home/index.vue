@@ -1,7 +1,9 @@
 <template>
   <div class="container">
     <div style="text-align: center;padding-top: 20%">
-      <div style="font-size: 40px;font-weight: bold;">{{ nowText }}，{{ username }}，欢迎使用质量分析平台</div>
+      <div class="text">
+        {{ nowText }}，欢迎使用质量分析平台
+      </div>
     </div>
   </div>
 </template>
@@ -47,5 +49,11 @@ onMounted(() => {
   height: 100%;
   background: #2d3a4b url("../../assets/background.jpg");
   background-size: 100%;
+}
+
+.text {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 0 0 30px gray, 0 0 20px white;
 }
 </style>

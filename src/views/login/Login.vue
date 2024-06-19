@@ -75,7 +75,6 @@ function postLogin() {
       localStorage.setItem('UserData', JSON.stringify(res.data.data))
       router.push({name: 'home'})
       loading.value = false
-      Message('登录成功', 'success')
     } else {
       // ruleForm.password = password
       loading.value = false
