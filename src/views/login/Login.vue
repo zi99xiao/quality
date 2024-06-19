@@ -1,7 +1,7 @@
 <template>
   <div class="login">
     <div style="margin: 25vh auto">
-      <h1 style="text-align: center;margin: 32px 0">质量分析平台</h1>
+      <h1 class="title">质量分析平台</h1>
       <el-form
           ref="ruleFormRef"
           style="width: 400px"
@@ -109,6 +109,12 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   background-size: 100%;
 }
 
+.title {
+  text-align: center;
+  margin: 32px 0;
+  text-shadow: 0 0 30px gray, 0 0 20px white;
+}
+
 .input {
   height: 50px;
   background-color: #212534;
@@ -119,6 +125,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   width: 100%;
   height: 44px;
   box-shadow: 0 2px #212534;
+  text-shadow: 0 0 30px skyblue, 0 0 20px skyblue;
 }
 
 .el-form-item {
