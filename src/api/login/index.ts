@@ -37,7 +37,7 @@ export const editPwdData = (data: {}) => {
     return service({
         method: 'post',
         baseURL: '/api',
-        url: '',
+        url: '/user/update-password',
         data: data,
     })
 }
