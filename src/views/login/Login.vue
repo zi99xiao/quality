@@ -11,14 +11,18 @@
           status-icon
       >
         <el-form-item prop="account">
-          <el-input class="input" v-model.trim="ruleForm.account" clearable :prefix-icon="User" placeholder="用户名"/>
+          <dv-border-box8>
+            <el-input class="input" v-model.trim="ruleForm.account" clearable :prefix-icon="User" placeholder="用户名"/>
+          </dv-border-box8>
         </el-form-item>
         <el-form-item prop="password">
-          <el-input class="input" v-model.trim="ruleForm.password" type="password" show-password clearable
-                    :prefix-icon="Lock" placeholder="密码"/>
+          <dv-border-box8>
+            <el-input class="input" v-model.trim="ruleForm.password" type="password" show-password clearable
+                      :prefix-icon="Lock" placeholder="密码"/>
+          </dv-border-box8>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" color="#0c4fac" class="submit" @click="submitForm(ruleFormRef)" v-loading="loading">
+          <el-button color="#0c4fac" class="submit" @click="submitForm(ruleFormRef)" v-loading="loading">
             登 录
           </el-button>
         </el-form-item>
@@ -35,7 +39,7 @@ import {useRouter} from "vue-router";
 import {login} from "../../api/login";
 import {Message} from "../../utils/message";
 import {setCookie} from "../../utils/cookie";
-
+import {BorderBox8 as DvBorderBox8} from "@kjgl77/datav-vue3";
 
 const router = useRouter();
 
@@ -106,7 +110,6 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   height: 100vh;
   overflow: auto;
   background: #2d3a4b url("../../assets/background.jpg");
-  background-size: 100%;
 }
 
 .title {
@@ -117,8 +120,9 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 
 .input {
   height: 50px;
-  background-color: #212534;
+  /*background-color: #212534;*/
   border-radius: 5px;
+  --el-input-border-color: none;
 }
 
 .submit {
