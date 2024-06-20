@@ -1,5 +1,6 @@
-import {SelectType} from "./listType.ts";
+import {SelectType} from "./listType";
 
+// 仓库通用数据接口类型
 export interface colType {
     // 字段中文名
     label: string

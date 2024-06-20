@@ -1,5 +1,6 @@
 import {ref} from "vue";
 
+// 表格多选
 export function SelectTableId() {
     const selId = ref<string[]>([])
 

@@ -2,6 +2,7 @@ import {ElMessageBox} from "element-plus";
 import {Message} from "./message";
 import {Ref} from "vue";
 
+// 批量删除
 export function MoreDel(store: any, selId: Ref<string[]>, delInterface: Function,) {
     function OpenDel() {
         if (selId.value.length > 0) {

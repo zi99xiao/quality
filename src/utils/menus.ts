@@ -1,4 +1,4 @@
-import {Routes} from "./type/listType.ts";
+import {Routes} from "./type/listType";
 
 // 菜单递归函数构建树形结构
 export function showMenus(data: any[], parentId: string = '0') {

@@ -1,6 +1,7 @@
 import {Message} from "./message";
 import {Ref} from "vue";
 
+// 双击表格行编辑保存
 export function ClickRowSave(store: any, detailInterface: Function, editInterface: Function) {
     function rowGetDetail(row: any, dbValue: Ref<any>) {
         if (Object.keys(dbValue.value).length === 0 || dbValue.value.id !== row.id) {

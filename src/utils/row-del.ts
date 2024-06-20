@@ -1,7 +1,7 @@
 import {Message} from "./message";
 
+// 删除当前行
 export function RowDel(store: any, delInterface: Function) {
-    // 删除当前行
     function rowDel(row: any) {
         store.loading = true
         delInterface([row.id]).then((res: any) => {

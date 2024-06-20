@@ -1,6 +1,7 @@
 import {ref} from "vue";
 import {Message} from "./message";
 
+// 新增按钮操作和保存
 export function IsAdd(store: any, addInterface: Function) {
     const addRef = ref<any>()
 
