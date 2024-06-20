@@ -1,10 +1,6 @@
 <template>
   <div class="container">
-    <div style="text-align: center;padding-top: 20%">
-      <div class="text">
-        {{ nowText }}，欢迎使用质量分析平台
-      </div>
-    </div>
+    {{ nowText }}，欢迎使用质量分析平台
   </div>
 </template>
 
@@ -47,13 +43,13 @@ onMounted(() => {
 .container {
   width: 100%;
   height: 100%;
-  background: #2d3a4b url("../../assets/background.jpg");
-  background-size: 100%;
-}
-
-.text {
   font-size: 40px;
   font-weight: bold;
-  text-shadow: 0 0 30px gray, 0 0 20px white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 30px skyblue, 0 0 20px white;
+  background: #2d3a4b url("../../assets/background.jpg");
+  background-size: 100%;
 }
 </style>

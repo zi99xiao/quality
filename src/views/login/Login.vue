@@ -112,7 +112,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 .title {
   text-align: center;
   margin: 32px 0;
-  text-shadow: 0 0 30px gray, 0 0 20px white;
+  text-shadow: 0 0 10px skyblue, 0 0 20px white;
 }
 
 .input {
@@ -124,8 +124,8 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 .submit {
   width: 100%;
   height: 44px;
-  box-shadow: 0 2px #212534;
-  text-shadow: 0 0 30px skyblue, 0 0 20px skyblue;
+  box-shadow: 0 0 5px #0c4fac, 2px 2px 5px white;
+  text-shadow: 0 0 1px skyblue, 1px 1px 3px white;
 }
 
 .el-form-item {
