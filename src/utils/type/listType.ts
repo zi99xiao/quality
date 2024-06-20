@@ -19,6 +19,7 @@ export interface Meta {
     title?: string
     icon?: string
     requireAuth?: boolean
+    sortNum?: number | null
 }
 
 export interface Routes {
