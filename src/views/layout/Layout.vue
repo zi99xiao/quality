@@ -176,6 +176,7 @@ function selectRole(val: any) {
   setCookie('roleId', val.roleId, 7)
   localStorage.setItem('currentRole', JSON.stringify(val))
   userdata.roleName = val.roleName
+  router.push({name: 'home'})
   getMenuButtonData()
 }
 
