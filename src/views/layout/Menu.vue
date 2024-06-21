@@ -6,7 +6,7 @@
           <component :is='res.meta.icon'/>
         </el-icon>
       </template>
-      <span>{{ res.meta.title }}</span>
+      <template #title>{{ res.meta.title }}</template>
     </el-menu-item>
 
     <el-sub-menu v-else-if="res.children.length>0" :index="res.path">

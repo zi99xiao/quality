@@ -39,28 +39,28 @@
       <el-container>
         <!--        侧边导航-->
         <el-aside width="220px" class="aside">
-          <el-scrollbar height="100%">
             <el-menu
                 router
+                text-color="#fff"
                 background-color="#222628"
                 active-text-color="#0c6fff"
                 class="el-menu-vertical-demo"
-                text-color="#fff"
                 :default-active="currentPath"
-                style="border: 0;"
+                style="border: 0;height: 100%;"
             >
+              <el-scrollbar height="100%">
               <!--              首页-->
               <el-menu-item index="/home">
                 <el-icon>
                   <component is='HomeFilled'/>
                 </el-icon>
-                <span>首页</span>
+                <template #title>首页</template>
               </el-menu-item>
               <!--              递归菜单组件-->
               <!--              <Menu :menus="routes[2].children"/>-->
               <Menu :menus="showMenus(menus)"/>
+              </el-scrollbar>
             </el-menu>
-          </el-scrollbar>
         </el-aside>
         <!--        内容-->
         <el-main class="main-content">
