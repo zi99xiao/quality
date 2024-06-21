@@ -22,7 +22,7 @@
 
 span {
   display: inline-block;
-  animation: shake 0.5s ease-in-out infinite;
+  animation: shake 2s ease-in-out infinite;
 }
 
 /* Keyframes for the shaking effect */
