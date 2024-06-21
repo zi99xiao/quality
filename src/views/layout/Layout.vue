@@ -3,7 +3,7 @@
     <el-container>
       <!--      顶部-->
       <el-header class="header">
-        <span class="title">质量分析平台</span>
+        <span class="title" @click="isCollapse=!isCollapse">质量分析平台</span>
         <div class="dropdown">
           <span style="padding: 0 5px">{{ userdata.orgName }}</span>
           <el-dropdown style="padding: 0 5px" trigger="click">
@@ -38,17 +38,18 @@
       <!--      导航和内容区-->
       <el-container>
         <!--        侧边导航-->
-        <el-aside width="220px" class="aside">
-            <el-menu
-                router
-                text-color="#fff"
-                background-color="#222628"
-                active-text-color="#0c6fff"
-                class="el-menu-vertical-demo"
-                :default-active="currentPath"
-                style="border: 0;height: 100%;"
-            >
-              <el-scrollbar height="100%">
+        <el-aside :width="isCollapse?'65px':'220px'" class="aside">
+          <el-menu
+              router
+              :collapse="isCollapse"
+              text-color="#fff"
+              background-color="#222628"
+              active-text-color="#0c6fff"
+              class="el-menu-vertical-demo"
+              :default-active="currentPath"
+              style="border: 0;height: 100%;"
+          >
+            <el-scrollbar height="100%">
               <!--              首页-->
               <el-menu-item index="/home">
                 <el-icon>
@@ -59,8 +60,8 @@
               <!--              递归菜单组件-->
               <!--              <Menu :menus="routes[2].children"/>-->
               <Menu :menus="showMenus(menus)"/>
-              </el-scrollbar>
-            </el-menu>
+            </el-scrollbar>
+          </el-menu>
         </el-aside>
         <!--        内容-->
         <el-main class="main-content">
@@ -98,12 +99,14 @@ import {ArrowDown, Lock, SwitchButton} from "@element-plus/icons-vue";
 import {useRouter} from "vue-router";
 import {onMounted, reactive, ref, watchEffect} from "vue";
 import Menu from "./Menu.vue";
-import {delCookie, getCookie, setCookie} from "../../utils/cookie.ts";
+import {delCookie, getCookie, setCookie} from "../../utils/cookie";
 import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
-import {Message} from "../../utils/message.ts";
-import {showMenus} from "../../utils/menus.ts";
+import {Message} from "../../utils/message";
+import {showMenus} from "../../utils/menus";
 
+
+const isCollapse = ref(false)
 
 const router = useRouter()
 
@@ -281,6 +284,7 @@ function logout() {
   font-size: 20px;
   font-weight: 560;
   padding-left: 8px;
+  cursor: pointer;
   color: #b4b6bd;
 }
 
@@ -288,6 +292,7 @@ function logout() {
   height: calc(100vh - 64px);
   background: #222628;
   border-right: 1px solid #0c4fac;
+  transition: width 0.9s;
 }
 
 .main-content {
