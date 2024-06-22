@@ -6,7 +6,7 @@
       id="my_table"
       class="table"
       ref="multipleTableRef"
-      :row-key="getKey"
+      :row-key="props.keys"
       v-loading="loading"
       highlight-current-row
       @row-dblclick="dbRowEdit"
@@ -38,7 +38,7 @@
         <template #default="{row}">
           <template v-if="val['type']==='text'">
             <el-input
-                v-if="row.id===dbId&&val['cellEdit']"
+                v-if="row[props.keys]===dbId&&val['cellEdit']"
                 v-model="dbValue[val['propName']]"
                 clearable
                 placeholder="请输入"
@@ -49,7 +49,7 @@
 
           <template v-else-if="val['type']==='textarea'">
             <el-input
-                v-if="row.id===dbId&&val['cellEdit']"
+                v-if="row[props.keys]===dbId&&val['cellEdit']"
                 v-model="dbValue[val['propName']]"
                 autosize
                 type="textarea"
@@ -61,7 +61,7 @@
 
           <template v-else-if="val['type']==='select'">
             <el-select
-                v-if="row.id===dbId&&val['cellEdit']"
+                v-if="row[props.keys]===dbId&&val['cellEdit']"
                 v-model="dbValue[val['propName']]"
                 filterable
                 placeholder="请选择"
@@ -106,7 +106,7 @@
         </el-popconfirm>
 
         <el-popconfirm
-            v-if="row.id===dbId"
+            v-if="row[props.keys]===dbId"
             confirm-button-text="确认"
             cancel-button-text="取消"
             :icon="QuestionFilled"
@@ -137,10 +137,10 @@ const props = defineProps({
     type: Array,
     default: [],
   },
-  // 表格行的key
+  // 表格行的key字段
   keys: {
     type: String,
-    default: 'id'
+    default: 'id',
   },
   // 表格列信息
   options: {
@@ -197,21 +197,16 @@ const column = computed(() => filterColumns(props.options.column));
 // 计算展示的数据
 const tableData = computed(() => props.tableData)
 
-// 传递row-key的名称
-function getKey(val: any) {
-  return val[props.keys];
-}
-
 // 当前行的id
 const dbId = ref<string>('')
 // 操作的数据
 const dbValue = ref<any>({})
 
-// 单击行进行表格编辑
+// 双击行进行表格编辑
 function dbRowEdit(val: any) {
   // 如果dbId.value为空才可以进入编辑
   // if (dbId.value === '') {
-  dbId.value = val.id
+  dbId.value = val[props.keys]
   emits('click-row', val, dbValue)
   // }
 }
