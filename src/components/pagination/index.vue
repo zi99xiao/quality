@@ -1,7 +1,7 @@
 <!--分页器-->
 <template>
   <el-pagination
-      small
+      size="small"
       background
       :total="total"
       v-model:current-page="currentPage"
