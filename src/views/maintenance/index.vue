@@ -105,7 +105,6 @@ import {IsAdd} from "../../utils/is-add";
 import {isYesNoList, questionTypeList} from "../../utils/select-list";
 import {genFileId, UploadInstance, UploadProps, UploadRawFile} from "element-plus";
 import {Message} from "../../utils/message.ts";
-import dayjs from "dayjs";
 
 
 const store = useMaintenanceStore()
