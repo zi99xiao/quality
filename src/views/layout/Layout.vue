@@ -77,10 +77,10 @@
           <el-input v-model="ruleForm.account" disabled/>
         </el-form-item>
         <el-form-item label="新密码" prop="password">
-          <el-input v-model="ruleForm.password" clearable placeholder="请输入新密码"/>
+          <el-input v-model="ruleForm.password" type="password" clearable placeholder="请输入新密码"/>
         </el-form-item>
         <el-form-item label="重复新密码" prop="againPwd">
-          <el-input v-model="ruleForm.againPwd" clearable placeholder="请再次输入新密码"/>
+          <el-input v-model="ruleForm.againPwd" type="password" clearable placeholder="请再次输入新密码"/>
         </el-form-item>
       </el-form>
       <template #footer>
@@ -113,30 +113,15 @@ const router = useRouter()
 const loading = ref<boolean>(false)
 
 // 展示的用户信息
-const userdata = reactive({
+const userdata = reactive<{
+  name: string
+  roleName: string
+  orgName: string
+}>({
   name: '',
   roleName: '',
   orgName: ''
 })
-
-// 获取用户角色
-const roles = ref<any[]>([])
-
-function getUserRoleData() {
-  getUserRole({tenantId: getCookie('tenantId')}).then((res: any) => {
-    if (res.data.code === 0) {
-      roles.value = res.data.data
-      // 判断cookie是否存在，否则写入数据
-      if (!getCookie('roleId')) {
-        setCookie('roleId', roles.value[0]['roleId'], 7)
-        localStorage.setItem('currentRole', JSON.stringify(roles.value[0]))
-      }
-      userdata.roleName = JSON.parse(localStorage.getItem('currentRole')!)['roleName']
-    } else {
-      Message(res.data['message'], 'error')
-    }
-  })
-}
 
 // 获取菜单/按钮数据
 const menus = ref<any[]>([])
@@ -156,11 +141,31 @@ function getMenuButtonData() {
   })
 }
 
+// 获取用户角色
+const roles = ref<any[]>([])
+
+function getUserRoleData() {
+  getUserRole({tenantId: getCookie('tenantId')}).then((res: any) => {
+    if (res.data.code === 0) {
+      roles.value = res.data.data
+      // 判断cookie是否存在，否则写入数据
+      if (!getCookie('roleId')) {
+        setCookie('roleId', roles.value[0]['roleId'], 7)
+        localStorage.setItem('currentRole', JSON.stringify(roles.value[0]))
+      }
+      // 当角色写入cookies后请求对应的菜单和按钮数据
+      getMenuButtonData()
+      userdata.roleName = JSON.parse(localStorage.getItem('currentRole')!)['roleName']
+    } else {
+      Message(res.data['message'], 'error')
+    }
+  })
+}
+
 // 进入时加载
 onMounted(() => {
-  // 发起请求，获取角色和菜单/按钮数据
+  // 发起请求，获取角色
   getUserRoleData()
-  getMenuButtonData()
   // 获取用户名/公司名/角色名
   userdata.name = JSON.parse(localStorage.getItem('UserData')!)['name']
   userdata.orgName = JSON.parse(localStorage.getItem('UserData')!)['orgName']
@@ -199,9 +204,20 @@ const ruleForm = reactive<RuleForm>({
   againPwd: '',
 })
 
+// 定义自定义验证器函数
+const validatePass = (rule: any, value: string, callback: any) => {
+  if (value === '') {
+    callback(new Error('重复新密码不能为空'))
+  } else if (value !== ruleForm.password) {
+    callback(new Error("两次输入密码不一致!"))
+  } else {
+    callback()
+  }
+}
+
 const rules = reactive<FormRules<RuleForm>>({
   password: [{required: true, message: '新密码不能为空', trigger: 'blur'},],
-  againPwd: [{required: true, message: '重复新密码不能为空', trigger: 'blur'},],
+  againPwd: [{ validator: validatePass, trigger: 'blur' }],
 })
 
 const openPwdDialog = ref<boolean>(false)
