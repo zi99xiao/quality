@@ -4,35 +4,38 @@
       <!--      顶部-->
       <el-header class="header">
         <span class="title" @click="isCollapse=!isCollapse">质量分析平台</span>
-        <div class="dropdown">
-          <span style="padding: 0 5px">{{ userdata.orgName }}</span>
-          <el-dropdown style="padding: 0 5px" trigger="click">
-            <el-button class="el-dropdown-link" link>
-              <span style="color: white">{{ userdata.roleName }}</span>
-              <el-icon>
-                <ArrowDown/>
-              </el-icon>
-            </el-button>
-            <template #dropdown>
-              <el-dropdown-menu v-for="role in roles">
-                <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
-              </el-dropdown-menu>
-            </template>
-          </el-dropdown>
-          <el-dropdown style="padding: 0 5px" trigger="click">
-            <el-button class="el-dropdown-link" link>
-              <span style="color: white">{{ userdata.name }}</span>
-              <el-icon>
-                <ArrowDown/>
-              </el-icon>
-            </el-button>
-            <template #dropdown>
-              <el-dropdown-menu>
-                <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
-                <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
-              </el-dropdown-menu>
-            </template>
-          </el-dropdown>
+        <div style="display: flex;align-items: center;">
+          <div class="dropdown">
+            <span style="padding: 0 5px">{{ userdata.orgName }}</span>
+            <el-dropdown style="padding: 0 5px" trigger="click">
+              <el-button class="el-dropdown-link" link>
+                <span style="color: white">{{ userdata.roleName }}</span>
+                <el-icon>
+                  <ArrowDown/>
+                </el-icon>
+              </el-button>
+              <template #dropdown>
+                <el-dropdown-menu v-for="role in roles">
+                  <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
+                </el-dropdown-menu>
+              </template>
+            </el-dropdown>
+            <el-dropdown style="padding: 0 5px" trigger="click">
+              <el-button class="el-dropdown-link" link>
+                <span style="color: white">{{ userdata.name }}</span>
+                <el-icon>
+                  <ArrowDown/>
+                </el-icon>
+              </el-button>
+              <template #dropdown>
+                <el-dropdown-menu>
+                  <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
+                  <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
+                </el-dropdown-menu>
+              </template>
+            </el-dropdown>
+          </div>
+          <el-avatar class="avatar" src="src/assets/R-C.png" :size="40" fit="cover"/>
         </div>
       </el-header>
       <!--      导航和内容区-->
@@ -69,7 +72,6 @@
         </el-main>
       </el-container>
     </el-container>
-
     <!--    修改密码弹窗-->
     <el-dialog v-model="openPwdDialog" title="修改密码" center width="400px" draggable destroy-on-close>
       <el-form ref="ruleFormRef" :model="ruleForm" :rules="rules" status-icon label-position="right" label-width="auto">
@@ -77,10 +79,10 @@
           <el-input v-model="ruleForm.account" disabled/>
         </el-form-item>
         <el-form-item label="新密码" prop="password">
-          <el-input v-model="ruleForm.password" type="password" clearable placeholder="请输入新密码"/>
+          <el-input v-model="ruleForm.password" type="password" show-password clearable placeholder="请输入新密码"/>
         </el-form-item>
-        <el-form-item label="重复新密码" prop="againPwd">
-          <el-input v-model="ruleForm.againPwd" type="password" clearable placeholder="请再次输入新密码"/>
+        <el-form-item label="确认密码" prop="againPwd">
+          <el-input v-model="ruleForm.againPwd" type="password" show-password clearable placeholder="请再次输入新密码"/>
         </el-form-item>
       </el-form>
       <template #footer>
@@ -159,6 +161,10 @@ function getUserRoleData() {
     } else {
       Message(res.data['message'], 'error')
     }
+  }).catch((err: any) => {
+    if (err.response.status === 401) {
+      logout()
+    }
   })
 }
 
@@ -207,7 +213,9 @@ const ruleForm = reactive<RuleForm>({
 // 定义自定义验证器函数
 const validatePass = (rule: any, value: string, callback: any) => {
   if (value === '') {
-    callback(new Error('重复新密码不能为空'))
+    callback(new Error('确认密码不能为空'))
+  } else if (ruleForm[rule['field']] !== ruleForm.againPwd) {
+    callback(new Error("字段名不一致!"))
   } else if (value !== ruleForm.password) {
     callback(new Error("两次输入密码不一致!"))
   } else {
@@ -217,7 +225,7 @@ const validatePass = (rule: any, value: string, callback: any) => {
 
 const rules = reactive<FormRules<RuleForm>>({
   password: [{required: true, message: '新密码不能为空', trigger: 'blur'},],
-  againPwd: [{ validator: validatePass, trigger: 'blur' }],
+  againPwd: [{required: true, validator: validatePass, trigger: 'blur'}],
 })
 
 const openPwdDialog = ref<boolean>(false)
@@ -302,6 +310,10 @@ function logout() {
   padding-left: 8px;
   cursor: pointer;
   color: #b4b6bd;
+}
+
+.avatar:hover {
+  scale: 1.5;
 }
 
 .aside {
