@@ -68,6 +68,7 @@
         </el-aside>
         <!--        内容-->
         <el-main class="main-content">
+          <!--          layout下属界面路由出口-->
           <router-view/>
         </el-main>
       </el-container>
