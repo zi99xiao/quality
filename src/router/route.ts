@@ -5,6 +5,7 @@ export const routes = [
         name: 'login',
         meta: {
             title: '登录',
+            requireAuth: false
         },
         component: () => import('../views/login/Login.vue'),
     },
