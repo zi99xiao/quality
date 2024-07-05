@@ -12,13 +12,12 @@
       @row-dblclick="dbRowEdit"
       @selection-change="handleSelectionChange"
   >
-    <el-table-column v-if="show" align="center" fixed type="selection" width="50" :reserve-selection="selected"/>
+    <el-table-column v-if="check" align="center" fixed type="selection" width="50" :reserve-selection="selected"/>
     <el-table-column v-if="index" align="center" fixed type="index" label="序号" min-width="50" show-overflow-tooltip/>
 
     <template v-for="val in column">
       <el-table-column align="center" :column-key="val['prop']" :prop="val['prop']" :label="val['label']"
                        :min-width="val['minWidth']" :sortable="val['sortable']" show-overflow-tooltip>
-
         <template v-if="val['isSearch']" #header>
           <span>{{ val['label'] }}</span>
           <el-popover placement="bottom" :width="200" trigger="click">
@@ -125,7 +124,7 @@
 </template>
 
 <script setup lang="ts">
-import {DeleteFilled, EditPen, View, QuestionFilled, Filter, DocumentAdd} from "@element-plus/icons-vue";
+import {DeleteFilled, EditPen, View, QuestionFilled, DocumentAdd, Filter} from "@element-plus/icons-vue";
 import {computed, ref} from "vue";
 import {ElTable} from "element-plus";
 import {Message} from "../../utils/message";
@@ -158,7 +157,7 @@ const props = defineProps({
     default: false
   },
   // 负责展示复选框列展示
-  show: {
+  check: {
     type: Boolean,
     default: true,
   },

@@ -7,7 +7,7 @@
     </div>
     <!--    表格-->
     <div class="table-content">
-      <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :show="false">
+      <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :check="false">
         <template #origin>
           <header-search :search="searchForm.origin" @click-search="handleSearchOrigin" placeholder="异常来源"/>
         </template>
