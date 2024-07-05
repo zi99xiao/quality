@@ -13,7 +13,7 @@
       @selection-change="handleSelectionChange"
   >
     <el-table-column v-if="check" align="center" fixed type="selection" width="50" :reserve-selection="selected"/>
-    <el-table-column v-if="index" align="center" fixed type="index" label="序号" min-width="50" show-overflow-tooltip/>
+    <el-table-column v-if="index" align="center" fixed type="index" label="序号" width="50" show-overflow-tooltip/>
 
     <template v-for="val in column">
       <el-table-column align="center" :column-key="val['prop']" :prop="val['prop']" :label="val['label']"
