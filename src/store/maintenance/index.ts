@@ -14,7 +14,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '分类来源',
                 prop: 'origin',
-                propName: 'origin',
                 minWidth: '150',
                 sortable: false,
                 cellEdit: true,
@@ -26,7 +25,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '分类描述',
                 prop: 'description',
-                propName: 'description',
                 minWidth: '150',
                 sortable: false,
                 cellEdit: true,
@@ -37,7 +35,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '对应类型',
                 prop: 'type',
-                propName: 'type',
                 minWidth: '150',
                 sortable: false,
                 cellEdit: true,
@@ -50,7 +47,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '是否分解',
                 prop: 'decompose',
-                propName: 'decompose',
                 minWidth: '100',
                 sortable: false,
                 cellEdit: true,
@@ -63,7 +59,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '创建人',
                 prop: 'createUser',
-                propName: 'createUser',
                 minWidth: '100',
                 sortable: false,
                 isShow: true,
@@ -73,7 +68,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '创建时间',
                 prop: 'createTime',
-                propName: 'createTime',
                 minWidth: '150',
                 sortable: true,
                 isShow: true,
@@ -83,7 +77,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '最后修改人',
                 prop: 'lastUser',
-                propName: 'lastUser',
                 minWidth: '100',
                 sortable: false,
                 isShow: true,
@@ -93,7 +86,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '最后修改时间',
                 prop: 'lastTime',
-                propName: 'lastTime',
                 minWidth: '150',
                 sortable: true,
                 isShow: true,
@@ -103,7 +95,6 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '是否有效',
                 prop: 'effective',
-                propName: 'effective',
                 minWidth: '100',
                 sortable: false,
                 isShow: true,

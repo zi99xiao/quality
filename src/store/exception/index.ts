@@ -13,7 +13,6 @@ export const useExceptionStore = defineStore('exception', () => {
             {
                 label: '异常来源',
                 prop: 'origin',
-                propName: 'origin',
                 minWidth: '100',
                 sortable: false,
                 isShow: true,
@@ -25,7 +24,6 @@ export const useExceptionStore = defineStore('exception', () => {
             {
                 label: '异常信息',
                 prop: 'information',
-                propName: 'information',
                 minWidth: '100',
                 sortable: false,
                 isShow: true,
@@ -37,7 +35,6 @@ export const useExceptionStore = defineStore('exception', () => {
             {
                 label: '异常原因',
                 prop: 'reason',
-                propName: 'reason',
                 minWidth: '100',
                 sortable: false,
                 isShow: true,

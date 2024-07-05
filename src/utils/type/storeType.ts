@@ -2,16 +2,14 @@ import {SelectType} from "./listType";
 
 // 仓库通用数据接口类型
 export interface colType {
-    // 字段中文名
+    // 列名
     label: string
     // 字段值
     prop?: string
-    // 字段展示值
-    propName?: string
     // 最小宽度
     minWidth?: string
     // 是否固定
-    fixed?: string
+    fixed?: boolean
     // 排序
     sortable?: boolean
     // 数据展示类型
@@ -20,11 +18,11 @@ export interface colType {
     data?: SelectType[],
     // 排序
     order?: number
-    // 单元格是否可以编辑
+    // 表格是否可以编辑
     cellEdit?: boolean,
     // 是否显示该列
     isShow?: boolean
-    // 用于操作控制列的显示z
+    // 用于操作控制列的显示
     isHide?: string
     // 控制列的禁用
     isDisabled?: boolean

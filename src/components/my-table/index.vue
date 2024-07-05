@@ -16,7 +16,7 @@
     <el-table-column v-if="index" align="center" fixed type="index" label="序号" min-width="50" show-overflow-tooltip/>
 
     <template v-for="val in column">
-      <el-table-column align="center" :column-key="val['propName']" :prop="val['prop']" :label="val['label']"
+      <el-table-column align="center" :column-key="val['prop']" :prop="val['prop']" :label="val['label']"
                        :min-width="val['minWidth']" :sortable="val['sortable']" show-overflow-tooltip>
 
         <template v-if="val['isSearch']" #header>
@@ -30,7 +30,7 @@
               </el-button>
             </template>
             <el-scrollbar max-height="200px">
-              <slot :name="val['propName']"></slot>
+              <slot :name="val['prop']"></slot>
             </el-scrollbar>
           </el-popover>
         </template>
@@ -39,30 +39,30 @@
           <template v-if="val['type']==='text'">
             <el-input
                 v-if="row[props.keys]===dbId&&val['cellEdit']"
-                v-model="dbValue[val['propName']]"
+                v-model="dbValue[val['prop']]"
                 clearable
                 placeholder="请输入"
                 @dblclick.stop
             />
-            <span v-else>{{ row[val['propName']] }}</span>
+            <span v-else>{{ row[val['prop']] }}</span>
           </template>
 
           <template v-else-if="val['type']==='textarea'">
             <el-input
                 v-if="row[props.keys]===dbId&&val['cellEdit']"
-                v-model="dbValue[val['propName']]"
+                v-model="dbValue[val['prop']]"
                 autosize
                 type="textarea"
                 placeholder="请输入"
                 @dblclick.stop
             />
-            <span v-else>{{ row[val['propName']] }}</span>
+            <span v-else>{{ row[val['prop']] }}</span>
           </template>
 
           <template v-else-if="val['type']==='select'">
             <el-select
                 v-if="row[props.keys]===dbId&&val['cellEdit']"
-                v-model="dbValue[val['propName']]"
+                v-model="dbValue[val['prop']]"
                 filterable
                 placeholder="请选择"
                 @dblclick.stop
@@ -75,7 +75,7 @@
               />
             </el-select>
             <template v-else v-for="select in val['data']" :key="select.value">
-              <span v-if="row[val['propName']]===select.value">{{ select.label }}</span>
+              <span v-if="row[val['prop']]===select.value">{{ select.label }}</span>
             </template>
           </template>
         </template>
