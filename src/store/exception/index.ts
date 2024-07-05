@@ -60,7 +60,7 @@ export const useExceptionStore = defineStore('exception', () => {
         limit: 20,
         orders: [{
             asc: false,
-            column: 'lastTime'
+            column: 'lastUpdateTime'
         }],
         filters: [],
         condition: {},

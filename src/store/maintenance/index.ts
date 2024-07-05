@@ -161,7 +161,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
         limit: 20,
         orders: [{
             asc: false,
-            column: 'lastTime'
+            column: 'lastUpdateTime'
         }],
         filters: [],
         condition: {},
