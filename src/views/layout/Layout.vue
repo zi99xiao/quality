@@ -107,7 +107,6 @@ import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
 import {Message} from "../../utils/message";
 import {showMenus} from "../../utils/menus";
-import {routes} from "../../router/route";
 
 
 const isCollapse = ref(false)
