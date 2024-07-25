@@ -7,7 +7,7 @@
         <div style="display: flex;align-items: center;">
           <div class="dropdown">
             <span style="padding: 0 5px">{{ userdata.orgName }}</span>
-            <el-dropdown style="padding: 0 5px" trigger="click">
+            <el-dropdown style="padding: 0 5px" trigger="click" max-height="300">
               <el-button class="el-dropdown-link" link>
                 <span style="color: white">{{ userdata.roleName }}</span>
                 <el-icon>
@@ -15,8 +15,10 @@
                 </el-icon>
               </el-button>
               <template #dropdown>
-                <el-dropdown-menu v-for="role in roles">
-                  <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
+                <el-dropdown-menu>
+                  <template v-for="role in roles" :key="role.roleId">
+                    <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
+                  </template>
                 </el-dropdown-menu>
               </template>
             </el-dropdown>
@@ -144,7 +146,7 @@ function getMenuButtonData() {
   })
 }
 
-// 获取用户角色
+// 获取用户角色列表
 const roles = ref<any[]>([])
 
 function getUserRoleData() {
@@ -156,9 +158,9 @@ function getUserRoleData() {
         setCookie('roleId', roles.value[0]['roleId'], 7)
         localStorage.setItem('currentRole', JSON.stringify(roles.value[0]))
       }
+      userdata.roleName = JSON.parse(localStorage.getItem('currentRole')!)['roleName']
       // 当角色写入cookies后请求对应的菜单和按钮数据
       getMenuButtonData()
-      userdata.roleName = JSON.parse(localStorage.getItem('currentRole')!)['roleName']
     } else {
       Message(res.data['message'], 'error')
     }
@@ -171,9 +173,9 @@ function getUserRoleData() {
 
 // 进入时加载
 onMounted(() => {
-  // 发起请求，获取角色
+  // 发起请求，获取角色列表
   getUserRoleData()
-  // 获取用户名/公司名/角色名
+  // 获取用户名/公司名
   userdata.name = JSON.parse(localStorage.getItem('UserData')!)['name']
   userdata.orgName = JSON.parse(localStorage.getItem('UserData')!)['orgName']
 })

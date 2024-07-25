@@ -63,6 +63,47 @@ export const routes = [
                 },
                 component: () => import('../views/exception/index.vue'),
             },
+            {
+                path: '/test',
+                name: 'test',
+                meta: {
+                    title: '考试管理',
+                    icon: 'Warning',
+                    requireAuth: true
+                },
+                children: [
+                    {
+                        path: '/test1',
+                        name: 'test1',
+                        meta: {
+                            title: '法律法规',
+                            icon: 'Warning',
+                            requireAuth: true
+                        },
+                        component: () => import('../views/test/test1.vue'),
+                    },
+                    {
+                        path: '/test2',
+                        name: 'test2',
+                        meta: {
+                            title: '企业文化',
+                            icon: 'Warning',
+                            requireAuth: true
+                        },
+                        component: () => import('../views/test/test2.vue'),
+                    },
+                    {
+                        path: '/test3',
+                        name: 'test3',
+                        meta: {
+                            title: '管理制度',
+                            icon: 'Warning',
+                            requireAuth: true
+                        },
+                        component: () => import('../views/test/test3.vue'),
+                    },
+                ]
+            },
         ],
     },
     // 不存在的页面

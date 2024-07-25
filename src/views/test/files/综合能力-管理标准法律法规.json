@@ -1,0 +1,2555 @@
+{
+  "analysis": false,
+  "time_spend": 287,
+  "exam_name": "综合能力-管理标准法律法规",
+  "check_status": "avoid",
+  "is_analysis": false,
+  "exercise_data": [
+    {
+      "id": 83937,
+      "type": "single",
+      "content": "新员工报到后，应该什么时候签订劳动合同",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290423,
+          "content": "自用工之日起1个月内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290426,
+          "content": "自用工之日起6个月内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290425,
+          "content": "自用工之日起3个月内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290424,
+          "content": "自用工之日起2个月内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83961,
+      "type": "judge",
+      "content": "出差开会等，支出费用中已包含吃、住费用或已安排吃住的，取消相应补贴",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290518,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290517,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83940,
+      "type": "multi",
+      "content": "符合以下条件的，驾驶人需与公司签订《安全驾驶协议》，公司负责审核条件是否满足(有总公司的由总公司统一组织审核并签订)，未签订协议的不允许驾驶私车出差:",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 362331,
+          "content": "车辆车龄不超过8年，保险在有效期内（第三者责任险保额≥100万元)",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 362332,
+          "content": "车辆行驶\n证、年检证等齐全",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 362334,
+          "content": "近3年未发生过个人承担主要责任的重大交通事故",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 362333,
+          "content": "驾驶人具备3年以上驾龄",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83958,
+      "type": "multi",
+      "content": "劳动合同应当以书面形式订立，并具备以下哪些条款",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290511,
+          "content": "劳动保护和劳动条件",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290509,
+          "content": "劳动合同期限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290512,
+          "content": "劳动报酬",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290510,
+          "content": "工作内容",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83930,
+      "type": "single",
+      "content": "劳动者不能胜任工作，经过培训或者调整工作岗位，仍不能胜任工作的员工，用人单位应提前（   ）书面形式通知劳动者本人可以解除劳动合同。",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290395,
+          "content": "六十日",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290396,
+          "content": "三十日",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290398,
+          "content": "十日",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290397,
+          "content": "立即",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83962,
+      "type": "judge",
+      "content": "截止到当年度12月31日，\n \n工龄满1年的，带薪年休假可以有5天\n",
+      "score": 2,
+      "analysis": {
+        "content": "有关各类假期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 362326,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 362325,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83953,
+      "type": "multi",
+      "content": "在集团外部的各种正式场合（如客户、政府人员接待，外部工作会议等)，根据工作开展需要，员工之间应如何称呼？",
+      "score": 2,
+      "analysis": {
+        "content": "关于规范集团内部人员称呼的相关规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290492,
+          "content": "老师",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290490,
+          "content": "职务",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290491,
+          "content": "姓名",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83981,
+      "type": "judge",
+      "content": "用人单位能直接辞退试用期员工。",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290558,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290557,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83938,
+      "type": "multi",
+      "content": "以下哪些行为视为考试作弊",
+      "score": 2,
+      "analysis": {
+        "content": "有关考试管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290430,
+          "content": "考试期间交谈、喧哗、传递纸条或其他类似行为的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290428,
+          "content": "携带纸条、电子词典等考场不允许携带的工具的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290431,
+          "content": "考试期间东张西望，经提醒后仍不改正的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290427,
+          "content": "未经允许携带与考试相关的书籍、资料的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290429,
+          "content": "抄袭或让他人抄袭，偷换试卷或他人代考的",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83959,
+      "type": "judge",
+      "content": "考试及格标准：主管七十分及格、其他人员六十分及格",
+      "score": 2,
+      "analysis": {
+        "content": "有关考试管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290514,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290513,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83986,
+      "type": "judge",
+      "content": "社会保险是非强制性的。。",
+      "score": 2,
+      "analysis": {
+        "content": "社会保险法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290568,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290567,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83924,
+      "type": "single",
+      "content": "请假应以书面形式请假(请假单)，其他形式无效，未请假、未准假或未做好交接前离开的，按（）处理。",
+      "score": 2,
+      "analysis": {
+        "content": "有关各类假期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290374,
+          "content": "早退",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290373,
+          "content": "旷工",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290371,
+          "content": "请假",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290372,
+          "content": "违纪",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83975,
+      "type": "judge",
+      "content": "为了方便自己，办公通道、窗台及各出入口处可以堆放闲杂物品",
+      "score": 2,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290545,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290546,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83932,
+      "type": "single",
+      "content": "个人社会保障号码是什么。",
+      "score": 2,
+      "analysis": {
+        "content": "社会保险法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290404,
+          "content": "上报的手机号",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290406,
+          "content": "自己设置的上报",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290405,
+          "content": "公民身份号码",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290403,
+          "content": "社保系统随机生成的18位数字",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83956,
+      "type": "multi",
+      "content": "以下哪些行为违反了胸卡管理规定？",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290504,
+          "content": "涂改胸卡编号",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290501,
+          "content": "擅自转借胸卡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290502,
+          "content": "相互调换胸卡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290503,
+          "content": "冒用他人胸卡",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83971,
+      "type": "judge",
+      "content": "平时生活中，职务高的员工可请职务低的员工用餐，反之则不允许(婚礼等特殊情况除外)",
+      "score": 2,
+      "analysis": {
+        "content": "有关廉政建设管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290537,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290538,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83944,
+      "type": "multi",
+      "content": "请假理由不充分或足以妨碍工作的，可如何处理？",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290452,
+          "content": "不予准假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290453,
+          "content": "缩短假期",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290455,
+          "content": "劝退",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290454,
+          "content": "暂缓准假",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83926,
+      "type": "single",
+      "content": "员工应遵守上下班时间规定。每半天中迟到、早退时间在 30 分钟以内的，给予当事人一级处理；在 30 分钟及以上的，按（）处理",
+      "score": 2,
+      "analysis": {
+        "content": "有关上下班管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290381,
+          "content": "旷工半天",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290379,
+          "content": "事假半天",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290382,
+          "content": "旷工一天",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290380,
+          "content": "事假一天",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83948,
+      "type": "multi",
+      "content": "以下哪些行为不符合会议管理规定？",
+      "score": 2,
+      "analysis": {
+        "content": "有关会议管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290471,
+          "content": "手机发出声音",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290470,
+          "content": "与同事聊天",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290473,
+          "content": "完成昨天没有完成的工作任务",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290472,
+          "content": "接听电话",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83969,
+      "type": "judge",
+      "content": "因工作需要向公司外人员传递、发送保密文件和资料时，应报所在单位负责人批准",
+      "score": 2,
+      "analysis": {
+        "content": "有关保密工作管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290534,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290533,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83968,
+      "type": "judge",
+      "content": "开大会时，无聊的时候可以看书，处理自己的文件",
+      "score": 2,
+      "analysis": {
+        "content": "有关会议管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290532,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290531,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83923,
+      "type": "single",
+      "content": "远途出差应在自回公司（）内〈机电公司员工为次月底)，就近出差应在（）报销，违者每延迟一天给予一级处理，上限处理5次。",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290368,
+          "content": "7个工作日、1个月内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290370,
+          "content": "10个工作日内、一个季度内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290367,
+          "content": "7个工作日内、10个工作日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290369,
+          "content": "10个工作日内、1个月内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83955,
+      "type": "multi",
+      "content": "用于制作胸卡的照片应为近期一寸免冠照片，具体要求包含以下哪些？",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290499,
+          "content": "深色西服",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290500,
+          "content": "紫红色领带",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290498,
+          "content": "白衬衣",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290497,
+          "content": "白底",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83970,
+      "type": "judge",
+      "content": "工作失误是指员工在工作过程中发生的非主观故意而发生的工作过失和错误",
+      "score": 2,
+      "analysis": {
+        "content": "有关工作失误、作弊等处理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290535,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290536,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83976,
+      "type": "judge",
+      "content": "员工收到九级处理后，需要由团队长根据实际情况提出处理建议，报企业负责人确认，在团队位次下降2-4位或给予解除劳动合同，",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290547,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290548,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83945,
+      "type": "multi",
+      "content": "请假期间超过三个月的，以下哪些费用一般由请假人自行承担",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290458,
+          "content": "企业承担的办公室租赁费",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290459,
+          "content": "企业承担的工作服费用",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290456,
+          "content": "企业承担的社保",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290457,
+          "content": "企业承担的公积金",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83954,
+      "type": "multi",
+      "content": "用人单位出具的解除、终止劳动合同的证明，应当包含什么内容。",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290496,
+          "content": "在本单位的工作年限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290493,
+          "content": "劳动合同期限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290494,
+          "content": "解除或者终止劳动合同的日期",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290495,
+          "content": "工作岗位",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83974,
+      "type": "judge",
+      "content": "办公物品应保持整齐、干净",
+      "score": 2,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290543,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290544,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83920,
+      "type": "single",
+      "content": "未请假或请假未批准而不参加考试的人员，需要如何处理？",
+      "score": 2,
+      "analysis": {
+        "content": "有关考试管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290359,
+          "content": "三级处理，并责令其参加补考",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290357,
+          "content": "下次再参与",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290360,
+          "content": "以平均分计入成绩",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290358,
+          "content": "本次成绩计为零分",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83951,
+      "type": "multi",
+      "content": "以下哪些属于违规行为？",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290482,
+          "content": "背信弃义:违背承诺或约定、从事第二职业、泄露公司商业秘密等失信行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290484,
+          "content": "触犯法律法规:违法乱纪产生刑事责任的行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290481,
+          "content": "主观违纪:玩忽职守、故意破坏、作假作弊等行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290483,
+          "content": "职业操守败坏:以权谋私、对外勾结、贪污腐败等行为",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83963,
+      "type": "judge",
+      "content": "没结婚前，订婚假可以请多次",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290522,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290521,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83922,
+      "type": "single",
+      "content": "出差人员因擅自违背出差计划致使出差任务未完成的，每次给予三级处理；《报销表附件》与实际旅程不符的，需要如何处理？",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290366,
+          "content": "费用不予报销",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290364,
+          "content": "退回重新填写",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290365,
+          "content": "正常报销",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83931,
+      "type": "single",
+      "content": "团队成员受到七至八级时，在团队中位次下降1-2位，由团队长根据实际情况提出位次下调建议，报（）确认",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290401,
+          "content": "人力公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290399,
+          "content": "总经理支持团队",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290400,
+          "content": "企业负责人",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290402,
+          "content": "企管部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83942,
+      "type": "multi",
+      "content": "以下哪些假别超过10天不影响当月年终奖？",
+      "score": 2,
+      "analysis": {
+        "content": "有关各类假期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290444,
+          "content": "带薪年休假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290445,
+          "content": "婚假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290446,
+          "content": "征兵假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290447,
+          "content": "法定节假日",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83982,
+      "type": "judge",
+      "content": "负有保密义务的人员离职，不会得到公司的经济补偿。",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290560,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290559,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83921,
+      "type": "single",
+      "content": "员工出差应优先入住协议酒店；当单次出差实际日均住宿费用超出住宿补贴标准的,在报销时经出差审批人确认，可按实际发生金额报销，实报上限为住宿补贴标准的？",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290361,
+          "content": "1.2倍",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290363,
+          "content": "2倍",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290362,
+          "content": "1.5倍",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83950,
+      "type": "multi",
+      "content": "客户送的东西哪些需要上交给公司？",
+      "score": 2,
+      "analysis": {
+        "content": "有关廉政建设管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290478,
+          "content": "茶叶",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290479,
+          "content": "月饼",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290480,
+          "content": "星巴克咖啡券",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83933,
+      "type": "single",
+      "content": "实施团队建设人员发生违规行为时，扣款、责令赔偿损失（赔款）金额如何列支？",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290409,
+          "content": "从工资总额中扣除",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290407,
+          "content": "从个人绩效中扣除",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290408,
+          "content": "从团队当月绩效工资总额中扣除",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290410,
+          "content": "年底统一扣除",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83927,
+      "type": "single",
+      "content": "OA账号需要每天至少登陆（）次，违者每次给予一级处理",
+      "score": 2,
+      "analysis": {
+        "content": "有关信息传递管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290386,
+          "content": "四",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290384,
+          "content": "二",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290385,
+          "content": "三",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290383,
+          "content": "一",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83972,
+      "type": "judge",
+      "content": "上班时应保持良好的精神面貌，不得有卧、躺等不良姿势",
+      "score": 2,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290539,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290540,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83949,
+      "type": "multi",
+      "content": "以下哪些属于A级保密文件？",
+      "score": 2,
+      "analysis": {
+        "content": "有关保密工作管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290477,
+          "content": "公司重大决策",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290475,
+          "content": "工资 核算资料",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290474,
+          "content": "公司 的 人事档案",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290476,
+          "content": "劳动收入分配资料",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83978,
+      "type": "judge",
+      "content": "为了方便，员工在公司可以把胸卡装在口袋里",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290552,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290551,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83928,
+      "type": "single",
+      "content": "以下离开办公室的哪个行为不正确？",
+      "score": 2,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290390,
+          "content": "打开空调",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290389,
+          "content": "关闭电脑",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290388,
+          "content": "锁门",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290387,
+          "content": "关闭电灯、电器",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83936,
+      "type": "single",
+      "content": "员工离职时，胸卡需要如何处理",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290420,
+          "content": "管理员收回其胸卡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290421,
+          "content": "自行销毁",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290419,
+          "content": "留作纪念",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290422,
+          "content": "送给他人使用",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83929,
+      "type": "single",
+      "content": "在最近一次年度考评周期结束时，受到五至六级处罚的团队成员，如何处理？",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290394,
+          "content": "辞退处理",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290393,
+          "content": "降1-2个位次",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290391,
+          "content": "根据积分情况调整",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290392,
+          "content": "不得上升位次",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83925,
+      "type": "single",
+      "content": "请结婚假的，回公司一个月内销假，并出示（），否则取消工资待遇，按（）处理",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290377,
+          "content": "回程车票、旷工",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290378,
+          "content": "回程车票、事假",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290375,
+          "content": "结婚证、旷工",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290376,
+          "content": "结婚证、事假",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83966,
+      "type": "judge",
+      "content": "开会迟到、早退或中途擅自离开时间达5分钟以上者，每次给予一级处理。",
+      "score": 2,
+      "analysis": {
+        "content": "有关会议管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290528,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290527,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83973,
+      "type": "judge",
+      "content": "同事不在时，可以直接使用他人电脑或翻阅他人资料",
+      "score": 2,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290541,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290542,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83934,
+      "type": "single",
+      "content": "一级处理扣款",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290414,
+          "content": "100元/当月",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290411,
+          "content": "15元/当月",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290412,
+          "content": "30元/当月",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290413,
+          "content": "45元/当月",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83947,
+      "type": "multi",
+      "content": "以下哪些行为不符合办公室纪律？",
+      "score": 2,
+      "analysis": {
+        "content": "有关上下班管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290469,
+          "content": "与上级讨论工作",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290467,
+          "content": "看与工作无关的书籍、报纸",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290468,
+          "content": "打印孩子的家庭作业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290465,
+          "content": "上班时间打嗑睡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290466,
+          "content": "聊天、干私事",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83979,
+      "type": "judge",
+      "content": "全日制用工劳动合同可以是口头约定。",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290553,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290554,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83960,
+      "type": "judge",
+      "content": "出差期间车票丢失的，报审批人核准，可按车票金额的60%补贴",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290516,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290515,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83946,
+      "type": "multi",
+      "content": "以下哪些各项业务交往活动所产生的招待费用可以报销？",
+      "score": 2,
+      "analysis": {
+        "content": "有关业务招待费用管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 363092,
+          "content": "交通",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 363090,
+          "content": "餐饮",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 363091,
+          "content": "住宿",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 363094,
+          "content": "娱乐",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 363093,
+          "content": "礼品",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83965,
+      "type": "judge",
+      "content": "夏天上班时可以打赤膊、穿背心和拖鞋",
+      "score": 2,
+      "analysis": {
+        "content": "有关上下班管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290526,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290525,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83952,
+      "type": "multi",
+      "content": "社会保险包含以下哪些内容。",
+      "score": 2,
+      "analysis": {
+        "content": "社会保险法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290489,
+          "content": "生育保险",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290488,
+          "content": "失业保险",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290487,
+          "content": "工伤保险",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290485,
+          "content": "基本养老保险",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290486,
+          "content": "基本医疗保险",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83967,
+      "type": "judge",
+      "content": "会议因事不能按时参加会议的人员应提前1小时向会议主持人请假，否则请假无效。",
+      "score": 2,
+      "analysis": {
+        "content": "有关会议管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290530,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290529,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83935,
+      "type": "single",
+      "content": "员工跨单位（部门）工作调动的，胸卡如何处理",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290418,
+          "content": "送给他人使用",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290415,
+          "content": "留作纪念",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290417,
+          "content": "自行销毁",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290416,
+          "content": "交给胸卡管理员",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83980,
+      "type": "judge",
+      "content": "劳动者有欺诈行为，其与用人单位签订的劳动合同一样有效",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290556,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290555,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83977,
+      "type": "judge",
+      "content": "随着C&U国际化进程的不断推进，人本企业文化需要在保持自身特色的基础上，积极吸纳国际优秀企业文化成果，与时俱进、不断创新。",
+      "score": 2,
+      "analysis": {
+        "content": "关于规范集团内部人员称呼的相关规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290549,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290550,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83985,
+      "type": "judge",
+      "content": "试用期内的员工也应该缴纳社会保险。",
+      "score": 2,
+      "analysis": {
+        "content": "社会保险法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290565,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290566,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83957,
+      "type": "multi",
+      "content": "以下哪些情况需要更换胸卡？",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290505,
+          "content": "照片模糊",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290507,
+          "content": "沾满油污",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290506,
+          "content": "名字看不清",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290508,
+          "content": "部门更换",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83943,
+      "type": "multi",
+      "content": "以下哪些假别超过30天不影响当年年终奖？",
+      "score": 2,
+      "analysis": {
+        "content": "有关各类假期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290449,
+          "content": "事假",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290448,
+          "content": "病假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290451,
+          "content": "婚假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290450,
+          "content": "产假后照顾婴儿事假",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83941,
+      "type": "multi",
+      "content": "出现以下情形的，不享受年休假？",
+      "score": 2,
+      "analysis": {
+        "content": "有关各类假期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290440,
+          "content": "当年请产假的",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290442,
+          "content": "工龄满 10 年，病假达 3 个月的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290441,
+          "content": "工龄未满 10 年，当年累计病假达 2 个月的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290443,
+          "content": "工龄满 20 年，病假达 4 个月的",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83983,
+      "type": "judge",
+      "content": "不管出现什么情形，都不能开除怀孕女员工。",
+      "score": 2,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290562,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290561,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83984,
+      "type": "judge",
+      "content": "社会保险每个城市是独立系统，不能互相转移。",
+      "score": 2,
+      "analysis": {
+        "content": "社会保险法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290563,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290564,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83939,
+      "type": "multi",
+      "content": "满足以下哪些条件时可乘坐出租车并报销？",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290433,
+          "content": "身上携带有较大数额现金(2万元及以上)或有其他安全需要的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290434,
+          "content": "时间在22:00~5:30的，或虽没在此时间段，但已超过公交车运营时间的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290432,
+          "content": "随身货物在15Kg 及以上，且离最近公交点距离500米及以上的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 290435,
+          "content": "第一次出差不知道如何乘坐公交的",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 83964,
+      "type": "judge",
+      "content": "法定结婚假为3天",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 290524,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 290523,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    }
+  ],
+  "data_is_from_mongo": true
+}
