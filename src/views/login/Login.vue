@@ -1,10 +1,10 @@
 <template>
   <div class="login">
-    <div style="margin: 25vh auto">
+    <div class="login-form">
       <h1 class="title">质量分析平台</h1>
       <el-form
           ref="ruleFormRef"
-          style="width: 400px"
+          style="width: 400px;"
           :model="ruleForm"
           :rules="rules"
           class="demo-ruleForm"
@@ -106,10 +106,16 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 
 <style scoped>
 .login {
-  display: flex;
   height: 100vh;
-  overflow: auto;
+  position: relative;
   background: #2d3a4b url("../../assets/background.jpg");
+}
+
+.login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .title {
