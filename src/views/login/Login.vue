@@ -17,7 +17,7 @@
       >
         <el-form-item prop="account">
           <dv-border-box8>
-            <el-input class="input" v-model.trim="ruleForm.account" clearable @keyup.enter="focusNextInput(pwd)"
+            <el-input class="input" v-model.trim="ruleForm.account" clearable @keyup.enter="nextFocus(pwd)"
                       :prefix-icon="User" placeholder="用户名"/>
           </dv-border-box8>
         </el-form-item>
@@ -39,13 +39,15 @@
 
 <script setup lang="ts">
 import {reactive, ref} from "vue";
+import {useRouter} from "vue-router";
 import {FormInstance, FormRules} from "element-plus";
 import {User, Lock, Tools} from "@element-plus/icons-vue";
-import {useRouter} from "vue-router";
+import {BorderBox8 as DvBorderBox8} from "@kjgl77/datav-vue3";
 import {login} from "../../api/login";
 import {Message} from "../../utils/message";
 import {setCookie} from "../../utils/cookie";
-import {BorderBox8 as DvBorderBox8} from "@kjgl77/datav-vue3";
+import {nextFocus} from "../../utils/next-focus.ts";
+
 
 const router = useRouter();
 
@@ -70,11 +72,6 @@ const rules = reactive<FormRules<RuleForm>>({
 
 // 密码框的ref
 const pwd = ref<any>()
-
-// 回车跳转到下一个输入框
-const focusNextInput = (val: any) => {
-  val.focus();
-}
 
 // 登录函数
 function postLogin() {
@@ -134,6 +131,10 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 
 .h-icon {
   animation: rotation 2s linear infinite;
+}
+
+.h-icon:hover {
+  animation-play-state: paused;
 }
 
 @keyframes rotation {
