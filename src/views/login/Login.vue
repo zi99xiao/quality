@@ -1,7 +1,12 @@
 <template>
   <div class="login">
     <div class="login-form">
-      <h1 class="title">质量分析平台</h1>
+      <div style="display: flex;justify-content: center;align-items: center;">
+        <h1 class="title">质量分析平台</h1>
+        <el-icon :size="30" color="#30ffd5" class="h-icon">
+          <Tools/>
+        </el-icon>
+      </div>
       <el-form
           ref="ruleFormRef"
           style="width: 400px;"
@@ -12,13 +17,14 @@
       >
         <el-form-item prop="account">
           <dv-border-box8>
-            <el-input class="input" v-model.trim="ruleForm.account" clearable :prefix-icon="User" placeholder="用户名"/>
+            <el-input class="input" v-model.trim="ruleForm.account" clearable @keyup.enter="focusNextInput(pwd)"
+                      :prefix-icon="User" placeholder="用户名"/>
           </dv-border-box8>
         </el-form-item>
         <el-form-item prop="password">
           <dv-border-box8>
-            <el-input class="input" v-model.trim="ruleForm.password" type="password" show-password clearable
-                      :prefix-icon="Lock" placeholder="密码"/>
+            <el-input class="input" v-model.trim="ruleForm.password" clearable @keyup.enter="submitForm(ruleFormRef)"
+                      ref="pwd" type="password" show-password :prefix-icon="Lock" placeholder="密码"/>
           </dv-border-box8>
         </el-form-item>
         <el-form-item>
@@ -34,7 +40,7 @@
 <script setup lang="ts">
 import {reactive, ref} from "vue";
 import {FormInstance, FormRules} from "element-plus";
-import {User, Lock} from "@element-plus/icons-vue";
+import {User, Lock, Tools} from "@element-plus/icons-vue";
 import {useRouter} from "vue-router";
 import {login} from "../../api/login";
 import {Message} from "../../utils/message";
@@ -61,6 +67,14 @@ const rules = reactive<FormRules<RuleForm>>({
   account: [{required: true, message: '账号不能为空', trigger: 'blur'},],
   password: [{required: true, message: '密码不能为空', trigger: 'blur'},],
 })
+
+// 密码框的ref
+const pwd = ref<any>()
+
+// 回车跳转到下一个输入框
+const focusNextInput = (val: any) => {
+  val.focus();
+}
 
 // 登录函数
 function postLogin() {
@@ -118,15 +132,27 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   transform: translate(-50%, -50%);
 }
 
+.h-icon {
+  animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .title {
   text-align: center;
-  margin: 32px 0;
+  margin-right: 10px;
   text-shadow: 0 0 10px skyblue, 0 0 20px white;
 }
 
 .input {
   height: 50px;
-  /*background-color: #212534;*/
   border-radius: 5px;
   --el-input-border-color: none;
 }
@@ -136,9 +162,5 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   height: 44px;
   box-shadow: 0 0 5px #0c4fac, 2px 2px 5px white;
   text-shadow: 0 0 1px skyblue, 1px 1px 3px white;
-}
-
-.el-form-item {
-  margin-bottom: 24px;
 }
 </style>
