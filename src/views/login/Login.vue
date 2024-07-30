@@ -126,8 +126,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(1);
-  animation: scaleForm 0.7s linear;
+  animation: scaleForm 0.7s linear forwards;
 }
 
 @keyframes scaleForm {
@@ -142,7 +141,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 }
 
 .h-icon {
-  animation: moveIcon 3s linear, rotationIcon 1s 3s linear infinite;
+  animation: moveIcon 3s linear forwards, rotationIcon 1s 3s linear infinite;
 }
 
 .h-icon:hover {
@@ -201,16 +200,15 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   text-align: center;
   margin-right: 10px;
   text-shadow: 0 0 10px skyblue, 0 0 20px white;
-  transform: skew(-20deg);
-  animation: moveTitle 1.4s linear;
+  animation: moveTitle 1.4s linear forwards;
 }
 
 @keyframes moveTitle {
   from {
-    transform: translate(-1000px, 0);
+    transform: translate(-1000px, 0) skew(0deg);
   }
   to {
-    transform: translate(0, 0);
+    transform: translate(0, 0) skew(-20deg);
   }
 }
 
