@@ -126,23 +126,74 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
+  animation: scaleForm 0.7s linear;
+}
+
+@keyframes scaleForm {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(2);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
 
 .h-icon {
-  animation: rotation 2s linear infinite;
+  animation: moveIcon 3s linear, rotationIcon 1s 3s linear infinite;
 }
 
 .h-icon:hover {
   animation-play-state: paused;
 }
 
-@keyframes rotation {
+@keyframes moveIcon {
+  0% {
+    transform: translate(0, -500px) rotate(0deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+  55% {
+    transform: translate(18px, 0) rotate(450deg);
+  }
+  60% {
+    transform: translate(10px, 0) rotate(410deg);
+  }
+  65% {
+    transform: translate(4px, 0) rotate(380deg);
+  }
+  70% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+  75% {
+    transform: translate(8px, 0) rotate(400deg);
+  }
+  80% {
+    transform: translate(3px, 0) rotate(375deg);
+  }
+  85% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+  90% {
+    transform: translate(3px, 0) rotate(375deg);
+  }
+  95% {
+    transform: translate(1px, 0) rotate(365deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+@keyframes rotationIcon {
   from {
-    transform: rotate(0deg);
+    transform: rotate(360deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(0deg);
   }
 }
 
@@ -150,6 +201,17 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   text-align: center;
   margin-right: 10px;
   text-shadow: 0 0 10px skyblue, 0 0 20px white;
+  transform: skew(-20deg);
+  animation: moveTitle 1.4s linear;
+}
+
+@keyframes moveTitle {
+  from {
+    transform: translate(-1000px, 0);
+  }
+  to {
+    transform: translate(0, 0);
+  }
 }
 
 .input {
