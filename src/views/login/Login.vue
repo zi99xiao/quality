@@ -119,7 +119,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 .login {
   height: 100vh;
   position: relative;
-  background: #2d3a4b url("../../assets/background.jpg");
+  background: url("../../assets/background.jpg") no-repeat center 0 / cover;
 }
 
 .login-form {
