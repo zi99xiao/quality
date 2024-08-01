@@ -2,12 +2,12 @@
   <div class="container">
     <div class="header">
       <el-card shadow="always">
-        <el-button plain type="primary" :icon="Plus" @click="OpenAdd">新增</el-button>
-        <el-button plain type="danger" :icon="Delete" @click="OpenDel">批量删除</el-button>
-        <el-button plain type="success" :icon="Refresh" @click="RefreshData">刷新</el-button>
+        <el-button class="add" plain type="primary" :icon="Plus" @click="OpenAdd">新增</el-button>
+        <el-button class="del" plain type="danger" :icon="Delete" @click="OpenDel">批量删除</el-button>
+        <el-button class="refer" plain type="success" :icon="Refresh" @click="RefreshData">刷新</el-button>
         <el-popover placement="bottom" :width="300" trigger="click">
           <template #reference>
-            <el-button plain type="info" :icon="Upload">导入</el-button>
+            <el-button class="upload" plain type="info" :icon="Upload">导入</el-button>
           </template>
           <el-upload
               ref="upload"
@@ -35,7 +35,7 @@
             </template>
           </el-upload>
         </el-popover>
-        <el-button plain :icon="Download" @click="ExportData">导出</el-button>
+        <el-button class="export" plain :icon="Download" @click="ExportData">导出</el-button>
       </el-card>
     </div>
     <!--    表格-->
@@ -205,6 +205,19 @@ const {
 .header {
   height: 40px;
   margin-bottom: 6px;
+  animation: headerWidth 1.5s ease-in forwards;
+}
+
+@keyframes headerWidth {
+  from {
+    width: 0;
+    transform: translate(100%, 0);
+    filter: drop-shadow(16px 16px 20px #b6ead4) invert(75%);
+  }
+  to {
+    width: 100%;
+    transform: translate(0, 0);
+  }
 }
 
 .header .el-card {
@@ -216,6 +229,52 @@ const {
   height: 100%;
   display: flex;
   align-items: center;
+}
+
+.add {
+  animation: headerButton 1.5s 0.2s ease-in forwards;
+}
+
+.del {
+  animation: headerButton 1.5s 0.6s ease-in-out forwards;
+}
+
+.refer {
+  animation: headerButton 1.5s 0.8s ease-in forwards;
+}
+
+.upload {
+  animation: headerButton 1.5s 0.5s ease-out forwards;
+}
+
+.export {
+  animation: headerButton 1.5s 1s linear forwards;
+}
+
+@keyframes headerButton {
+  0% {
+    transform: translate(23%, -100%) rotate(0deg);
+    filter: drop-shadow(16px 16px 20px #b6ead4) invert(75%);
+  }
+  20% {
+    transform: translate(8%, -50%) rotate(-30deg);
+    filter: drop-shadow(12px 12px 15px #b6ead4) invert(75%);
+  }
+  40% {
+    transform: translate(-3%, 0%) rotate(0deg);
+    filter: drop-shadow(8px 8px 10px #b6ead4) invert(75%);
+  }
+  60% {
+    transform: translate(-10%, -20%) rotate(20deg);
+    filter: drop-shadow(5px 5px 7px #b6ead4) invert(75%);
+  }
+  80% {
+    transform: translate(-6%, -7%) rotate(-10deg);
+    filter: drop-shadow(2px 2px 4px #b6ead4) invert(75%);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
 }
 
 .table-content {

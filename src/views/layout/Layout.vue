@@ -37,7 +37,8 @@
               </template>
             </el-dropdown>
           </div>
-          <el-avatar class="avatar" src="src/assets/R-C.png" :size="40" fit="cover"/>
+          <el-avatar class="avatar" src="src/assets/R-C.png" :size="40" fit="cover"
+                     @mouseenter="Message('翻滚吧，牛马', 'success')"/>
         </div>
       </el-header>
       <!--      导航和内容区-->
@@ -71,7 +72,7 @@
         <!--        内容-->
         <el-main class="main-content">
           <!--          layout下属界面路由出口-->
-          <router-view/>
+          <router-view class="main-container"/>
         </el-main>
       </el-container>
     </el-container>
@@ -315,8 +316,17 @@ function logout() {
   color: #b4b6bd;
 }
 
+.avatar {
+  z-index: 10;
+  transform: scale(1) rotate(0deg);
+  transition: all 1s;
+}
+
 .avatar:hover {
-  scale: 1.5;
+  z-index: 10;
+  margin-left: 10px;
+  margin-right: 5px;
+  transform: scale(1.5) rotate(-360deg);
 }
 
 .aside {
@@ -330,5 +340,21 @@ function logout() {
   width: calc(100vw - 220px);
   height: calc(100vh - 64px);
   padding: 0;
+}
+
+.main-container {
+  animation: enterMain 1s ease-out forwards;
+}
+
+@keyframes enterMain {
+  from {
+    opacity: 0;
+    transform: scale(0);
+    filter: drop-shadow(16px 16px 20px #b6ead4) invert(75%);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 </style>
