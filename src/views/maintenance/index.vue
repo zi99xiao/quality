@@ -43,14 +43,15 @@
       <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :button="true"
                 @click-sel="rowSel" @click-del="rowDel" @click-row="rowGetDetail" @click-save="rowSave">
         <template #origin>
-          <header-search :search="searchForm.origin" @click-search="handleSearchOrigin" placeholder="分类来源"/>
+          <header-search @click-search="(e:string)=>handleSearchString(e, 'origin', 'like', store)"
+                         v-model:search.trim="searchForm.origin" placeholder="分类来源"/>
         </template>
         <template #type>
           <el-select
               v-model="searchForm.type"
               filterable
               clearable
-              @change="handleSearchType"
+              @change="(e:string)=>handleSearchString(e, 'type', '=', store)"
               placeholder="对应类型"
           >
             <el-option
@@ -66,7 +67,7 @@
               v-model="searchForm.decompose"
               filterable
               clearable
-              @change="handleSearchDecompose"
+              @change="(e:string)=>handleSearchString(e, 'decompose', '=', store)"
               placeholder="是否分解"
           >
             <el-option
@@ -105,6 +106,7 @@ import {IsAdd} from "../../utils/is-add";
 import {isYesNoList, questionTypeList} from "../../utils/select-list";
 import {genFileId, UploadInstance, UploadProps, UploadRawFile} from "element-plus";
 import {Message} from "../../utils/message.ts";
+import {handleSearchString} from "../../utils/is-search.ts";
 
 
 const store = useMaintenanceStore()
@@ -119,69 +121,6 @@ const searchForm = reactive<{
   type: '',
   decompose: ''
 })
-
-// 分析来源搜索值
-function handleSearchOrigin(search: string) {
-  store.loading = true
-  searchForm.origin = search
-  if (searchForm.origin) {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'origin';
-    });
-    store.params.filters.push({
-      column: 'origin',
-      value: searchForm.origin,
-      operator: 'like'
-    });
-  } else {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'origin';
-    });
-  }
-  store.getTableData()
-}
-
-// 对应类型搜索值
-function handleSearchType(search: string) {
-  store.loading = true
-  searchForm.type = search
-  if (searchForm.type) {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'type';
-    });
-    store.params.filters.push({
-      column: 'type',
-      value: searchForm.type,
-      operator: '='
-    });
-  } else {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'type';
-    });
-  }
-  store.getTableData()
-}
-
-// 是否分解搜索值
-function handleSearchDecompose(search: string) {
-  store.loading = true
-  searchForm.decompose = search
-  if (searchForm.decompose) {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'decompose';
-    });
-    store.params.filters.push({
-      column: 'decompose',
-      value: searchForm.decompose,
-      operator: '='
-    });
-  } else {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'decompose';
-    });
-  }
-  store.getTableData()
-}
 
 const {
   addRef,
@@ -203,6 +142,7 @@ const {rowGetDetail, rowSave} = ClickRowSave(store, getMaintenanceDetail, editMa
 
 // 刷新按钮
 function RefreshData() {
+  store.loading = true
   searchForm.origin = ''
   searchForm.type = ''
   searchForm.decompose = ''
