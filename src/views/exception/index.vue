@@ -9,14 +9,16 @@
     <div class="table-content">
       <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :check="false">
         <template #origin>
-          <header-search :search="searchForm.origin" @click-search="handleSearchOrigin" placeholder="异常来源"/>
+          <header-search @click-search="(e:string)=>handleSearchString(e, 'origin', 'like', store)"
+                         v-model:search.trim="searchForm.origin" placeholder="异常来源"/>
         </template>
         <template #information>
-          <header-search :search="searchForm.information" @click-search="handleSearchInformation"
-                         placeholder="异常信息"/>
+          <header-search @click-search="(e:string)=>handleSearchString(e, 'information', 'like', store)"
+                         v-model:search.trim="searchForm.information" placeholder="异常信息"/>
         </template>
         <template #reason>
-          <header-search :search="searchForm.reason" @click-search="handleSearchReason" placeholder="异常原因"/>
+          <header-search @click-search="(e:string)=>handleSearchString(e, 'reason', 'like', store)"
+                         v-model:search.trim="searchForm.reason" placeholder="异常原因"/>
         </template>
       </my-table>
     </div>
@@ -34,6 +36,7 @@ import {useExceptionStore} from "../../store/exception";
 import MyTable from "../../components/my-table/index.vue";
 import Pagination from "../../components/pagination/index.vue";
 import HeaderSearch from "../../components/header-search/index.vue";
+import {handleSearchString} from "../../utils/is-search.ts";
 
 
 const store = useExceptionStore()
@@ -49,71 +52,9 @@ const searchForm = reactive<{
   reason: ''
 })
 
-// 分析来源搜索值
-function handleSearchOrigin(search: string) {
-  store.loading = true
-  searchForm.origin = search
-  if (searchForm.origin) {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'origin';
-    });
-    store.params.filters.push({
-      column: 'origin',
-      value: searchForm.origin,
-      operator: 'like'
-    });
-  } else {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'origin';
-    });
-  }
-  store.getTableData()
-}
-
-// 异常信息搜索值
-function handleSearchInformation(search: string) {
-  store.loading = true
-  searchForm.information = search
-  if (searchForm.information) {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'information';
-    });
-    store.params.filters.push({
-      column: 'information',
-      value: searchForm.information,
-      operator: '='
-    });
-  } else {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'information';
-    });
-  }
-  store.getTableData()
-}
-
-// 异常原因搜索值
-function handleSearchReason(search: string) {
-  store.loading = true
-  searchForm.reason = search
-  if (searchForm.reason) {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'reason';
-    });
-    store.params.filters.push({
-      column: 'reason',
-      value: searchForm.reason,
-      operator: '='
-    });
-  } else {
-    store.params.filters = store.params.filters!.filter((item: any) => {
-      return item.column !== 'reason';
-    });
-  }
-  store.getTableData()
-}
-
 // 刷新按钮
 function RefreshData() {
+  store.loading = true
   searchForm.origin = ''
   searchForm.information = ''
   searchForm.reason = ''

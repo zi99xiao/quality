@@ -7,15 +7,10 @@
 
 <script setup lang="ts">
 import {Search} from "@element-plus/icons-vue";
-import {ref, watchEffect} from "vue";
+import {ref, defineModel} from "vue";
 
 
-const props = defineProps({
-  // 接收的值
-  search: {
-    type: String,
-    default: '',
-  },
+defineProps({
   // placeholder提示
   placeholder: {
     type: String,
@@ -27,12 +22,11 @@ const props = defineProps({
     default: '100%'
   }
 })
-const emits = defineEmits(['click-search'])
 
-const search = ref<string>('')
-watchEffect(() => {
-  search.value = props.search
-})
+// 使用defineModel宏接收数据，绑定v-model响应
+const search = defineModel<string, "trim">("search", { type: String, default: '' })
+
+const emits = defineEmits(['click-search'])
 
 const timeoutId = ref<any>(null);
 
@@ -42,14 +36,10 @@ function handleSearch() {
   }
 
   // 当存在数据时，开启防抖发送，数据为空时，直接发送
-  if (search.value) {
-    timeoutId.value = setTimeout(() => {
-      emits('click-search', search.value);
-      timeoutId.value = null; // 清除定时器后重置timeoutId
-    }, 1000);
-  } else {
+  timeoutId.value = setTimeout(() => {
     emits('click-search', search.value);
-  }
+    timeoutId.value = null; // 清除定时器后重置timeoutId
+  }, 1000);
 }
 
 </script>
