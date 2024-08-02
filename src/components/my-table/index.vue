@@ -201,13 +201,12 @@ const dbId = ref<string>('')
 // 操作的数据
 const dbValue = ref<any>({})
 
-// 双击行进行表格编辑
-function dbRowEdit(val: any) {
-  // 如果dbId.value为空才可以进入编辑
-  // if (dbId.value === '') {
-  dbId.value = val[props.keys]
-  emits('click-row', val, dbValue)
-  // }
+// 双击行进行表格编辑，判断是否已经在编辑状态以及prop字段是否存在以及是否可以双击编辑
+function dbRowEdit(row: any, col: any) {
+  if (dbId.value === '' && col.property && column.value.filter((val: any) => val.prop === col.property)[0].cellEdit) {
+    dbId.value = row[props.keys]
+    emits('click-row', row, dbValue)
+  }
 }
 
 // 保存表格编辑
