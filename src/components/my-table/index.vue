@@ -18,20 +18,23 @@
     <template v-for="val in column">
       <el-table-column align="center" :column-key="val['prop']" :prop="val['prop']" :label="val['label']"
                        :min-width="val['minWidth']" :sortable="val['sortable']" show-overflow-tooltip>
-        <template v-if="val['isSearch']" #header>
+        <template #header>
+          <span style="display: none">{{ column }}</span>
           <span>{{ val['label'] }}</span>
-          <el-popover placement="bottom" :width="200" trigger="click">
-            <template #reference>
-              <el-button link plain @click.stop>
-                <el-icon size="20" class="icon-filter">
-                  <Filter/>
-                </el-icon>
-              </el-button>
-            </template>
-            <el-scrollbar max-height="200px">
-              <slot :name="val['prop']"></slot>
-            </el-scrollbar>
-          </el-popover>
+          <template v-if="val['isSearch']">
+            <el-popover placement="bottom" :width="200" trigger="click">
+              <template #reference>
+                <el-button link plain @click.stop>
+                  <el-icon size="20" class="icon-filter">
+                    <Filter/>
+                  </el-icon>
+                </el-button>
+              </template>
+              <el-scrollbar max-height="200px">
+                <slot :name="val['prop']"></slot>
+              </el-scrollbar>
+            </el-popover>
+          </template>
         </template>
 
         <template #default="{row}">

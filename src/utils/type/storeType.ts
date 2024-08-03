@@ -28,6 +28,8 @@ export interface colType {
     isDisabled?: boolean
     // 是否能在弹窗表格表头搜索
     isSearch?: boolean
+    // 用于操作控制列搜索的显示
+    isHideSearch?: string
     // 子级表头
     children?: colType[]
 }

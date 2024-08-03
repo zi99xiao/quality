@@ -17,6 +17,7 @@ export const useExceptionStore = defineStore('exception', () => {
                 sortable: false,
                 isShow: true,
                 isSearch: true,
+                isHideSearch: 'origin',
                 type: 'text',
                 order: 1,
                 children: []
@@ -28,8 +29,9 @@ export const useExceptionStore = defineStore('exception', () => {
                 sortable: false,
                 isShow: true,
                 isSearch: true,
+                isHideSearch: 'information',
                 type: 'text',
-                order: 1,
+                order: 2,
                 children: []
             },
             {
@@ -38,14 +40,21 @@ export const useExceptionStore = defineStore('exception', () => {
                 minWidth: '100',
                 sortable: false,
                 isShow: true,
-                isSearch: true,
+                isSearch: false,
+                isHideSearch: 'reason',
                 type: 'text',
-                order: 1,
+                order: 3,
                 children: []
             },
         ],
         btn: {edit: false, del: false, detail: false},
     })
+
+    // 决定筛选列是否全选
+    const hidesAll = ref<boolean>(true)
+    const isIndeterminate = ref<boolean>(false)
+    // 接收列的显隐数据
+    const hides = ref<string[]>([])
 
     // 获取表格数据
     const tableData = ref<any[]>([])
@@ -81,6 +90,9 @@ export const useExceptionStore = defineStore('exception', () => {
 
     return {
         options,
+        hidesAll,
+        isIndeterminate,
+        hides,
         tableData,
         loading,
         getTableData,

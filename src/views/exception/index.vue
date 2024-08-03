@@ -3,6 +3,24 @@
     <div class="header">
       <el-card shadow="always">
         <el-button class="refer" plain type="success" :icon="Refresh" @click="RefreshData">刷新</el-button>
+        <el-popover placement="bottom" :width="100" trigger="hover">
+          <template #reference>
+            <el-button type="success">搜索条件</el-button>
+          </template>
+          <el-checkbox
+              v-model="store.hidesAll"
+              :indeterminate="store.isIndeterminate"
+              @change="handleCheckAllChange"
+          >
+            <h4 style="color: gray">是否全选</h4>
+          </el-checkbox>
+          <el-scrollbar height="200">
+            <el-checkbox-group v-model="store.hides" v-for="item in columns" :key="item.isHideSearch"
+                               @change="colChange(store.hides, columns,'hidesAll', 'isIndeterminate', 'isSearch', 'isHideSearch', store)">
+              <el-checkbox :label="item.label" :value="item.isHideSearch"/>
+            </el-checkbox-group>
+          </el-scrollbar>
+        </el-popover>
       </el-card>
     </div>
     <!--    表格-->
@@ -29,7 +47,7 @@
 </template>
 
 <script setup lang="ts">
-import {nextTick, onMounted, onUnmounted, reactive} from "vue";
+import {computed, nextTick, onMounted, onUnmounted, reactive} from "vue";
 import {Refresh} from "@element-plus/icons-vue";
 import {UsePageSize} from "../../utils/use-page-size";
 import {useExceptionStore} from "../../store/exception";
@@ -37,6 +55,7 @@ import MyTable from "../../components/my-table/index.vue";
 import Pagination from "../../components/pagination/index.vue";
 import HeaderSearch from "../../components/header-search/index.vue";
 import {handleSearchString} from "../../utils/is-search.ts";
+import {colChange} from "../../utils/show-cols.ts";
 
 
 const store = useExceptionStore()
@@ -62,11 +81,23 @@ function RefreshData() {
   store.getTableData()
 }
 
+// 表格列显隐数据
+const columns = computed(() => store.options.column.filter((col: any) => col.isHideSearch))
+
+const handleCheckAllChange = (val: boolean) => {
+  store.hides = val ? columns.value.map((obj: any) => obj.isHideSearch) : []
+  store.isIndeterminate = false
+  colChange(store.hides, columns.value, 'hidesAll', 'isIndeterminate', 'isSearch', 'isHideSearch', store)
+}
+
 // 生命周期操作
 onMounted(() => {
   store.loading = true
   nextTick(() => {
     store.getTableData()
+    // 计算需要展示的列
+    const col = computed(() => store.options.column.filter((col: any) => col.isSearch && col.isHideSearch))
+    store.hides = col.value.map((col: any) => col.isHideSearch)
   })
 })
 
