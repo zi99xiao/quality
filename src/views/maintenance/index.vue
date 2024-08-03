@@ -4,7 +4,7 @@
       <el-card shadow="always">
         <el-button class="add" plain type="primary" :icon="Plus" @click="OpenAdd">新增</el-button>
         <el-button class="del" plain type="danger" :icon="Delete" @click="OpenDel">批量删除</el-button>
-        <el-button class="refer" plain type="success" :icon="Refresh" @click="RefreshData">刷新</el-button>
+        <el-button class="refer" plain type="success" :icon="Refresh" @click="RefreshData">刷新/重置</el-button>
         <el-popover placement="bottom" :width="300" trigger="click">
           <template #reference>
             <el-button class="upload" plain type="info" :icon="Upload">导入</el-button>
@@ -38,7 +38,7 @@
         <el-button class="export" plain :icon="Download" @click="ExportData">导出</el-button>
         <el-popover placement="bottom" :width="100" trigger="hover">
           <template #reference>
-            <el-button class="search" type="success">搜索条件</el-button>
+            <el-button class="search" type="success">增减搜索条件</el-button>
           </template>
           <el-checkbox
               v-model="store.hidesAll"
@@ -73,6 +73,7 @@
               v-model="searchForm.type"
               filterable
               clearable
+              :teleported="false"
               @change="(e:string)=>handleSearchString(e, 'type', '=', store)"
               placeholder="对应类型"
           >
@@ -117,6 +118,7 @@
           <el-date-picker
               v-model="searchForm.lastTime"
               type="datetimerange"
+              :teleported="false"
               range-separator="~"
               start-placeholder="开始时间"
               end-placeholder="结束时间"
@@ -129,6 +131,7 @@
               v-model="searchForm.effective"
               filterable
               clearable
+              :teleported="false"
               @change="(e:string)=>handleSearchString(e, 'effective', '=', store)"
               placeholder="是否有效"
           >
