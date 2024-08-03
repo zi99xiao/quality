@@ -19,6 +19,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 cellEdit: true,
                 isShow: true,
                 isSearch: true,
+                isHideSearch: 'origin',
                 type: 'text',
                 children: []
             },
@@ -29,6 +30,8 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 sortable: false,
                 cellEdit: true,
                 isShow: true,
+                isSearch: true,
+                isHideSearch: 'description',
                 type: 'textarea',
                 children: []
             },
@@ -40,6 +43,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 cellEdit: true,
                 isShow: true,
                 isSearch: true,
+                isHideSearch: 'type',
                 type: 'select',
                 data: questionTypeList,
                 children: []
@@ -52,6 +56,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 cellEdit: true,
                 isShow: true,
                 isSearch: true,
+                isHideSearch: 'decompose',
                 type: 'select',
                 data: isYesNoList,
                 children: []
@@ -71,11 +76,13 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 minWidth: '150',
                 sortable: true,
                 isShow: true,
+                isSearch: false,
+                isHideSearch: 'createTime',
                 type: 'text',
                 children: []
             },
             {
-                label: '最后修改人',
+                label: '修改人',
                 prop: 'lastUser',
                 minWidth: '100',
                 sortable: false,
@@ -84,11 +91,13 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 children: []
             },
             {
-                label: '最后修改时间',
+                label: '修改时间',
                 prop: 'lastTime',
                 minWidth: '150',
                 sortable: true,
                 isShow: true,
+                isSearch: false,
+                isHideSearch: 'lastTime',
                 type: 'text',
                 children: []
             },
@@ -98,12 +107,21 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 minWidth: '100',
                 sortable: false,
                 isShow: true,
-                type: 'text',
+                isSearch: false,
+                isHideSearch: 'effective',
+                type: 'select',
+                data: isYesNoList,
                 children: []
             },
         ],
         btn: {edit: false, del: true, detail: false},
     })
+
+    // 决定表格列搜索是否全选
+    const hidesAll = ref<boolean>(true)
+    const isIndeterminate = ref<boolean>(false)
+    // 接收表格列搜索的显隐数据
+    const hides = ref<string[]>([])
 
     // 获取表格数据
     const tableData = ref<any[]>([
@@ -117,7 +135,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             createTime: '2024-06-07',
             lastUser: '修改人1',
             lastTime: '2024-06-07',
-            effective: '是'
+            effective: '1'
         },
         {
             id: '2',
@@ -129,7 +147,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             createTime: '2024-06-07',
             lastUser: '修改人2',
             lastTime: '2024-06-07',
-            effective: '否'
+            effective: '1'
         },
         {
             id: '3',
@@ -141,7 +159,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             createTime: '2024-06-08',
             lastUser: '修改人1',
             lastTime: '2024-06-08',
-            effective: '否'
+            effective: '0'
         },
     ])
     const loading = ref<boolean>(true)
@@ -176,6 +194,9 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
 
     return {
         options,
+        hidesAll,
+        isIndeterminate,
+        hides,
         tableData,
         loading,
         getTableData,

@@ -22,7 +22,7 @@
           <span style="display: none">{{ column }}</span>
           <span>{{ val['label'] }}</span>
           <template v-if="val['isSearch']">
-            <el-popover placement="bottom" :width="200" trigger="click">
+            <el-popover placement="bottom" popper-style="width: auto;" trigger="click">
               <template #reference>
                 <el-button link plain @click.stop>
                   <el-icon size="20" class="icon-filter">
@@ -30,9 +30,7 @@
                   </el-icon>
                 </el-button>
               </template>
-              <el-scrollbar max-height="200px">
-                <slot :name="val['prop']"></slot>
-              </el-scrollbar>
+              <slot :name="val['prop']"></slot>
             </el-popover>
           </template>
         </template>

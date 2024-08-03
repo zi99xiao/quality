@@ -36,6 +36,24 @@
           </el-upload>
         </el-popover>
         <el-button class="export" plain :icon="Download" @click="ExportData">导出</el-button>
+        <el-popover placement="bottom" :width="100" trigger="hover">
+          <template #reference>
+            <el-button class="search" type="success">搜索条件</el-button>
+          </template>
+          <el-checkbox
+              v-model="store.hidesAll"
+              :indeterminate="store.isIndeterminate"
+              @change="handleCheckAllChange"
+          >
+            <h4 style="color: gray">是否全选</h4>
+          </el-checkbox>
+          <el-scrollbar height="200">
+            <el-checkbox-group v-model="store.hides" v-for="item in columns" :key="item.isHideSearch"
+                               @change="colChange(store.hides, columns,'hidesAll', 'isIndeterminate', 'isSearch', 'isHideSearch', store)">
+              <el-checkbox :label="item.label" :value="item.isHideSearch"/>
+            </el-checkbox-group>
+          </el-scrollbar>
+        </el-popover>
       </el-card>
     </div>
     <!--    表格-->
@@ -45,6 +63,10 @@
         <template #origin>
           <header-search @click-search="(e:string)=>handleSearchString(e, 'origin', 'like', store)"
                          v-model:search.trim="searchForm.origin" placeholder="分类来源"/>
+        </template>
+        <template #description>
+          <header-search @click-search="(e:string)=>handleSearchString(e, 'description', 'like', store)"
+                         v-model:search.trim="searchForm.description" placeholder="分类描述"/>
         </template>
         <template #type>
           <el-select
@@ -67,8 +89,48 @@
               v-model="searchForm.decompose"
               filterable
               clearable
+              :teleported="false"
               @change="(e:string)=>handleSearchString(e, 'decompose', '=', store)"
               placeholder="是否分解"
+          >
+            <el-option
+                v-for="item in isYesNoList"
+                :key="item.value"
+                :label="item.label"
+                :value="item.value"
+            />
+          </el-select>
+        </template>
+        <template #createTime>
+          <el-date-picker
+              v-model="searchForm.createTime"
+              type="datetimerange"
+              :teleported="false"
+              range-separator="~"
+              start-placeholder="开始时间"
+              end-placeholder="结束时间"
+              value-format="YYYY-MM-DD HH:mm:ss"
+              @change="(e:string[])=>handleSearchDate(e, 'createTime', '=', store)"
+          />
+        </template>
+        <template #lastTime>
+          <el-date-picker
+              v-model="searchForm.lastTime"
+              type="datetimerange"
+              range-separator="~"
+              start-placeholder="开始时间"
+              end-placeholder="结束时间"
+              value-format="YYYY-MM-DD HH:mm:ss"
+              @change="(e:string[])=>handleSearchDate(e, 'lastTime', '=', store)"
+          />
+        </template>
+        <template #effective>
+          <el-select
+              v-model="searchForm.effective"
+              filterable
+              clearable
+              @change="(e:string)=>handleSearchString(e, 'effective', '=', store)"
+              placeholder="是否有效"
           >
             <el-option
                 v-for="item in isYesNoList"
@@ -89,7 +151,7 @@
 </template>
 
 <script setup lang="ts">
-import {nextTick, onMounted, onUnmounted, reactive, ref} from "vue";
+import {computed, nextTick, onMounted, onUnmounted, reactive, ref} from "vue";
 import {Plus, Delete, Refresh, Upload, Download, UploadFilled} from "@element-plus/icons-vue";
 import {UsePageSize} from "../../utils/use-page-size";
 import {SelectTableId} from "../../utils/row-sel";
@@ -106,20 +168,31 @@ import {IsAdd} from "../../utils/is-add";
 import {isYesNoList, questionTypeList} from "../../utils/select-list";
 import {genFileId, UploadInstance, UploadProps, UploadRawFile} from "element-plus";
 import {Message} from "../../utils/message.ts";
-import {handleSearchString} from "../../utils/is-search.ts";
+import {handleSearchDate, handleSearchString} from "../../utils/is-search.ts";
+import {colChange} from "../../utils/show-cols.ts";
 
 
 const store = useMaintenanceStore()
 
 // 搜索表单
-const searchForm = reactive<{
+interface searchType {
   origin: string
+  description: string
   type: string
   decompose: string
-}>({
+  createTime: string[]
+  lastTime: string[]
+  effective: string
+}
+
+const searchForm = reactive<searchType>({
   origin: '',
+  description: '',
   type: '',
-  decompose: ''
+  decompose: '',
+  createTime: [],
+  lastTime: [],
+  effective: '',
 })
 
 const {
@@ -144,8 +217,12 @@ const {rowGetDetail, rowSave} = ClickRowSave(store, getMaintenanceDetail, editMa
 function RefreshData() {
   store.loading = true
   searchForm.origin = ''
+  searchForm.description = ''
   searchForm.type = ''
   searchForm.decompose = ''
+  searchForm.createTime = []
+  searchForm.lastTime = []
+  searchForm.effective = ''
   store.params.filters = []
   store.getTableData()
 }
@@ -177,11 +254,23 @@ function ExportData() {
 
 }
 
+// 表格列搜索显隐数据
+const columns = computed(() => store.options.column.filter((col: any) => col.isHideSearch))
+
+const handleCheckAllChange = (val: boolean) => {
+  store.hides = val ? columns.value.map((obj: any) => obj.isHideSearch) : []
+  store.isIndeterminate = false
+  colChange(store.hides, columns.value, 'hidesAll', 'isIndeterminate', 'isSearch', 'isHideSearch', store)
+}
+
 // 生命周期操作
 onMounted(() => {
   store.loading = true
   nextTick(() => {
     store.getTableData()
+    // 计算需要展示搜索的列
+    const col = computed(() => store.options.column.filter((col: any) => col.isSearch && col.isHideSearch))
+    store.hides = col.value.map((col: any) => col.isHideSearch)
   })
 })
 
@@ -196,5 +285,5 @@ const {
 </script>
 
 <style scoped>
-@import "../../utils/index.css";
+@import "../index.css";
 </style>

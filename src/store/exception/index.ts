@@ -50,10 +50,10 @@ export const useExceptionStore = defineStore('exception', () => {
         btn: {edit: false, del: false, detail: false},
     })
 
-    // 决定筛选列是否全选
+    // 决定表格列搜索是否全选
     const hidesAll = ref<boolean>(true)
     const isIndeterminate = ref<boolean>(false)
-    // 接收列的显隐数据
+    // 接收表格列搜索的显隐数据
     const hides = ref<string[]>([])
 
     // 获取表格数据

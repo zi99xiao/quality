@@ -53,6 +53,10 @@
     animation: headerButton 1.2s 0.7s linear forwards;
 }
 
+.search {
+    animation: headerButton 1.2s 0.9s linear forwards;
+}
+
 @keyframes headerButton {
     0% {
         transform: translate(23%, -100%) rotate(0deg);

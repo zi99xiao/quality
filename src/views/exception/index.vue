@@ -5,7 +5,7 @@
         <el-button class="refer" plain type="success" :icon="Refresh" @click="RefreshData">刷新</el-button>
         <el-popover placement="bottom" :width="100" trigger="hover">
           <template #reference>
-            <el-button type="success">搜索条件</el-button>
+            <el-button class="search" type="success">搜索条件</el-button>
           </template>
           <el-checkbox
               v-model="store.hidesAll"
@@ -81,7 +81,7 @@ function RefreshData() {
   store.getTableData()
 }
 
-// 表格列显隐数据
+// 表格列搜索显隐数据
 const columns = computed(() => store.options.column.filter((col: any) => col.isHideSearch))
 
 const handleCheckAllChange = (val: boolean) => {
@@ -95,7 +95,7 @@ onMounted(() => {
   store.loading = true
   nextTick(() => {
     store.getTableData()
-    // 计算需要展示的列
+    // 计算需要展示搜索的列
     const col = computed(() => store.options.column.filter((col: any) => col.isSearch && col.isHideSearch))
     store.hides = col.value.map((col: any) => col.isHideSearch)
   })
@@ -112,5 +112,5 @@ const {
 </script>
 
 <style scoped>
-@import "../../utils/index.css";
+@import "../index.css";
 </style>
