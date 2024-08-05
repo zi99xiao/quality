@@ -6,8 +6,7 @@
         <span class="title" @click="isCollapse=!isCollapse">质量分析平台</span>
         <div style="display: flex;align-items: center;">
           <div class="dropdown">
-            <el-button title="点击全屏" link style="padding: 0 5px" :icon="FullScreen"
-                       @click="()=>handleFullscreenElement(viewRef)"/>
+            <el-button title="全屏" link style="padding: 0 5px" :icon="FullScreen" @click="handleFullScreen"/>
             <span style="padding: 0 5px">{{ userdata.orgName }}</span>
             <el-dropdown style="padding: 0 5px" trigger="click" max-height="300">
               <el-button class="el-dropdown-link" link>
@@ -112,7 +111,7 @@ import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
 import {Message} from "../../utils/message";
 import {showMenus} from "../../utils/menus";
-import {handleFullscreenElement} from "../../utils/full-screen.ts";
+import {useFullScreenEffect} from "../../utils/full-screen.ts";
 
 
 const isCollapse = ref(false)
@@ -122,6 +121,9 @@ const router = useRouter()
 const loading = ref<boolean>(false)
 
 const viewRef = ref<any>()
+
+// 全屏
+const {isFullScreenTag, handleFullScreen, handleFullscreenElement} = useFullScreenEffect()
 
 // 展示的用户信息
 const userdata = reactive<{
