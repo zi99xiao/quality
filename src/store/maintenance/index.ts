@@ -78,7 +78,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 isShow: true,
                 isSearch: false,
                 isHideSearch: 'createTime',
-                type: 'text',
+                type: 'date',
                 children: []
             },
             {
@@ -98,7 +98,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
                 isShow: true,
                 isSearch: false,
                 isHideSearch: 'lastTime',
-                type: 'text',
+                type: 'date',
                 children: []
             },
             {

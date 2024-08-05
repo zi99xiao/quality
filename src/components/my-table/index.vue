@@ -78,6 +78,15 @@
               <span v-if="row[val['prop']]===select.value">{{ select.label }}</span>
             </template>
           </template>
+
+          <template v-if="val['type']==='date'">
+            <div style="display:flex;justify-content: center;align-items: center;">
+              <el-icon>
+                <Clock/>
+              </el-icon>
+              <div>{{ row[val['prop']] }}</div>
+            </div>
+          </template>
         </template>
       </el-table-column>
     </template>
@@ -125,7 +134,7 @@
 </template>
 
 <script setup lang="ts">
-import {DeleteFilled, EditPen, View, QuestionFilled, DocumentAdd, Filter} from "@element-plus/icons-vue";
+import {DeleteFilled, EditPen, View, QuestionFilled, DocumentAdd, Filter, Clock} from "@element-plus/icons-vue";
 import {computed, ref} from "vue";
 import {ElTable} from "element-plus";
 import {Message} from "../../utils/message";

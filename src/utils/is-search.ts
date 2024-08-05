@@ -19,7 +19,7 @@ export const handleSearchString = (search: string, column: string, operator: str
 }
 
 // 日期数组类型数据搜索
-export const handleSearchDate = (search: string[], column: string, operator: string, store: any) => {
+export const handleSearchDate = (search: string[] | null, column: string, operator: string, store: any) => {
     store.loading = true
     if (search && search.length > 0) {
         store.params.filters = store.params.filters!.filter((item: any) => {

@@ -1,5 +1,6 @@
 <template>
   <div class="login">
+    <starry-sky :stars-count="1000" :distance="1000"/>
     <div class="login-form">
       <div style="display: flex;justify-content: center;align-items: center;">
         <h1 class="title">质量分析平台</h1>
@@ -47,6 +48,7 @@ import {login} from "../../api/login";
 import {Message} from "../../utils/message";
 import {setCookie} from "../../utils/cookie";
 import {nextFocus} from "../../utils/next-focus.ts";
+import {StarrySky} from "vue3-starry-sky";
 
 
 const router = useRouter();
@@ -119,7 +121,7 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 .login {
   height: 100vh;
   position: relative;
-  background: url("../../assets/background.jpg") no-repeat center 0 / cover;
+  /*background: url("../../assets/background.jpg") no-repeat center 0 / cover;*/
 }
 
 .login-form {

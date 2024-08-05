@@ -7,7 +7,7 @@ import 'element-plus/theme-chalk/dark/css-vars.css';
 import * as ElementPlusIconsVue from '@element-plus/icons-vue';
 import {createPinia} from "pinia";
 import router from './router/router.ts';
-
+import 'vue3-starry-sky/lib/style.css';
 
 const pinia = createPinia()
 

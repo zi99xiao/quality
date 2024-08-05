@@ -71,6 +71,7 @@
         <template #type>
           <el-select
               v-model="searchForm.type"
+              :value-on-clear="''"
               filterable
               clearable
               :teleported="false"
@@ -88,6 +89,7 @@
         <template #decompose>
           <el-select
               v-model="searchForm.decompose"
+              :value-on-clear="''"
               filterable
               clearable
               :teleported="false"
@@ -129,6 +131,7 @@
         <template #effective>
           <el-select
               v-model="searchForm.effective"
+              :value-on-clear="''"
               filterable
               clearable
               :teleported="false"
@@ -183,8 +186,8 @@ interface searchType {
   description: string
   type: string
   decompose: string
-  createTime: string[]
-  lastTime: string[]
+  createTime: string[] | null
+  lastTime: string[] | null
   effective: string
 }
 
