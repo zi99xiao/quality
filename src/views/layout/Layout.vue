@@ -6,6 +6,8 @@
         <span class="title" @click="isCollapse=!isCollapse">质量分析平台</span>
         <div style="display: flex;align-items: center;">
           <div class="dropdown">
+            <el-button title="全屏" link style="padding: 0 5px" :icon="FullScreen"
+                       @click="()=>handleFullscreenElement(viewRef)"/>
             <span style="padding: 0 5px">{{ userdata.orgName }}</span>
             <el-dropdown style="padding: 0 5px" trigger="click" max-height="300">
               <el-button class="el-dropdown-link" link>
@@ -72,7 +74,7 @@
         <!--        内容-->
         <el-main class="main-content">
           <!--          layout下属界面路由出口-->
-          <router-view class="main-container"/>
+          <router-view ref="viewRef" class="main-container"/>
         </el-main>
       </el-container>
     </el-container>
@@ -101,7 +103,7 @@
 </template>
 
 <script setup lang="ts">
-import {ArrowDown, Lock, SwitchButton} from "@element-plus/icons-vue";
+import {ArrowDown, FullScreen, Lock, SwitchButton} from "@element-plus/icons-vue";
 import {useRouter} from "vue-router";
 import {onMounted, reactive, ref, watchEffect} from "vue";
 import Menu from "./Menu.vue";
@@ -110,6 +112,7 @@ import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
 import {Message} from "../../utils/message";
 import {showMenus} from "../../utils/menus";
+import {useFullScreenEffect} from "../../utils/full-screen.ts";
 
 
 const isCollapse = ref(false)
@@ -117,6 +120,11 @@ const isCollapse = ref(false)
 const router = useRouter()
 
 const loading = ref<boolean>(false)
+
+const viewRef = ref<any>()
+
+// 全屏
+const {handleFullscreenElement} = useFullScreenEffect()
 
 // 展示的用户信息
 const userdata = reactive<{
