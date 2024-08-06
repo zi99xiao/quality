@@ -312,6 +312,7 @@ function logout() {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 0.75;
 }
 
 .title {
@@ -341,6 +342,7 @@ function logout() {
   background: #222628;
   border-right: 1px solid #0c4fac;
   transition: width 0.9s;
+  opacity: 0.75;
 }
 
 .main-content {
