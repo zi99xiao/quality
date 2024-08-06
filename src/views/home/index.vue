@@ -1,6 +1,10 @@
 <template>
   <div class="container">
-    {{ nowText }}，欢迎使用质量分析平台
+    <div class="text">
+      <template v-for="t in nowText+'，欢迎使用本平台'">
+        <span>{{ t }}</span>
+      </template>
+    </div>
   </div>
 </template>
 
@@ -49,7 +53,13 @@ onMounted(() => {
   align-items: center;
   justify-content: center;
   text-shadow: 0 0 30px skyblue, 0 0 20px white;
-  background: #2d3a4b url("../../assets/background.jpg");
-  background-size: 100%;
+  /*background: #2d3a4b url("../../assets/background.jpg");
+  background-size: 100%;*/
+}
+
+.text {
+  background: linear-gradient(to right, #7eff02, #4ec5f8, #24f3d4);
+  background-clip: text;
+  color: transparent;
 }
 </style>

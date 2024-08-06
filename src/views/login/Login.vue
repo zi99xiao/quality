@@ -1,6 +1,5 @@
 <template>
   <div class="login">
-    <starry-sky :stars-count="1000" :distance="1000"/>
     <div class="login-form">
       <div style="display: flex;justify-content: center;align-items: center;">
         <h1 class="title">质量分析平台</h1>
@@ -17,13 +16,13 @@
           status-icon
       >
         <el-form-item prop="account">
-          <dv-border-box8>
+          <dv-border-box8 :dur="5">
             <el-input class="input" v-model.trim="ruleForm.account" clearable @keyup.enter="nextFocus(pwd)"
                       :prefix-icon="User" placeholder="用户名"/>
           </dv-border-box8>
         </el-form-item>
         <el-form-item prop="password">
-          <dv-border-box8>
+          <dv-border-box8 :dur="5">
             <el-input class="input" v-model.trim="ruleForm.password" clearable @keyup.enter="submitForm(ruleFormRef)"
                       ref="pwd" type="password" show-password :prefix-icon="Lock" placeholder="密码"/>
           </dv-border-box8>
@@ -43,12 +42,11 @@ import {reactive, ref} from "vue";
 import {useRouter} from "vue-router";
 import {FormInstance, FormRules} from "element-plus";
 import {User, Lock, Tools} from "@element-plus/icons-vue";
-import {BorderBox8 as DvBorderBox8} from "@kjgl77/datav-vue3";
 import {login} from "../../api/login";
 import {Message} from "../../utils/message";
 import {setCookie} from "../../utils/cookie";
 import {nextFocus} from "../../utils/next-focus.ts";
-import {StarrySky} from "vue3-starry-sky";
+import {BorderBox8 as DvBorderBox8} from '@kjgl77/datav-vue3'
 
 
 const router = useRouter();
@@ -201,7 +199,9 @@ const submitForm = async (formEl: FormInstance | undefined) => {
 .title {
   text-align: center;
   margin-right: 10px;
-  text-shadow: 0 0 10px skyblue, 0 0 20px white;
+  background: linear-gradient(to right, #dd48e8, #4ec5f8, #5af1d8);
+  background-clip: text;
+  color: transparent;
   animation: moveTitle 1.4s linear forwards;
 }
 
@@ -218,12 +218,18 @@ const submitForm = async (formEl: FormInstance | undefined) => {
   height: 50px;
   border-radius: 5px;
   --el-input-border-color: none;
+  background: rgba(27, 41, 71, 0.3);
+  backdrop-filter: blur(20px);
 }
 
 .submit {
   width: 100%;
   height: 44px;
-  box-shadow: 0 0 5px #0c4fac, 2px 2px 5px white;
-  text-shadow: 0 0 1px skyblue, 1px 1px 3px white;
+  opacity: 0.5;
+}
+
+.submit:hover {
+  opacity: 1;
+  box-shadow: 2px 2px 10px skyblue, 3px 3px 15px white;
 }
 </style>

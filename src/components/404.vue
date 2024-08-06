@@ -22,16 +22,11 @@
 
 span {
   display: inline-block;
-  animation: shake 2s ease-in-out infinite;
+  animation: shake 1s linear infinite alternate;
 }
 
-/* Keyframes for the shaking effect */
 @keyframes shake {
   0% { transform: translateY(0); }
-  20% { transform: translateY(-5px); }
-  40% { transform: translateY(5px); }
-  60% { transform: translateY(-5px); }
-  80% { transform: translateY(5px); }
-  100% { transform: translateY(0); }
+  100% { transform: translateY(25px); }
 }
 </style>

@@ -123,7 +123,7 @@ const loading = ref<boolean>(false)
 const viewRef = ref<any>()
 
 // 全屏
-const {isFullScreenTag, handleFullScreen, handleFullscreenElement} = useFullScreenEffect()
+const {handleFullScreen} = useFullScreenEffect()
 
 // 展示的用户信息
 const userdata = reactive<{
@@ -360,7 +360,7 @@ function logout() {
     filter: drop-shadow(16px 16px 20px #b6ead4) invert(75%);
   }
   to {
-    opacity: 1;
+    opacity: 0.75;
     transform: scale(1);
   }
 }
