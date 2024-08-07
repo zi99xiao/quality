@@ -58,10 +58,10 @@ export const handleSearchBool = (search: boolean, column: string, operator: stri
     store.getTableData()
 }
 
-// 1/0数字类型数据搜索
-export const handleSearchOneZero = (search: number, column: string, operator: string, store: any) => {
+// 数字类型数据搜索
+export const handleSearchNumber = (search: number, column: string, operator: string, store: any) => {
     store.loading = true
-    if (search === 1 || search === 0) {
+    if (search || search === 0) {
         store.params.filters = store.params.filters!.filter((item: any) => {
             return item.column !== column;
         });
