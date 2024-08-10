@@ -31,14 +31,11 @@ const emits = defineEmits(['click-search'])
 const timeoutId = ref<any>(null);
 
 function handleSearch() {
-  if (timeoutId.value !== null) {
-    clearTimeout(timeoutId.value);
-  }
+  clearTimeout(timeoutId.value);
 
   // 当存在数据时，开启防抖发送，数据为空时，直接发送
   timeoutId.value = setTimeout(() => {
     emits('click-search', search.value);
-    clearTimeout(timeoutId.value);
     timeoutId.value = null; // 清除定时器后重置timeoutId
   }, 1000);
 }
