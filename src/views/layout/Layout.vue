@@ -38,7 +38,7 @@
               </template>
             </el-dropdown>
           </div>
-          <el-avatar class="avatar" src="src/assets/R-C.png" :size="40" fit="cover"
+          <el-avatar class="avatar" :src="RC" :size="40" fit="cover"
                      @mouseenter="Message('翻滚吧，牛马', 'success')"/>
         </div>
       </el-header>
@@ -109,9 +109,10 @@ import Menu from "./Menu.vue";
 import {delCookie, getCookie, setCookie} from "../../utils/cookie";
 import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
-import {Message} from "../../utils/message";
-import {showMenus} from "../../utils/menus";
 import {useFullScreenEffect} from "../../utils/full-screen.ts";
+import {Message} from "../../utils/message";
+import RC from "../../assets/R-C.png"
+import {showMenus} from "../../utils/menus.ts";
 
 
 const isCollapse = ref(false)
