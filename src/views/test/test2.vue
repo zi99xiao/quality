@@ -11,7 +11,9 @@
               </div>
             </template>
             <p v-for="val in item['answer']">
-              <span :style="{color: val['is_right']?'red': ''}">{{ val['content'] }}</span>
+              <span :style="{color: val['is_right']?'green': ''}">
+                {{ val['is_right'] ? '√：':'×：' }}{{ val['content'] }}
+              </span>
             </p>
           </el-card>
         </div>
@@ -25,11 +27,12 @@ import jsonFile from "./files/综合能力-企业文化.json";
 import {computed, onMounted, ref} from "vue";
 import {Message} from "../../utils/message.ts";
 
-const value = ref('')
+const value = ref<string>('')
 
-const data = ref([])
+const data = ref<any[]>([])
 
 function searchValue(obj: string) {
+  data.value = jsonFile['exercise_data']
   if (obj) {
     const result = computed(() => data.value.filter((val: any) => val['content'].includes(obj)))
     data.value = result.value
@@ -39,7 +42,7 @@ function searchValue(obj: string) {
 }
 
 onMounted(() => {
-  Message('红色的正确', 'success')
+  Message('绿色选项的是正确答案', 'success')
   data.value = jsonFile['exercise_data']
 })
 </script>

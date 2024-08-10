@@ -102,6 +102,16 @@ export const routes = [
                         },
                         component: () => import('../views/test/test3.vue'),
                     },
+                    {
+                        path: '/test4',
+                        name: 'test4',
+                        meta: {
+                            title: '2024-08制度',
+                            icon: 'Warning',
+                            requireAuth: true
+                        },
+                        component: () => import('../views/test/test4.vue'),
+                    },
                 ]
             },
         ],
