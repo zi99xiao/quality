@@ -7,7 +7,7 @@
 
 <script setup lang="ts">
 import {Search} from "@element-plus/icons-vue";
-import {ref, defineModel} from "vue";
+import {ref} from "vue";
 
 
 defineProps({
