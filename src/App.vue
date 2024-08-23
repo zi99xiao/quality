@@ -11,6 +11,6 @@ import {StarrySky} from "vue3-starry-sky";
 
 <style scoped>
 .starry-sky-bg {
-  background: radial-gradient(220% 105% at top center, #1b2947 10%, #75517d 40%, #2b2a44 65%, #000000)!important;
+  background: radial-gradient(220% 105% at top center, #403a40 10%, #452d4a 40%, #2b2a44 65%, #000000)!important;
 }
 </style>

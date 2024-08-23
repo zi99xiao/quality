@@ -51,7 +51,7 @@ export const useMaintenanceStore = defineStore('maintenance', () => {
             {
                 label: '是否分解',
                 prop: 'decompose',
-                minWidth: '100',
+                minWidth: '120',
                 sortable: false,
                 cellEdit: true,
                 isShow: true,

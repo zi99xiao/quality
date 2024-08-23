@@ -2,7 +2,7 @@
   <div class="login">
     <div class="login-form">
       <div style="display: flex;justify-content: center;align-items: center;">
-        <h1 class="title">质量分析平台</h1>
+        <h1 class="title">品监运算中心</h1>
         <el-icon :size="30" color="#30ffd5" class="h-icon">
           <Tools/>
         </el-icon>

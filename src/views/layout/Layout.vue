@@ -1,75 +1,75 @@
 <template>
   <div class="common-layout">
     <el-container>
-      <!--      顶部-->
-      <el-header class="header">
-        <span class="title" @click="isCollapse=!isCollapse">质量分析平台</span>
-        <div style="display: flex;align-items: center;">
-          <div class="dropdown">
-            <el-button title="全屏" link style="padding: 0 5px" :icon="FullScreen" @click="handleFullScreen"/>
-            <span style="padding: 0 5px">{{ userdata.orgName }}</span>
-            <el-dropdown style="padding: 0 5px" trigger="click" max-height="300">
-              <el-button class="el-dropdown-link" link>
-                <span style="color: white">{{ userdata.roleName }}</span>
-                <el-icon>
-                  <ArrowDown/>
-                </el-icon>
-              </el-button>
-              <template #dropdown>
-                <el-dropdown-menu>
-                  <template v-for="role in roles" :key="role.roleId">
-                    <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
-                  </template>
-                </el-dropdown-menu>
-              </template>
-            </el-dropdown>
-            <el-dropdown style="padding: 0 5px" trigger="click">
-              <el-button class="el-dropdown-link" link>
-                <span style="color: white">{{ userdata.name }}</span>
-                <el-icon>
-                  <ArrowDown/>
-                </el-icon>
-              </el-button>
-              <template #dropdown>
-                <el-dropdown-menu>
-                  <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
-                  <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
-                </el-dropdown-menu>
-              </template>
-            </el-dropdown>
-          </div>
-          <el-avatar class="avatar" :src="RC" :size="40" fit="cover"
-                     @mouseenter="Message('翻滚吧，牛马', 'success')"/>
-        </div>
-      </el-header>
+      <!--        侧边导航-->
+      <el-aside :width="isCollapse?'65px':'220px'" class="aside">
+        <el-scrollbar height="100%">
+          <el-menu
+              router
+              :collapse="isCollapse"
+              text-color="#fff"
+              background-color="#222628"
+              active-text-color="#0c6fff"
+              class="el-menu-vertical-demo"
+              :default-active="currentPath"
+              style="border: 0;height: 100%;"
+          >
+            <!--              首页-->
+            <el-menu-item index="/home">
+              <el-icon>
+                <component is='HomeFilled'/>
+              </el-icon>
+              <template #title>首页</template>
+            </el-menu-item>
+            <!--              递归菜单组件-->
+            <!--              <Menu :menus="routes[2].children"/>-->
+            <Menu :menus="showMenus(menus)"/>
+          </el-menu>
+        </el-scrollbar>
+      </el-aside>
       <!--      导航和内容区-->
       <el-container>
-        <!--        侧边导航-->
-        <el-aside :width="isCollapse?'65px':'220px'" class="aside">
-          <el-scrollbar height="100%">
-            <el-menu
-                router
-                :collapse="isCollapse"
-                text-color="#fff"
-                background-color="#222628"
-                active-text-color="#0c6fff"
-                class="el-menu-vertical-demo"
-                :default-active="currentPath"
-                style="border: 0;height: 100%;"
-            >
-              <!--              首页-->
-              <el-menu-item index="/home">
-                <el-icon>
-                  <component is='HomeFilled'/>
-                </el-icon>
-                <template #title>首页</template>
-              </el-menu-item>
-              <!--              递归菜单组件-->
-              <!--              <Menu :menus="routes[2].children"/>-->
-              <Menu :menus="showMenus(menus)"/>
-            </el-menu>
-          </el-scrollbar>
-        </el-aside>
+        <!--      顶部导航栏-->
+        <el-header class="header">
+          <el-button class="fold" link :icon="isCollapse?Expand:Fold" title="折叠菜单" @click="isCollapse=!isCollapse"/>
+          <div style="display: flex;align-items: center;">
+            <div class="dropdown">
+              <el-button title="全屏" link style="padding: 0 5px" :icon="FullScreen" @click="handleFullScreen"/>
+              <span style="padding: 0 5px">{{ userdata.orgName }}</span>
+              <el-dropdown style="padding: 0 5px" trigger="click" max-height="300">
+                <el-button class="el-dropdown-link" link>
+                  <span style="color: white">{{ userdata.roleName }}</span>
+                  <el-icon>
+                    <ArrowDown/>
+                  </el-icon>
+                </el-button>
+                <template #dropdown>
+                  <el-dropdown-menu>
+                    <template v-for="role in roles" :key="role.roleId">
+                      <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
+                    </template>
+                  </el-dropdown-menu>
+                </template>
+              </el-dropdown>
+              <el-dropdown style="padding: 0 5px" trigger="click">
+                <el-button class="el-dropdown-link" link>
+                  <span style="color: white">{{ userdata.name }}</span>
+                  <el-icon>
+                    <ArrowDown/>
+                  </el-icon>
+                </el-button>
+                <template #dropdown>
+                  <el-dropdown-menu>
+                    <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
+                    <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
+                  </el-dropdown-menu>
+                </template>
+              </el-dropdown>
+            </div>
+            <el-avatar class="avatar" :src="RC" :size="40" fit="cover"
+                       @mouseenter="Message('翻滚吧，牛马', 'success')"/>
+          </div>
+        </el-header>
         <!--        内容-->
         <el-main class="main-content">
           <!--          layout下属界面路由出口-->
@@ -102,7 +102,7 @@
 </template>
 
 <script setup lang="ts">
-import {ArrowDown, FullScreen, Lock, SwitchButton} from "@element-plus/icons-vue";
+import {ArrowDown, Expand, Fold, FullScreen, Lock, SwitchButton} from "@element-plus/icons-vue";
 import {useRouter} from "vue-router";
 import {onMounted, reactive, ref, watchEffect} from "vue";
 import Menu from "./Menu.vue";
@@ -306,6 +306,14 @@ function logout() {
 </script>
 
 <style scoped>
+.aside {
+  height: 100vh;
+  background: #222628;
+  border-right: 1px solid #0c4fac;
+  transition: width 0.9s;
+  opacity: 0.75;
+}
+
 .header {
   height: 64px;
   background: #222628;
@@ -316,13 +324,10 @@ function logout() {
   opacity: 0.75;
 }
 
-.title {
-  line-height: 64px;
+.fold {
   font-size: 20px;
-  font-weight: 560;
-  padding-left: 8px;
   cursor: pointer;
-  color: #b4b6bd;
+  color: white;
 }
 
 .avatar {
@@ -336,14 +341,6 @@ function logout() {
   margin-left: 10px;
   margin-right: 5px;
   transform: scale(1.5) rotate(-360deg);
-}
-
-.aside {
-  height: calc(100vh - 64px);
-  background: #222628;
-  border-right: 1px solid #0c4fac;
-  transition: width 0.9s;
-  opacity: 0.75;
 }
 
 .main-content {
