@@ -344,7 +344,6 @@ function logout() {
 }
 
 .main-content {
-  width: calc(100vw - 220px);
   height: calc(100vh - 64px);
   padding: 0;
 }
