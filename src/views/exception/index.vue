@@ -27,15 +27,15 @@
     <div class="table-content">
       <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :check="false">
         <template #origin>
-          <header-search @click-search="(e:string)=>handleSearchString(e, 'origin', 'like', store)"
+          <header-search @click-search="(e:string)=>handleSearch(e, 'origin', 'like', store)"
                          v-model:search.trim="searchForm.origin" placeholder="异常来源"/>
         </template>
         <template #information>
-          <header-search @click-search="(e:string)=>handleSearchString(e, 'information', 'like', store)"
+          <header-search @click-search="(e:string)=>handleSearch(e, 'information', 'like', store)"
                          v-model:search.trim="searchForm.information" placeholder="异常信息"/>
         </template>
         <template #reason>
-          <header-search @click-search="(e:string)=>handleSearchString(e, 'reason', 'like', store)"
+          <header-search @click-search="(e:string)=>handleSearch(e, 'reason', 'like', store)"
                          v-model:search.trim="searchForm.reason" placeholder="异常原因"/>
         </template>
       </my-table>
@@ -49,13 +49,13 @@
 <script setup lang="ts">
 import {computed, nextTick, onMounted, onUnmounted, reactive} from "vue";
 import {Refresh} from "@element-plus/icons-vue";
-import {UsePageSize} from "../../utils/use-page-size";
-import {useExceptionStore} from "../../store/exception";
 import MyTable from "../../components/my-table/index.vue";
 import Pagination from "../../components/pagination/index.vue";
 import HeaderSearch from "../../components/header-search/index.vue";
-import {handleSearchString} from "../../utils/is-search.ts";
-import {colChange} from "../../utils/show-cols.ts";
+import {useExceptionStore} from "../../store/exception";
+import {UsePageSize} from "../../utils/use-page-size";
+import {handleSearch} from "../../utils/is-search";
+import {colChange} from "../../utils/show-cols";
 
 
 const store = useExceptionStore()

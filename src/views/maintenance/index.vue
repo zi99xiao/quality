@@ -61,11 +61,11 @@
       <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :button="true"
                 @click-sel="rowSel" @click-del="rowDel" @click-row="rowGetDetail" @click-save="rowSave">
         <template #origin>
-          <header-search @click-search="(e:string)=>handleSearchString(e, 'origin', 'like', store)"
+          <header-search @click-search="(e:string)=>handleSearch(e, 'origin', 'like', store)"
                          v-model:search.trim="searchForm.origin" placeholder="分类来源"/>
         </template>
         <template #description>
-          <header-search @click-search="(e:string)=>handleSearchString(e, 'description', 'like', store)"
+          <header-search @click-search="(e:string)=>handleSearch(e, 'description', 'like', store)"
                          v-model:search.trim="searchForm.description" placeholder="分类描述"/>
         </template>
         <template #type>
@@ -75,7 +75,7 @@
               filterable
               clearable
               :teleported="false"
-              @change="(e:string)=>handleSearchString(e, 'type', '=', store)"
+              @change="(e:string)=>handleSearch(e, 'type', '=', store)"
               placeholder="对应类型"
           >
             <el-option
@@ -93,7 +93,7 @@
               filterable
               clearable
               :teleported="false"
-              @change="(e:string)=>handleSearchString(e, 'decompose', '=', store)"
+              @change="(e:string)=>handleSearch(e, 'decompose', '=', store)"
               placeholder="是否分解"
           >
             <el-option
@@ -113,7 +113,7 @@
               start-placeholder="开始时间"
               end-placeholder="结束时间"
               value-format="YYYY-MM-DD HH:mm:ss"
-              @change="(e:string[])=>handleSearchDate(e, 'createTime', '=', store)"
+              @change="(e:string[])=>handleSearch(e, 'createTime', '=', store)"
           />
         </template>
         <template #lastTime>
@@ -125,7 +125,7 @@
               start-placeholder="开始时间"
               end-placeholder="结束时间"
               value-format="YYYY-MM-DD HH:mm:ss"
-              @change="(e:string[])=>handleSearchDate(e, 'lastTime', '=', store)"
+              @change="(e:string[])=>handleSearch(e, 'lastTime', '=', store)"
           />
         </template>
         <template #effective>
@@ -135,7 +135,7 @@
               filterable
               clearable
               :teleported="false"
-              @change="(e:string)=>handleSearchString(e, 'effective', '=', store)"
+              @change="(e:string)=>handleSearch(e, 'effective', '=', store)"
               placeholder="是否有效"
           >
             <el-option
@@ -158,24 +158,24 @@
 
 <script setup lang="ts">
 import {computed, nextTick, onMounted, onUnmounted, reactive, ref} from "vue";
+import {genFileId, UploadInstance, UploadProps, UploadRawFile} from "element-plus";
 import {Plus, Delete, Refresh, Upload, Download, UploadFilled} from "@element-plus/icons-vue";
-import {UsePageSize} from "../../utils/use-page-size";
-import {SelectTableId} from "../../utils/row-sel";
-import {useMaintenanceStore} from "../../store/maintenance";
+import {isYesNoList, questionTypeList} from "../../utils/select-list";
+import Add from "./components/add.vue";
 import MyTable from "../../components/my-table/index.vue";
 import Pagination from "../../components/pagination/index.vue";
 import HeaderSearch from "../../components/header-search/index.vue";
-import Add from "./components/add.vue";
-import {RowDel} from "../../utils/row-del";
 import {addMaintenance, delMaintenance, editMaintenance, getMaintenanceDetail} from "../../api/maintenance";
+import {useMaintenanceStore} from "../../store/maintenance";
+import {ClickRowSave} from "../../utils/click-row-save";
+import {UsePageSize} from "../../utils/use-page-size";
+import {handleSearch} from "../../utils/is-search";
+import {SelectTableId} from "../../utils/row-sel";
+import {colChange} from "../../utils/show-cols";
 import {MoreDel} from "../../utils/more-del";
-import {ClickRowSave} from "../../utils/click-row-save.ts";
+import {Message} from "../../utils/message";
+import {RowDel} from "../../utils/row-del";
 import {IsAdd} from "../../utils/is-add";
-import {isYesNoList, questionTypeList} from "../../utils/select-list";
-import {genFileId, UploadInstance, UploadProps, UploadRawFile} from "element-plus";
-import {Message} from "../../utils/message.ts";
-import {handleSearchDate, handleSearchString} from "../../utils/is-search.ts";
-import {colChange} from "../../utils/show-cols.ts";
 
 
 const store = useMaintenanceStore()
