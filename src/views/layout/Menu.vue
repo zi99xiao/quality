@@ -42,11 +42,5 @@ defineProps({
 </script>
 
 <style scoped>
-/*.is-active:not(.el-sub-menu) {
-  background-color: #111723;
-}*/
 
-.is-active .el-sub-menu__title span {
-  color: #0c4fac;
-}
 </style>

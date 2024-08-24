@@ -91,7 +91,7 @@
       </el-table-column>
     </template>
 
-    <el-table-column v-if="button" align="center" fixed="right" label="操作" width="150px">
+    <el-table-column v-if="button" align="center" fixed="right" label="操作" width="150">
       <template #default="{row}">
         <el-button v-if="btn.detail" title="详情" plain type="success" size="small" :icon="View"
                    @click.stop="rowDetail(row)"/>

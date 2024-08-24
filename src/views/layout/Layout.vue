@@ -7,9 +7,9 @@
           <el-menu
               router
               :collapse="isCollapse"
-              text-color="#fff"
+              text-color="#ffffff"
               background-color="#222628"
-              active-text-color="#0c6fff"
+              active-text-color="#67c9fa"
               class="el-menu-vertical-demo"
               :default-active="currentPath"
               style="border: 0;height: 100%;"
@@ -32,40 +32,40 @@
         <!--      顶部导航栏-->
         <el-header class="header">
           <el-button class="fold" link :icon="isCollapse?Expand:Fold" title="折叠菜单" @click="isCollapse=!isCollapse"/>
-          <div style="display: flex;align-items: center;">
-            <div class="dropdown">
-              <el-button title="全屏" link style="padding: 0 5px" :icon="FullScreen" @click="handleFullScreen"/>
-              <span style="padding: 0 5px">{{ userdata.orgName }}</span>
-              <el-dropdown style="padding: 0 5px" trigger="click" max-height="300">
-                <el-button class="el-dropdown-link" link>
-                  <span style="color: white">{{ userdata.roleName }}</span>
-                  <el-icon>
-                    <ArrowDown/>
-                  </el-icon>
-                </el-button>
-                <template #dropdown>
-                  <el-dropdown-menu>
-                    <template v-for="role in roles" :key="role.roleId">
-                      <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
-                    </template>
-                  </el-dropdown-menu>
-                </template>
-              </el-dropdown>
-              <el-dropdown style="padding: 0 5px" trigger="click">
-                <el-button class="el-dropdown-link" link>
-                  <span style="color: white">{{ userdata.name }}</span>
-                  <el-icon>
-                    <ArrowDown/>
-                  </el-icon>
-                </el-button>
-                <template #dropdown>
-                  <el-dropdown-menu>
-                    <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
-                    <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
-                  </el-dropdown-menu>
-                </template>
-              </el-dropdown>
-            </div>
+          <div class="dropdown">
+            <el-button title="全屏" link color="#000" :icon="FullScreen" @click="handleFullScreen"/>
+            <el-button class="dropdown-child" link color="#000">
+              <span>{{ userdata.orgName }}</span>
+            </el-button>
+            <el-dropdown class="dropdown-child" trigger="click" max-height="300">
+              <el-button class="el-dropdown-link" link color="#000">
+                <span>{{ userdata.roleName }}</span>
+                <el-icon>
+                  <ArrowDown/>
+                </el-icon>
+              </el-button>
+              <template #dropdown>
+                <el-dropdown-menu>
+                  <template v-for="role in roles" :key="role.roleId">
+                    <el-dropdown-item @click="selectRole(role)">{{ role.roleName }}</el-dropdown-item>
+                  </template>
+                </el-dropdown-menu>
+              </template>
+            </el-dropdown>
+            <el-dropdown class="dropdown-child" trigger="click">
+              <el-button class="el-dropdown-link" link color="#000">
+                <span>{{ userdata.name }}</span>
+                <el-icon>
+                  <ArrowDown/>
+                </el-icon>
+              </el-button>
+              <template #dropdown>
+                <el-dropdown-menu>
+                  <el-dropdown-item :icon="Lock" @click="openEditPwd">修改密码</el-dropdown-item>
+                  <el-dropdown-item :icon="SwitchButton" @click="logout">退出登录</el-dropdown-item>
+                </el-dropdown-menu>
+              </template>
+            </el-dropdown>
             <el-avatar class="avatar" :src="RC" :size="40" fit="cover"
                        @mouseenter="Message('翻滚吧，牛马', 'success')"/>
           </div>
@@ -309,18 +309,18 @@ function logout() {
 .aside {
   height: 100vh;
   background: #222628;
-  border-right: 1px solid #0c4fac;
+  border-right: 1px solid #6487ff;
   transition: width 0.9s;
-  opacity: 0.75;
+  opacity: 0.6;
 }
 
 .header {
   height: 64px;
+  width: 100%;
   background: #222628;
   border-bottom: 1px solid #dcdfe6;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   opacity: 0.75;
 }
 
@@ -328,6 +328,15 @@ function logout() {
   font-size: 20px;
   cursor: pointer;
   color: white;
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-child {
+  padding: 0 5px;
 }
 
 .avatar {
