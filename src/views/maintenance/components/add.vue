@@ -42,7 +42,7 @@
     </el-scrollbar>
     <template #footer>
       <span class="dialog-footer">
-        <el-button @click="submitForm(ruleFormRef)" type="primary" :loading="loading" style="width: 100%;">
+        <el-button @click="submitForm(ruleFormRef)" type="primary" :loading="loading" class="submit">
           提交
         </el-button>
       </span>
@@ -114,5 +114,7 @@ defineExpose({
 </script>
 
 <style scoped>
-
+.submit {
+  width: 100%;
+}
 </style>

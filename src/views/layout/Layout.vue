@@ -12,7 +12,6 @@
               active-text-color="#67c9fa"
               class="el-menu-vertical-demo"
               :default-active="currentPath"
-              style="border: 0;height: 100%;"
           >
             <!--              首页-->
             <el-menu-item index="/home">
@@ -91,11 +90,11 @@
         </el-form-item>
       </el-form>
       <template #footer>
-      <span class="dialog-footer">
-        <el-button @click="submitForm(ruleFormRef)" type="primary" :loading="loading" style="width: 100%;">
-          提交
-        </el-button>
-      </span>
+        <span class="dialog-footer">
+          <el-button @click="submitForm(ruleFormRef)" type="primary" :loading="loading" class="submit">
+            提交
+          </el-button>
+        </span>
       </template>
     </el-dialog>
   </div>
@@ -314,6 +313,11 @@ function logout() {
   opacity: 0.6;
 }
 
+.el-menu-vertical-demo {
+  border: 0;
+  height: 100%;
+}
+
 .header {
   height: 64px;
   width: 100%;
@@ -371,5 +375,9 @@ function logout() {
     opacity: 0.75;
     transform: scale(1);
   }
+}
+
+.submit {
+  width: 100%;
 }
 </style>

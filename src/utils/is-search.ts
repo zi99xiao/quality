@@ -125,7 +125,7 @@ export const handleSearch = (search: unknown, column: string, operator: string, 
         });
     }
     // null类型或者未定义的undefined类型
-    else if (search === null || search === undefined) {
+    else {
         store.params.filters = store.params.filters!.filter((item: any) => {
             return item.column !== column;
         });
