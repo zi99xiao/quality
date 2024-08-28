@@ -81,7 +81,7 @@ export const handleSearchNumber = (search: number, column: string, operator: str
 export const handleSearch = (search: unknown, column: string, operator: string, store: any) => {
     store.loading = true
     // 字符类型
-    if (typeof search === 'string') {
+    if (typeof search === 'string' && search) {
         store.params.filters = store.params.filters!.filter((item: any) => {
             return item.column !== column;
         });

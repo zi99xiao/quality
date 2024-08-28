@@ -114,6 +114,16 @@ export const routes = [
                     },
                 ]
             },
+            {
+                path: '/practice',
+                name: 'practice',
+                meta: {
+                    title: '接口练习',
+                    icon: 'Warning',
+                    requireAuth: true
+                },
+                component: () => import('../views/practice/index.vue'),
+            },
         ],
     },
     // 不存在的页面

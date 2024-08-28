@@ -21,8 +21,8 @@
               <template #title>首页</template>
             </el-menu-item>
             <!--              递归菜单组件-->
-            <!--              <Menu :menus="routes[2].children"/>-->
-            <Menu :menus="showMenus(menus)"/>
+            <Menu :menus="routes[2].children"/>
+            <!--            <Menu :menus="showMenus(menus)"/>-->
           </el-menu>
         </el-scrollbar>
       </el-aside>
@@ -112,6 +112,7 @@ import {useFullScreenEffect} from "../../utils/full-screen.ts";
 import {Message} from "../../utils/message";
 import RC from "../../assets/R-C.png"
 import {showMenus} from "../../utils/menus.ts";
+import {routes} from "../../router/route.ts";
 
 
 const isCollapse = ref(false)
