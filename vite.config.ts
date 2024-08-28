@@ -1,6 +1,10 @@
 import {defineConfig, loadEnv} from 'vite';
 import vue from '@vitejs/plugin-vue';
 import legacy from '@vitejs/plugin-legacy';
+import AutoImport from 'unplugin-auto-import/vite';
+import Components from 'unplugin-vue-components/vite';
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
+
 
 // https://vitejs.dev/config/
 export default defineConfig(({mode}) => {
@@ -12,6 +16,12 @@ export default defineConfig(({mode}) => {
             vue(),
             legacy({
                 targets: ['Android > 39', 'Chrome >= 60', 'Safari >= 10.1', 'iOS >= 10.3', 'Firefox >= 54', 'Edge >= 15'],
+            }),
+            AutoImport({
+                resolvers: [ElementPlusResolver()],
+            }),
+            Components({
+                resolvers: [ElementPlusResolver()],
             }),
         ],
         base: './',
@@ -28,7 +38,10 @@ export default defineConfig(({mode}) => {
             },
         },
         build: {
-            outDir: 'static'
+            outDir: 'static',
+            esbuild: {
+                drop: ['console', 'debugger'],
+            },
         },
     }
 });

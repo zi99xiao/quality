@@ -26,7 +26,7 @@
 <script setup lang="ts">
 import Menu from "./Menu.vue";
 import {PropType} from "vue";
-import {Routes} from "../../utils/type/listType.ts";
+import {Routes} from "../../utils/type/listType";
 
 
 defineOptions({

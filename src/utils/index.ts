@@ -1,6 +1,6 @@
 import axios from 'axios';
 import {Message} from "./message";
-import {getCookie} from "./cookie.ts";
+import {getCookie} from "./cookie";
 
 
 const token: string | undefined = getCookie('Authorization')

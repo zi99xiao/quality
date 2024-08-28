@@ -3,7 +3,7 @@ import {reactive, ref} from "vue";
 import {Message} from "../../utils/message";
 import {getMaintenanceList} from "../../api/maintenance";
 import {optionsType, paramsType} from "../../utils/type/storeType";
-import {isYesNoList, questionTypeList} from "../../utils/select-list.ts";
+import {isYesNoList, questionTypeList} from "../../utils/select-list";
 
 
 // 检测数据查询

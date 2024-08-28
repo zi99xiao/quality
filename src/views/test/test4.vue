@@ -25,7 +25,7 @@
 <script setup lang="ts">
 import jsonFile from "./files/2024-08制度.json";
 import {computed, onMounted, ref} from "vue";
-import {Message} from "../../utils/message.ts";
+import {Message} from "../../utils/message";
 
 const value = ref<string>('')
 

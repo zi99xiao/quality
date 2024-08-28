@@ -21,8 +21,8 @@
               <template #title>首页</template>
             </el-menu-item>
             <!--              递归菜单组件-->
-            <Menu :menus="routes[2].children"/>
-            <!--            <Menu :menus="showMenus(menus)"/>-->
+            <!--            <Menu :menus="routes[2].children"/>-->
+            <Menu :menus="showMenus(menus)"/>
           </el-menu>
         </el-scrollbar>
       </el-aside>
@@ -108,11 +108,10 @@ import Menu from "./Menu.vue";
 import {delCookie, getCookie, setCookie} from "../../utils/cookie";
 import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
-import {useFullScreenEffect} from "../../utils/full-screen.ts";
+import {useFullScreenEffect} from "../../utils/full-screen";
 import {Message} from "../../utils/message";
 import RC from "../../assets/R-C.png"
-import {showMenus} from "../../utils/menus.ts";
-import {routes} from "../../router/route.ts";
+import {showMenus} from "../../utils/menus";
 
 
 const isCollapse = ref(false)

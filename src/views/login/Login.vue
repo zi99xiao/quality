@@ -45,7 +45,7 @@ import {User, Lock, Tools} from "@element-plus/icons-vue";
 import {login} from "../../api/login";
 import {Message} from "../../utils/message";
 import {setCookie} from "../../utils/cookie";
-import {nextFocus} from "../../utils/next-focus.ts";
+import {nextFocus} from "../../utils/next-focus";
 import {BorderBox8 as DvBorderBox8} from '@kjgl77/datav-vue3'
 
 

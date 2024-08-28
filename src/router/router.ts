@@ -1,7 +1,7 @@
 import {createRouter, createWebHistory, Router} from 'vue-router'
-import {routes} from "./route.ts";
-import {getCookie} from "../utils/cookie.ts";
-import {NStart, NClose} from "../utils/nprogress.ts";
+import {routes} from "./route";
+import {getCookie} from "../utils/cookie";
+import {NStart, NClose} from "../utils/nprogress";
 
 
 const router: Router = createRouter({
