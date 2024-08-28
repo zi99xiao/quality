@@ -24,7 +24,7 @@
       </el-card>
     </div>
     <!--    表格-->
-    <div class="table-content">
+    <div ref="scrollRef" class="table-content">
       <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :check="false">
         <template #origin>
           <header-search @click-search="(e:string)=>handleSearch(e, 'origin', 'like', store)"
@@ -47,7 +47,7 @@
 </template>
 
 <script setup lang="ts">
-import {computed, nextTick, onMounted, onUnmounted, reactive} from "vue";
+import {computed, nextTick, onMounted, onUnmounted, reactive, ref} from "vue";
 import {Refresh} from "@element-plus/icons-vue";
 import MyTable from "../../components/my-table/index.vue";
 import Pagination from "../../components/pagination/index.vue";
@@ -59,6 +59,8 @@ import {colChange} from "../../utils/show-cols";
 
 
 const store = useExceptionStore()
+
+const scrollRef = ref<any>()
 
 // 搜索表单
 const searchForm = reactive<{
@@ -108,7 +110,7 @@ onUnmounted(() => {
 const {
   handleCurrentChange,
   handleSizeChange
-} = UsePageSize(store)
+} = UsePageSize(store, scrollRef)
 </script>
 
 <style scoped>

@@ -57,7 +57,7 @@
       </el-card>
     </div>
     <!--    表格-->
-    <div class="table-content">
+    <div ref="scrollRef" class="table-content">
       <my-table :table-data="store.tableData" :options="store.options" :loading="store.loading" :button="true"
                 @click-sel="rowSel" @click-del="rowDel" @click-row="rowGetDetail" @click-save="rowSave">
         <template #origin>
@@ -180,6 +180,8 @@ import {IsAdd} from "../../utils/is-add";
 
 const store = useMaintenanceStore()
 
+const scrollRef = ref<any>()
+
 // 搜索表单
 interface searchType {
   origin: string
@@ -287,7 +289,7 @@ onUnmounted(() => {
 const {
   handleCurrentChange,
   handleSizeChange
-} = UsePageSize(store)
+} = UsePageSize(store, scrollRef)
 </script>
 
 <style scoped>
