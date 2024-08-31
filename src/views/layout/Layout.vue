@@ -39,9 +39,11 @@
                   v-show="item.meta.title"
                   :to="item.path"
               >
-                <el-icon style="vertical-align: middle">
-                  <component :is="item.meta.icon"/>
-                </el-icon>
+                <template v-if="item.meta.icon">
+                  <el-icon style="vertical-align: middle">
+                    <component :is="item.meta.icon"/>
+                  </el-icon>
+                </template>
                 <span style="margin: 0 5px; vertical-align: middle">{{ item.meta.title }}</span>
               </el-breadcrumb-item>
             </el-breadcrumb>
