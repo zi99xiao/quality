@@ -4,6 +4,7 @@ import legacy from '@vitejs/plugin-legacy';
 import AutoImport from 'unplugin-auto-import/vite';
 import Components from 'unplugin-vue-components/vite';
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
+import Icons from 'unplugin-icons/vite';
 
 
 // https://vitejs.dev/config/
@@ -23,6 +24,10 @@ export default defineConfig(({mode}) => {
             Components({
                 resolvers: [ElementPlusResolver()],
             }),
+            Icons({
+                // experimental
+                autoInstall: true,
+            })
         ],
         base: './',
         server: {
