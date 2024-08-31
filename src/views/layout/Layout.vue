@@ -11,7 +11,7 @@
               background-color="#222628"
               active-text-color="#67c9fa"
               class="el-menu-vertical-demo"
-              :default-active="currentPath"
+              :default-active="route.path"
           >
             <!--              首页-->
             <el-menu-item index="/home">
@@ -30,7 +30,22 @@
       <el-container>
         <!--      顶部导航栏-->
         <el-header class="header">
-          <el-button class="fold" link :icon="isCollapse?Expand:Fold" title="折叠菜单" @click="isCollapse=!isCollapse"/>
+          <div style="display: flex;align-items: center;">
+            <el-button class="fold" link :icon="isCollapse?Expand:Fold" @click="isCollapse=!isCollapse"/>
+            <el-breadcrumb style="margin-left: 20px;" separator="/" :separator-icon="ArrowRight">
+              <el-breadcrumb-item
+                  v-for="item in route.matched.filter((_, index: number)=>index!==0)"
+                  :key="item.path"
+                  v-show="item.meta.title"
+                  :to="item.path"
+              >
+                <el-icon style="vertical-align: middle">
+                  <component :is="item.meta.icon"/>
+                </el-icon>
+                <span style="margin: 0 5px; vertical-align: middle">{{ item.meta.title }}</span>
+              </el-breadcrumb-item>
+            </el-breadcrumb>
+          </div>
           <div class="dropdown">
             <el-button title="全屏" link color="#000" :icon="FullScreen" @click="handleFullScreen"/>
             <el-button class="dropdown-child" link color="#000">
@@ -101,9 +116,9 @@
 </template>
 
 <script setup lang="ts">
-import {ArrowDown, Expand, Fold, FullScreen, Lock, SwitchButton} from "@element-plus/icons-vue";
-import {useRouter} from "vue-router";
-import {onMounted, reactive, ref, watchEffect} from "vue";
+import {ArrowDown, ArrowRight, Expand, Fold, FullScreen, Lock, SwitchButton} from "@element-plus/icons-vue";
+import {useRoute, useRouter} from "vue-router";
+import {onMounted, reactive, ref} from "vue";
 import Menu from "./Menu.vue";
 import {delCookie, getCookie, setCookie} from "../../utils/cookie";
 import {FormInstance, FormRules} from "element-plus";
@@ -114,9 +129,14 @@ import RC from "../../assets/R-C.png"
 import {showMenus} from "../../utils/menus";
 
 
+// 是否折叠菜单
 const isCollapse = ref(false)
 
+// 使用路由方法
 const router = useRouter()
+
+// 获取路由对象
+const route = useRoute()
 
 const loading = ref<boolean>(false)
 
@@ -186,14 +206,6 @@ onMounted(() => {
   // 获取用户名/公司名
   userdata.name = JSON.parse(localStorage.getItem('UserData')!)['name']
   userdata.orgName = JSON.parse(localStorage.getItem('UserData')!)['orgName']
-})
-
-// 当前路由
-const currentPath = ref<string>('')
-
-watchEffect(() => {
-  // 监听获取当前路由
-  currentPath.value = <string>router.currentRoute.value.fullPath
 })
 
 // 切换角色

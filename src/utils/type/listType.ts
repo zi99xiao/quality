@@ -20,12 +20,13 @@ export interface Meta {
     icon?: string
     requireAuth?: boolean
     sortNum?: number | null
+    hidden?: boolean
 }
 
 export interface Routes {
-    path: string
+    path?: string
     redirect?: string
-    name: string
+    name?: string
     component?: any
     meta: Meta
     children?: Routes[]

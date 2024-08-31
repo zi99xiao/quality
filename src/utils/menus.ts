@@ -12,6 +12,7 @@ export function showMenus(data: any[], parentId: string = '0') {
                     title: item.name,
                     icon: item.icon,
                     sortNum: item.sortNum,
+                    hidden: false
                 },
                 children: []
             };

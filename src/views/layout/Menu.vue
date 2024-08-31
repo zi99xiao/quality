@@ -1,25 +1,29 @@
 <template>
-  <template v-for="res in menus" :key="res.name">
-    <el-menu-item v-if="!res.children || res.children.length<1" :index="res.path">
-      <template v-if="res.meta.icon">
-        <el-icon>
-          <component :is='res.meta.icon'/>
-        </el-icon>
-      </template>
-      <template #title>{{ res.meta.title }}</template>
-    </el-menu-item>
-
-    <el-sub-menu v-else-if="res.children.length>0" :index="res.path">
-      <template #title>
+  <template v-for="res in menus" :key="res.path">
+    <template v-if="!res.children || res.children.length<1">
+      <el-menu-item v-if="!res.meta.hidden" :index="res.path">
         <template v-if="res.meta.icon">
           <el-icon>
             <component :is='res.meta.icon'/>
           </el-icon>
         </template>
-        <span>{{ res.meta.title }}</span>
-      </template>
-      <Menu :menus="res.children"/>
-    </el-sub-menu>
+        <template #title>{{ res.meta.title }}</template>
+      </el-menu-item>
+    </template>
+
+    <template v-else-if="res.children.length>0">
+      <el-sub-menu v-if="!res.meta.hidden" :index="res.path">
+        <template #title>
+          <template v-if="res.meta.icon">
+            <el-icon>
+              <component :is='res.meta.icon'/>
+            </el-icon>
+          </template>
+          <span>{{ res.meta.title }}</span>
+        </template>
+        <Menu :menus="res.children"/>
+      </el-sub-menu>
+    </template>
   </template>
 </template>
 

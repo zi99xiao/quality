@@ -5,7 +5,8 @@ export const routes = [
         name: 'login',
         meta: {
             title: '登录',
-            requireAuth: false
+            requireAuth: false,
+            hidden: true
         },
         component: () => import('../views/login/Login.vue'),
     },
@@ -16,7 +17,8 @@ export const routes = [
         name: '/',
         meta: {
             title: '首页',
-            requireAuth: true
+            requireAuth: true,
+            hidden: false
         },
         component: () => import('../views/layout/Layout.vue'),
         children: [
@@ -26,7 +28,8 @@ export const routes = [
                 meta: {
                     title: '首页',
                     icon: 'HomeFilled',
-                    requireAuth: true
+                    requireAuth: true,
+                    hidden: false
                 },
                 component: () => import('../views/home/index.vue'),
             }
@@ -40,7 +43,8 @@ export const routes = [
         component: () => import('../views/layout/Layout.vue'),
         meta: {
             title: '主页面',
-            requireAuth: true
+            requireAuth: true,
+            hidden: false
         },
         children: [
             {
@@ -49,7 +53,8 @@ export const routes = [
                 meta: {
                     title: '关系维护',
                     icon: 'Rank',
-                    requireAuth: true
+                    requireAuth: true,
+                    hidden: false
                 },
                 component: () => import('../views/maintenance/index.vue'),
             },
@@ -65,50 +70,56 @@ export const routes = [
             },
             {
                 path: '/test',
+                redirect: '/test/test1',
                 name: 'test',
                 meta: {
                     title: '考试管理',
                     icon: 'Warning',
-                    requireAuth: true
+                    requireAuth: true,
+                    hidden: false
                 },
                 children: [
                     {
-                        path: '/test1',
+                        path: '/test/test1',
                         name: 'test1',
                         meta: {
                             title: '法律法规',
                             icon: 'Warning',
-                            requireAuth: true
+                            requireAuth: true,
+                            hidden: false
                         },
                         component: () => import('../views/test/test1.vue'),
                     },
                     {
-                        path: '/test2',
+                        path: '/test/test2',
                         name: 'test2',
                         meta: {
                             title: '企业文化',
                             icon: 'Warning',
-                            requireAuth: true
+                            requireAuth: true,
+                            hidden: false
                         },
                         component: () => import('../views/test/test2.vue'),
                     },
                     {
-                        path: '/test3',
+                        path: '/test/test3',
                         name: 'test3',
                         meta: {
                             title: '管理制度',
                             icon: 'Warning',
-                            requireAuth: true
+                            requireAuth: true,
+                            hidden: false
                         },
                         component: () => import('../views/test/test3.vue'),
                     },
                     {
-                        path: '/test4',
+                        path: '/test/test4',
                         name: 'test4',
                         meta: {
                             title: '2024-08制度',
                             icon: 'Warning',
-                            requireAuth: true
+                            requireAuth: true,
+                            hidden: false
                         },
                         component: () => import('../views/test/test4.vue'),
                     },
@@ -120,7 +131,8 @@ export const routes = [
                 meta: {
                     title: '接口练习',
                     icon: 'Warning',
-                    requireAuth: true
+                    requireAuth: true,
+                    hidden: false
                 },
                 component: () => import('../views/practice/index.vue'),
             },
