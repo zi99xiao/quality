@@ -1,0 +1,2184 @@
+{
+  "analysis": true,
+  "time_spend": 1591,
+  "exam_name": "考试",
+  "check_status": "avoid",
+  "is_analysis": true,
+  "exercise_data": [
+    {
+      "id": 640818,
+      "type": "judge",
+      "content": "严禁以任何形式进行赌博",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061022,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061023,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061022
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640443,
+      "type": "single",
+      "content": "单个用人单位人数在100人以内的，聘请人数上限为10人，100人以上的，聘请人员上限为（）",
+      "score": 2,
+      "analysis": {
+        "content": "有关聘请人员管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059803,
+          "content": "总人数的10%",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059804,
+          "content": "总人数的20%",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059805,
+          "content": "10",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059806,
+          "content": "20",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059803
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640769,
+      "type": "single",
+      "content": "人本股份的企业宗旨是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060837,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060838,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060839,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060840,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060837
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646870,
+      "type": "multi",
+      "content": "客户送的东西哪些需要上交给公司",
+      "score": 3,
+      "analysis": {
+        "content": "有关廉政建设管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081134,
+          "content": "茶叶",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081135,
+          "content": "月饼",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081136,
+          "content": "星巴克咖啡券",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081137,
+          "content": "电视机",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081134,
+        2081135,
+        2081136,
+        2081137
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640795,
+      "type": "multi",
+      "content": "信息运维服务基本业务包括（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060955,
+          "content": "例行巡检",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060956,
+          "content": "日常故障处理",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060957,
+          "content": "沟通培训",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060958,
+          "content": "新店安装",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060959,
+          "content": "系统开发",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060960,
+          "content": "设备维修",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060955,
+        2060956,
+        2060957,
+        2060960
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640786,
+      "type": "multi",
+      "content": "信息公司七大服务产品类别包含以下哪些？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060907,
+          "content": "桌面运维",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060908,
+          "content": "门店运维",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060909,
+          "content": "设备支持",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060910,
+          "content": "IDC托管",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060911,
+          "content": "维保服务",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060912,
+          "content": "版权管理",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060913,
+          "content": "工程项目",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060907,
+        2060908,
+        2060909,
+        2060910,
+        2060912,
+        2060913
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640823,
+      "type": "judge",
+      "content": "周一到周六，夏季需穿工作服上下班",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061032,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061033,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061032
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640817,
+      "type": "judge",
+      "content": "团队长应签订戒烟承诺书，到期未达成的予以调岗或降级处理",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061020,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061021,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061020
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640439,
+      "type": "single",
+      "content": "员工跨单位（部门）工作调动的，胸卡如何处理",
+      "score": 2,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059787,
+          "content": "留作纪念",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059788,
+          "content": "交给胸卡管理员",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059789,
+          "content": "自行销毁",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059790,
+          "content": "送给他人使用",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059788
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646871,
+      "type": "multi",
+      "content": "违规处罚分类包含以下哪些",
+      "score": 3,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081138,
+          "content": "一至十级处理(对应扣分或扣款)",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081139,
+          "content": "责令赔偿损失",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081140,
+          "content": "没收违规财物",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081141,
+          "content": "责令整改",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081142,
+          "content": "免职或辞退",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081138,
+        2081139,
+        2081140,
+        2081141,
+        2081142
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640445,
+      "type": "single",
+      "content": "内部讲师每（   ）年复评一次，未参加复评者自动降（   ）。",
+      "score": 2,
+      "analysis": {
+        "content": "有关集团内部兼职讲师管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059811,
+          "content": "1，1级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059812,
+          "content": "3,1级",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059813,
+          "content": "3,2级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059814,
+          "content": "3,3级",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059812
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640789,
+      "type": "multi",
+      "content": "以下哪些是信息公司服务覆盖的业态？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060924,
+          "content": "制造业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060925,
+          "content": "物流业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060926,
+          "content": "商超业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060927,
+          "content": "机电贸易",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060928,
+          "content": "采购采配",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060929,
+          "content": "便利店",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060924,
+        2060925,
+        2060926,
+        2060927,
+        2060928,
+        2060929
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 646924,
+      "type": "judge",
+      "content": "《员工调入需求表》归档后，调入单位发起《员工调出函》，填写员工基本信息，上传员工转岗费协商函，填写转岗费费用；调出单位审批，确定调出时间。《员工调出函》归档后，由人力公司档案团队开具调令。",
+      "score": 1,
+      "analysis": {
+        "content": "有关员工调动、借调和待岗管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081284,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081285,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081284
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640764,
+      "type": "single",
+      "content": "信息公司团建时间为（）",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060817,
+          "content": "41699.0",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060818,
+          "content": "42948.0",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060819,
+          "content": "43101.0",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060820,
+          "content": "43647.0",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060818
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646880,
+      "type": "multi",
+      "content": "工龄满3周年的员工可介绍亲属进公司工作，应满足以下哪些条件",
+      "score": 3,
+      "analysis": {
+        "content": "有关特殊人员招聘与任职管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081174,
+          "content": "本人2年内无八级以上主观违纪",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081175,
+          "content": "本人之前所介绍亲属进公司后3年内无八级以上主观违纪和自动离职等违反担保协议行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081176,
+          "content": "经亲属介绍进公司的员工不可再介绍亲属，但介绍本人配偶的除外",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081174,
+        2081175,
+        2081176
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640816,
+      "type": "judge",
+      "content": "“吸烟、饮酒百害而无一利”，为了员工身体健康、为了企业经营安全及良好形象，公司倡导健康、积极的工作作风及生活风气，主张营造不吸烟、少饮酒的环境氛围。",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061018,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061019,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061018
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 646890,
+      "type": "multi",
+      "content": "产假期间可以享受以下哪些补贴",
+      "score": 3,
+      "analysis": {
+        "content": "有关员工福利开支管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081214,
+          "content": "住房补贴",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081215,
+          "content": "节日补贴",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081216,
+          "content": "用餐补贴",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081217,
+          "content": "高温补贴",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081214,
+        2081215,
+        2081216,
+        2081217
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640778,
+      "type": "single",
+      "content": "集团徽标的释义为（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060873,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060874,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060875,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060876,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2060875
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640811,
+      "type": "judge",
+      "content": "和谐为一是指来自五湖四海的人本员工，虽然有不同的个性、信仰、理念、阅历……，但为了共同的目标，携手走进人本“大家庭”，以诚信为基石，团结、友爱相处在一起，为着共同的理想而拼搏奋斗.",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061008,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061009,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061008
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640780,
+      "type": "single",
+      "content": "集团商标为（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060881,
+          "content": "C&A",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060882,
+          "content": "C&U",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060883,
+          "content": "S&C",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060884,
+          "content": "S&U",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060882
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640808,
+      "type": "judge",
+      "content": "人本股份以“法治”代替“人治”，这有利于克服因个人意志、感情、思想偏差、分析错误而造成企业发展的波动",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061002,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061003,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061002
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 646861,
+      "type": "multi",
+      "content": "以下哪些行为视为考试作弊",
+      "score": 3,
+      "analysis": {
+        "content": "有关考试管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081095,
+          "content": "未经允许携带与考试相关的书籍、资料的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081096,
+          "content": "携带纸条、电子词典等考场不允许携带的工具的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081097,
+          "content": "抄袭或让他人抄袭，偷换试卷或他人代考的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081098,
+          "content": "考试期间交谈、喧哗、传递纸条或其他类似行为的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081099,
+          "content": "考试期间东张西望，经提醒后仍不改正的",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081095,
+        2081096,
+        2081097,
+        2081098,
+        2081099
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 646906,
+      "type": "judge",
+      "content": "员工收到九级处理后，需要由团队长根据实际情况提出处理建议，报企业负责人确认，在团队位次下降2-4位或给予解除劳动合同",
+      "score": 1,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081248,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081249,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081248
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640446,
+      "type": "single",
+      "content": "人力公司每年组织（  ）次讲师级别鉴定工作",
+      "score": 2,
+      "analysis": {
+        "content": "有关集团内部兼职讲师管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059815,
+          "content": "1",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059816,
+          "content": "2",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059817,
+          "content": "1-2",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059818,
+          "content": "2-3",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059817
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640824,
+      "type": "judge",
+      "content": "员工之间相互交流应使用普通话或外语，不得使用地方方言",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061034,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061035,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061034
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640788,
+      "type": "multi",
+      "content": "下列属于人本股份的工会活动有？",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060920,
+          "content": "登山运动会",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060921,
+          "content": "篮球文化节",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060922,
+          "content": "运动会",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060923,
+          "content": "新年文艺晚会",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060920,
+        2060921,
+        2060922,
+        2060923
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640793,
+      "type": "multi",
+      "content": "人本股份生产的产品包括（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060943,
+          "content": "球轴承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060944,
+          "content": "滚子轴承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060945,
+          "content": "汽车轴承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060946,
+          "content": "回转支承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060947,
+          "content": "轴承组件",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060943,
+        2060944,
+        2060945,
+        2060946,
+        2060947
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640429,
+      "type": "single",
+      "content": "员工应遵守上下班时间规定。每半天中迟到、早退时间在 30 分钟以内的，给予当事人一级处理；在 30 分钟及以上的，按（）处理",
+      "score": 2,
+      "analysis": {
+        "content": "有关上下班管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059751,
+          "content": "事假半天",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059752,
+          "content": "事假一天",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059753,
+          "content": "旷工半天",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059754,
+          "content": "旷工一天",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059753
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646876,
+      "type": "multi",
+      "content": "以下哪些行为违反了胸卡管理规定",
+      "score": 3,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081158,
+          "content": "擅自转借胸卡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081159,
+          "content": "相互调换胸卡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081160,
+          "content": "冒用他人胸卡",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081161,
+          "content": "涂改胸卡编号",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081158,
+        2081159,
+        2081160,
+        2081161
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640783,
+      "type": "multi",
+      "content": "2017年，人本集团信息化组织进行全面整合，人本集团信息公司由原来的哪些公司或部门合并而成？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060893,
+          "content": "集团信息部",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060894,
+          "content": "工业ERP项目组",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060895,
+          "content": "中本信息",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060896,
+          "content": "人本控制",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060893,
+        2060894,
+        2060895,
+        2060896
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640820,
+      "type": "judge",
+      "content": "严禁爬窗翻墙，严禁恶意摔撞门窗",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061026,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061027,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061026
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 646899,
+      "type": "judge",
+      "content": "因工作需要向公司外人员传递、发送保密文件和资料时，应报所在单位负责人批准",
+      "score": 1,
+      "analysis": {
+        "content": "有关保密工作管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081234,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081235,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081234
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640768,
+      "type": "single",
+      "content": "人本股份的人才观是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060833,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060834,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060835,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060836,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060836
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640779,
+      "type": "single",
+      "content": "集团品牌即商标释义（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060877,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060878,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060879,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060880,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060879
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646879,
+      "type": "multi",
+      "content": "引荐人员需满足以下哪些条件",
+      "score": 3,
+      "analysis": {
+        "content": "有关人员引荐管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081170,
+          "content": "为集团主管或集团工龄满1年的员工",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081171,
+          "content": "近2年无八级以上主观违纪记录",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081172,
+          "content": "同一年引荐人数不超过8人",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081173,
+          "content": "过去所引荐人员表现良好、无七级以上主观违纪记录",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081170,
+        2081171,
+        2081172,
+        2081173
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646900,
+      "type": "judge",
+      "content": "工作失误是指员工在工作过程中发生的非主观故意而发生的工作过失和错误",
+      "score": 1,
+      "analysis": {
+        "content": "有关工作失误、作弊等处理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081236,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081237,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081236
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640426,
+      "type": "single",
+      "content": "请假应以书面形式请假(请假单)，其他形式无效，未请假、未准假或未做好交接前离开的，按（）处理。",
+      "score": 2,
+      "analysis": {
+        "content": "有关各类假期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059739,
+          "content": "请假",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059740,
+          "content": "违纪",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059741,
+          "content": "旷工",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059742,
+          "content": "早退",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059741
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646897,
+      "type": "judge",
+      "content": "会议因事不能按时参加会议的人员应提前1小时向会议主持人请假，否则请假无效。",
+      "score": 1,
+      "analysis": {
+        "content": "有关会议管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081230,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081231,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081230
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640428,
+      "type": "single",
+      "content": "请结婚假的，回公司一个月内销假，并出示（），否则取消工资待遇，按（）处理",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059747,
+          "content": "结婚证、旷工",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059748,
+          "content": "结婚证、事假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059749,
+          "content": "回程车票、旷工",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059750,
+          "content": "回程车票、事假",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059748
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640535,
+      "type": "single",
+      "content": "以公司为起点，公司到出差地的里程不超过（）公里，若出差到多地的，则连续出差地之间的里程、各出差地到公司的里程均不得超过300公里可申请自驾出差",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060084,
+          "content": "300",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060085,
+          "content": "600",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060086,
+          "content": "400",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060087,
+          "content": "500",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060084
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640802,
+      "type": "multi",
+      "content": "以下哪些行为发生后将被处罚",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060986,
+          "content": "偷盗",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060987,
+          "content": "吵架打架",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060988,
+          "content": "聚众闹事",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060989,
+          "content": "爬窗",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060986,
+        2060987,
+        2060988,
+        2060989
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 646917,
+      "type": "judge",
+      "content": "费用预算达3000元/人的委外培训，应先签订培训协议",
+      "score": 1,
+      "analysis": {
+        "content": "有关在职培训管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081270,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081271,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081270
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640451,
+      "type": "single",
+      "content": "员工离职后，各单位人事管理团队应在（）根据离职审批表在人事系统中登记离职（月底离职人员应及时登记）",
+      "score": 2,
+      "analysis": {
+        "content": "有关人事档案管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059835,
+          "content": "3日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059836,
+          "content": "5日内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059837,
+          "content": "7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059838,
+          "content": "10日内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059836
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640442,
+      "type": "single",
+      "content": "校园招聘新员工的交通费由用人单位承担，在新员工到用人单位报到（）后报销",
+      "score": 2,
+      "analysis": {
+        "content": "有关试用期、职前培训期及学徒期待遇发放规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059799,
+          "content": "满1个月",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059800,
+          "content": "满2个月",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059801,
+          "content": "满3个月",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059802,
+          "content": "转正之后",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059801
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640536,
+      "type": "single",
+      "content": "信息公司基建团队的团队成员交通补贴和餐费补贴标准合计是（）元",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060088,
+          "content": "30",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060089,
+          "content": "20",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060090,
+          "content": "50",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060091,
+          "content": "80",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2060090
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640765,
+      "type": "single",
+      "content": "服务于集团工业部分的信息公司全称为（)",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060821,
+          "content": "温州中本信息科技有限公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060822,
+          "content": "人本控制系统有限公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060823,
+          "content": "人本集团信息公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060824,
+          "content": "人本集团信息部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060822
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640782,
+      "type": "single",
+      "content": "厂区内行驶机动车、电动车时，不得超过（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060889,
+          "content": "15km/h",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060890,
+          "content": "20km/h",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060891,
+          "content": "25km/h",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060892,
+          "content": "30km/h",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060889
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640452,
+      "type": "single",
+      "content": "针对需要签订敬业限制协议范围内的员工，新进员工（含跨单位调入员工）与劳动合同同步签订，单位内部调岗人员在调动（）签订；支持团队长及以上级别人员、发文主管在发布任命文件（）签订。",
+      "score": 2,
+      "analysis": {
+        "content": "有关竞业限制管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059839,
+          "content": "7日内、7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059840,
+          "content": "10日内、10日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059841,
+          "content": "15日内、15日内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059842,
+          "content": "30日内、30日内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059841
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646886,
+      "type": "multi",
+      "content": "以下哪些属于人事档案",
+      "score": 3,
+      "analysis": {
+        "content": "有关人事档案管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081197,
+          "content": "招聘档案",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081198,
+          "content": "在职档案",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081199,
+          "content": "离职档案",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081200,
+          "content": "任命发文档案",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081197,
+        2081198,
+        2081199,
+        2081200
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646915,
+      "type": "judge",
+      "content": "根据工作需要、本人自愿的原则，在企业有需求时，可以返聘已退休人员",
+      "score": 1,
+      "analysis": {
+        "content": "有关退休返聘管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081266,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081267,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081266
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    }
+  ]
+}

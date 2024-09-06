@@ -1,0 +1,2200 @@
+{
+  "analysis": true,
+  "time_spend": 687,
+  "exam_name": "10月转正考试理论试卷",
+  "check_status": "avoid",
+  "is_analysis": true,
+  "exercise_data": [
+    {
+      "id": 647175,
+      "type": "single",
+      "content": "人本集团的制度执行的监督部门是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082081,
+          "content": "董事办",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082082,
+          "content": "企管部",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082083,
+          "content": "促标部",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082084,
+          "content": "财务部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082083
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647171,
+      "type": "single",
+      "content": "人本股份的人才观是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082065,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082066,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082067,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082068,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082068
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647191,
+      "type": "multi",
+      "content": "下列属于人本股份的工会活动有？",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082152,
+          "content": "登山运动会",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082153,
+          "content": "篮球文化节",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082154,
+          "content": "运动会",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082155,
+          "content": "新年文艺晚会",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082152,
+        2082153,
+        2082154,
+        2082155
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647180,
+      "type": "single",
+      "content": "员工在工作和生活中应直接以（）相互称呼",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082101,
+          "content": "姓名",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082102,
+          "content": "职务",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082103,
+          "content": "领导",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082104,
+          "content": "某一个爱称",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082101
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647190,
+      "type": "multi",
+      "content": "以下哪些是我们的自研产品？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082146,
+          "content": "WEB进销存系统",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082147,
+          "content": "工艺卡系统",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082148,
+          "content": "IEM系统",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082149,
+          "content": "订单管理系统",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082150,
+          "content": "日志系统",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082151,
+          "content": "CUPOS系统",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082146,
+        2082147,
+        2082148,
+        2082149,
+        2082150,
+        2082151
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647196,
+      "type": "multi",
+      "content": "人本股份生产的产品包括（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082175,
+          "content": "球轴承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082176,
+          "content": "滚子轴承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082177,
+          "content": "汽车轴承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082178,
+          "content": "回转支承",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082179,
+          "content": "轴承组件",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082175,
+        2082176,
+        2082177,
+        2082178,
+        2082179
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647173,
+      "type": "single",
+      "content": "人本股份的发展观是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082073,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082074,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082075,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082076,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082074
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647181,
+      "type": "single",
+      "content": "集团徽标的释义为（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082105,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082106,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082107,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082108,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082105
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647177,
+      "type": "single",
+      "content": "温州中本信息科技有限公司主要服务于（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082089,
+          "content": "人本股份及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082090,
+          "content": "人本集团及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082091,
+          "content": "人本实业及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082092,
+          "content": "商贸业及相关公司",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082092
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647218,
+      "type": "judge",
+      "content": "随着C&U国际化进程的不断推进，人本企业文化需要在保持自身特色的基础上，积极吸纳国际优秀企业文化成果，与时俱进、不断创新。",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082248,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082249,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082248
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647213,
+      "type": "judge",
+      "content": "以法治企是指制度面前，人人平等",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082238,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082239,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082238
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647200,
+      "type": "multi",
+      "content": "成品厂“静音系”包括哪些公司（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082198,
+          "content": "温州静音轴承分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082199,
+          "content": "温州静音轴承滨海汽车轴承分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082200,
+          "content": "温州静音轴承滨海工业轴承分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082201,
+          "content": "温州静音轴承滨海科技轴承分公司",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082198,
+        2082199,
+        2082200,
+        2082201
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647172,
+      "type": "single",
+      "content": "人本股份的企业宗旨是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082069,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082070,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082071,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082072,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082069
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647225,
+      "type": "judge",
+      "content": "员工应遵守社会公德，自觉维护个人和企业形象",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082262,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082263,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082262
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647223,
+      "type": "judge",
+      "content": "严禁爬窗翻墙，严禁恶意摔撞门窗",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082258,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082259,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082258
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647189,
+      "type": "multi",
+      "content": "信息公司七大服务产品类别包含以下哪些？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082139,
+          "content": "桌面运维",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082140,
+          "content": "门店运维",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082141,
+          "content": "设备支持",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082142,
+          "content": "IDC托管",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082143,
+          "content": "维保服务",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082144,
+          "content": "版权管理",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082145,
+          "content": "工程项目",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082139,
+        2082140,
+        2082141,
+        2082142,
+        2082143,
+        2082144,
+        2082145
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647187,
+      "type": "multi",
+      "content": "我们业务覆盖以下哪些省份及直辖市？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082129,
+          "content": "浙江省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082130,
+          "content": "上海市",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082131,
+          "content": "江苏省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082132,
+          "content": "安徽省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082133,
+          "content": "湖北省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082134,
+          "content": "四川省",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082129,
+        2082130,
+        2082131,
+        2082132,
+        2082133,
+        2082134
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647185,
+      "type": "single",
+      "content": "厂区内行驶机动车、电动车时，不得超过（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082121,
+          "content": "15km/h",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082122,
+          "content": "20km/h",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082123,
+          "content": "25km/h",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082124,
+          "content": "30km/h",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082121
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647194,
+      "type": "multi",
+      "content": "信息公司的职能团队包含以下哪些团队",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082166,
+          "content": "架构团队",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082167,
+          "content": "开发团队",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082168,
+          "content": "实施团队",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082169,
+          "content": "基建团队",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082170,
+          "content": "服务团队",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082166,
+        2082167,
+        2082168,
+        2082169,
+        2082170
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647168,
+      "type": "single",
+      "content": "服务于集团工业部分的信息公司全称为（)",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082053,
+          "content": "温州中本信息科技有限公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082054,
+          "content": "人本控制系统有限公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082055,
+          "content": "人本集团信息公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082056,
+          "content": "人本集团信息部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082054
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647205,
+      "type": "multi",
+      "content": "以下哪些行为发生后将被处罚",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082218,
+          "content": "偷盗",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082219,
+          "content": "吵架打架",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082220,
+          "content": "聚众闹事",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082221,
+          "content": "爬窗",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082218,
+        2082219,
+        2082220,
+        2082221
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647224,
+      "type": "judge",
+      "content": "员工在外时应遵守公共秩序和交通规则，增强安全意识，确保人身和财产安全",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082260,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082261,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082260
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647221,
+      "type": "judge",
+      "content": "严禁以任何形式进行赌博",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082254,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082255,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082254
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647179,
+      "type": "single",
+      "content": "员工在上班前（）内禁止饮酒",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082097,
+          "content": "12小时",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082098,
+          "content": "6小时",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082099,
+          "content": "4小时",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082100,
+          "content": "2小时",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082098
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647195,
+      "type": "multi",
+      "content": "向社会提供精品有几个方面的含义，请问下列说法正确的是：（    ）",
+      "score": 3,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082171,
+          "content": "产品的“精品”",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082172,
+          "content": "服务的“精品”",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082173,
+          "content": "设备是“精品”",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082174,
+          "content": "人才的“精品”",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082171,
+        2082172,
+        2082173,
+        2082174
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647176,
+      "type": "single",
+      "content": "杭州人本控制系统有限公司主要服务于()",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082085,
+          "content": "人本股份及所属公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082086,
+          "content": "人本集团及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082087,
+          "content": "人本实业及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082088,
+          "content": "商贸业公司",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082085
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647169,
+      "type": "single",
+      "content": "服务于集团商业部分的信息公司全称为()",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082057,
+          "content": "温州中本信息科技有限公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082058,
+          "content": "人本控制系统有限公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082059,
+          "content": "人本集团信息公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082060,
+          "content": "人本集团信息部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082057
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647182,
+      "type": "single",
+      "content": "集团品牌即商标释义（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082109,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082110,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082111,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082112,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082111
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647184,
+      "type": "single",
+      "content": "员工聚餐结束后，在次日有（）及以上迟到或请假的，给予聚餐组织人员五级处理",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082117,
+          "content": "3人",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082118,
+          "content": "4人",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082119,
+          "content": "5人",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082120,
+          "content": "6人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082117
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647178,
+      "type": "single",
+      "content": "S&F品牌是由哪个品牌切换过来的？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082093,
+          "content": "C&U",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082094,
+          "content": "XX",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082095,
+          "content": "人本",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082096,
+          "content": "N&U",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082094
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647192,
+      "type": "multi",
+      "content": "以下哪些是信息公司服务覆盖的业态？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082156,
+          "content": "制造业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082157,
+          "content": "物流业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082158,
+          "content": "商超业",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082159,
+          "content": "机电贸易",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082160,
+          "content": "采购采配",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082161,
+          "content": "便利店",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082156,
+        2082157,
+        2082158,
+        2082159,
+        2082160,
+        2082161
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647167,
+      "type": "single",
+      "content": "信息公司团建时间为（）",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082049,
+          "content": "41699.0",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082050,
+          "content": "42948.0",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082051,
+          "content": "43101.0",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082052,
+          "content": "43647.0",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647207,
+      "type": "judge",
+      "content": "信息公司是一家致力于软件系统的研究与开发、硬件技术服务和运维的集成服务企业",
+      "score": 1,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082226,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082227,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082226
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647216,
+      "type": "judge",
+      "content": "公司尊重知识产权，积极推进软件正版化工作，抵制侵权盗版行为。",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082244,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082245,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082244
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647199,
+      "type": "multi",
+      "content": "成品厂“人本系”包括哪些公司（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082193,
+          "content": "温州人本轴承一分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082194,
+          "content": "温州人本轴承二分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082195,
+          "content": "温州人本轴承三分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082196,
+          "content": "温州人本轴承四分公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082197,
+          "content": "人本集团",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082193,
+        2082194,
+        2082195,
+        2082196
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647170,
+      "type": "single",
+      "content": "人本股份的经营理念是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082061,
+          "content": "和谐为一，仁慈无限",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082062,
+          "content": "以人为本，以法治企，以质兴企，不断创新",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082063,
+          "content": "诚信是基石，双赢是动力，团结、合作是一条最好的路！",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082064,
+          "content": "建厂先育人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082063
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647210,
+      "type": "judge",
+      "content": "“C&U”人本标志的寓意为团队与合作。",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082232,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082233,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082232
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647206,
+      "type": "multi",
+      "content": "员工因聚餐醉酒导致出现人身伤害或产生损失的，由聚餐组织人员承担（）责任，其他参与人员分担剩余（）责任",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082222,
+          "content": "70%",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082223,
+          "content": "80%",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082224,
+          "content": "30%",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082225,
+          "content": "20%",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082223,
+        2082225
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647166,
+      "type": "single",
+      "content": "信息公司成立于（）",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082045,
+          "content": "2001年",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082046,
+          "content": "2006年",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082047,
+          "content": "2010年",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082048,
+          "content": "2017年",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082046
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647222,
+      "type": "judge",
+      "content": "不得随地吐痰、乱丢垃圾，不得向窗外倒水、扔杂物",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082256,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082257,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082256
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647208,
+      "type": "judge",
+      "content": "信息公司的前身是商贸业信息部门－人本企划公司（信息与广告）",
+      "score": 1,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082228,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082229,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082228
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647174,
+      "type": "single",
+      "content": "人本集团成立于哪一年()",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082077,
+          "content": "1984年",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082078,
+          "content": "1997年",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082079,
+          "content": "1998年",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082080,
+          "content": "2003年",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082078
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647212,
+      "type": "judge",
+      "content": "在公司内部的各种场合，无论职务高低一律要求直呼其姓名。",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082236,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082237,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082236
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647214,
+      "type": "judge",
+      "content": "和谐为一是指来自五湖四海的人本员工，虽然有不同的个性、信仰、理念、阅历……，但为了共同的目标，携手走进人本“大家庭”，以诚信为基石，团结、友爱相处在一起，为着共同的理想而拼搏奋斗.",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082240,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082241,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082240
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647188,
+      "type": "multi",
+      "content": "信息公司三大软件产品类别服务？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082135,
+          "content": "软件开发",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082136,
+          "content": "软件实施",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082137,
+          "content": "软件运维",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082138,
+          "content": "软件销售",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082135,
+        2082136,
+        2082137
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647193,
+      "type": "multi",
+      "content": "信息公司的支持团队包含以下哪些团队",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082162,
+          "content": "综合管理团队",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082163,
+          "content": "架构团队",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082164,
+          "content": "网安团队",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082165,
+          "content": "开发团队",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082162,
+        2082163,
+        2082164
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 647183,
+      "type": "single",
+      "content": "集团商标为（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082113,
+          "content": "C&A",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082114,
+          "content": "C&U",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082115,
+          "content": "S&C",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082116,
+          "content": "S&U",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082114
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647211,
+      "type": "judge",
+      "content": "人本股份以“法治”代替“人治”，这有利于克服因个人意志、感情、思想偏差、分析错误而造成企业发展的波动",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082234,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082235,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082234
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647215,
+      "type": "judge",
+      "content": "仁慈无限是指人本企业在发展自身、创造经济效益的同时，主动担负起更多的社会责任；人本员工以企业为平台，在实现自我人生价值的同时，展现各自的人生彩虹，以仁爱之心，终生做善事、做好事，使我们可爱的社会像大自然七彩色光一样美好。",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082242,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082243,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082242
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 647202,
+      "type": "multi",
+      "content": "人本轴承双品牌指标的是（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082206,
+          "content": "C&U",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082207,
+          "content": "S&F",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082208,
+          "content": "人本",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082209,
+          "content": "双喜",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082206,
+        2082207
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    }
+  ],
+  "data_is_from_mongo": true
+}

@@ -1,0 +1,235 @@
+{
+  "analysis": true,
+  "time_spend": 660,
+  "exam_name": "24年9月信息公司制度考试",
+  "check_status": "avoid",
+  "is_analysis": true,
+  "exercise_data": [
+    {
+      "id": 796342,
+      "type": "single",
+      "content": "各企业应在每月（ ）日前，编制次月业务招待费用预算表，由公司财务根据度业务招待费用预算对其进行审核，若截止上月已有超标的，应在本次预算中扣减。",
+      "score": 20,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2552011,
+          "content": "25",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2552012,
+          "content": "20",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552013,
+          "content": "15",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552014,
+          "content": "10",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2552011
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 20
+    },
+    {
+      "id": 796345,
+      "type": "single",
+      "content": "产品类物料编码维护，其中其他产品类:由需求单位提出申请，( )在 BIP 系统中维护。",
+      "score": 20,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2552023,
+          "content": "信息公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2552024,
+          "content": "企管部",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552025,
+          "content": "促标部",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552026,
+          "content": "企标部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2552023
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 20
+    },
+    {
+      "id": 796343,
+      "type": "single",
+      "content": "应当集中审批的事项，未经集中审批前各单位财务不得私自报销，违者给予财务（ ）级处理，且所报销的费用重新报批。",
+      "score": 20,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2552015,
+          "content": "1",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552016,
+          "content": "2",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552017,
+          "content": "5",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2552018,
+          "content": "3",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2552017
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 20
+    },
+    {
+      "id": 796344,
+      "type": "single",
+      "content": "各实施单位的（ ）为本企业 ERP 项作的“第一责人”各企应定熟承产业链及本企业主要业务流程的团队，以“团队”为单位承接和开展相应工作。",
+      "score": 20,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2552019,
+          "content": "发文主管",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552020,
+          "content": "工会",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552021,
+          "content": "企业负责人",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2552022,
+          "content": "企业主管",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2552021
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 20
+    },
+    {
+      "id": 796346,
+      "type": "single",
+      "content": "人员编码规则，统一使用六位的（ ），确保唯一性。",
+      "score": 20,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2552027,
+          "content": "电话号",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552028,
+          "content": "身份证号",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552029,
+          "content": "短号",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2552030,
+          "content": "胸卡号",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2552030
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 20
+    }
+  ],
+  "data_is_from_mongo": true
+}

@@ -123,6 +123,61 @@ export const routes = [
                         },
                         component: () => import('../views/test/test4.vue'),
                     },
+                    {
+                        path: '/test/test5',
+                        name: 'test5',
+                        meta: {
+                            title: 'ZXY-ZZ',
+                            icon: 'Warning',
+                            requireAuth: true,
+                            hidden: false
+                        },
+                        component: () => import('../views/test/test5.vue'),
+                    },
+                    {
+                        path: '/test/test6',
+                        name: 'test6',
+                        meta: {
+                            title: 'HLYJ-ZZ',
+                            icon: 'Warning',
+                            requireAuth: true,
+                            hidden: false
+                        },
+                        component: () => import('../views/test/test6.vue'),
+                    },
+                    {
+                        path: '/test/test7',
+                        name: 'test7',
+                        meta: {
+                            title: 'BJQ1',
+                            icon: 'Warning',
+                            requireAuth: true,
+                            hidden: false
+                        },
+                        component: () => import('../views/test/test7.vue'),
+                    },
+                    {
+                        path: '/test/test8',
+                        name: 'test8',
+                        meta: {
+                            title: 'BJQ2',
+                            icon: 'Warning',
+                            requireAuth: true,
+                            hidden: false
+                        },
+                        component: () => import('../views/test/test8.vue'),
+                    },
+                    {
+                        path: '/test/test9',
+                        name: 'test9',
+                        meta: {
+                            title: '2020-09制度',
+                            icon: 'Warning',
+                            requireAuth: true,
+                            hidden: false
+                        },
+                        component: () => import('../views/test/test9.vue'),
+                    },
                 ]
             },
             {

@@ -1,0 +1,2141 @@
+{
+  "analysis": true,
+  "time_spend": 1591,
+  "exam_name": "周欣瑶转正考试",
+  "check_status": "avoid",
+  "is_analysis": true,
+  "exercise_data": [
+    {
+      "id": 662169,
+      "type": "single",
+      "content": "集成测试对系统内部的交互以及集成后系统功能检验了〔  〕质量特性.",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131802,
+          "content": "正确性",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131803,
+          "content": "可靠性",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131804,
+          "content": "可使用性",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131805,
+          "content": "可维护性",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131804
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646856,
+      "type": "single",
+      "content": "新进公司人员应在到用人单位报到（）签订劳动合同，跨单位调动人员应在调动后（）(以调令日期为准)签订劳动合同，支持团队长及以上级别人员（主管)，应在任免文件发布后重新签订。",
+      "score": 2,
+      "analysis": {
+        "content": "有关劳动合同管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081075,
+          "content": "7日内、7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081076,
+          "content": "10日内、10日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081077,
+          "content": "15日内、15日内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081078,
+          "content": "30日内、30日内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081077
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646854,
+      "type": "single",
+      "content": "员工离职后，各单位人事管理团队应在（）根据离职审批表在人事系统中登记离职（月底离职人员应及时登记）",
+      "score": 2,
+      "analysis": {
+        "content": "有关人事档案管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081067,
+          "content": "3日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081068,
+          "content": "5日内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081069,
+          "content": "7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081070,
+          "content": "10日内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081067
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647176,
+      "type": "single",
+      "content": "杭州人本控制系统有限公司主要服务于()",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082085,
+          "content": "人本股份及所属公司",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082086,
+          "content": "人本集团及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082087,
+          "content": "人本实业及所属公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082088,
+          "content": "商贸业公司",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082087
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 662122,
+      "type": "single",
+      "content": "以下哪些产品是通过和协采购？（    ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131633,
+          "content": "苹果",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131634,
+          "content": "手机",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131635,
+          "content": "保持器",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131635
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646890,
+      "type": "multi",
+      "content": "产假期间可以享受以下哪些补贴",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工福利开支管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081214,
+          "content": "住房补贴",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081215,
+          "content": "节日补贴",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081216,
+          "content": "用餐补贴",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081217,
+          "content": "高温补贴",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081214,
+        2081215,
+        2081216,
+        2081217
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 653276,
+      "type": "multi",
+      "content": "“六顺工作法”中规划团队组织对《可行性调研报告》进行评审，评审内容包括::",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2126599,
+          "content": "投资合理性:",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2126600,
+          "content": "投资可行性",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2126601,
+          "content": "投资经济性",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2126602,
+          "content": "投资重复性",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2126599,
+        2126600
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 653275,
+      "type": "multi",
+      "content": "公司 EHS 管理人员应按以下要求组织开展工伤认定工作",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2126595,
+          "content": "在工伤发生后30日内组织工伤认定(当地政府有具体规定的从其规定)",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2126596,
+          "content": "按要求提报工伤认定材料，如工伤认定申请书、劳动关系证明、证人证言、医疗诊断书等;",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2126597,
+          "content": "跟踪认定进展，在收到工伤认定结果后，应及时通知当事人，并上报公司负责人。",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2126598,
+          "content": "在工伤发生后20日内组织工伤认定(当地政府有具体规定的从其规定)",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2126595,
+        2126596,
+        2126597
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647212,
+      "type": "judge",
+      "content": "在公司内部的各种场合，无论职务高低一律要求直呼其姓名。",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082236,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082237,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082236
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646945,
+      "type": "single",
+      "content": "出差人员应在出差结束的（）前提交出差费用报销申请",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081336,
+          "content": "7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081337,
+          "content": "15日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081338,
+          "content": "当月底",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081339,
+          "content": "次月底",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081338
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646937,
+      "type": "judge",
+      "content": "出差去黄石区域，可自驾出差",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081314,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081315,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081314
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646895,
+      "type": "judge",
+      "content": "夏天上班时可以打赤膊、穿背心和拖鞋",
+      "score": 2,
+      "analysis": {
+        "content": "有关上下班管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081226,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081227,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081227
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647210,
+      "type": "judge",
+      "content": "“C&U”人本标志的寓意为团队与合作。",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082232,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082233,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082232
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647281,
+      "type": "judge",
+      "content": "在用餐时需要照顾给他人夹菜，我们应该使用自己的筷子或勺子夹取。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082452,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082453,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082453
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 653249,
+      "type": "single",
+      "content": "公司各类管理标准、体系文件、操作手册等是属于哪类秘密级别？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102103,
+          "content": "A级",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102104,
+          "content": "B级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102105,
+          "content": "AAA级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102106,
+          "content": "AA级",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102103
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662119,
+      "type": "single",
+      "content": "集团商业OA系统地址导航网址是 (     )",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131621,
+          "content": "http://202.107.222.150:888/",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131622,
+          "content": "http://cuerp.cugroup.com",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131623,
+          "content": "http://sale.cugroup.com/cuerp",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131624,
+          "content": "http://sale.cugroup.com",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131621
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646946,
+      "type": "judge",
+      "content": "住宿发票的开具需注明住宿起止时间等信息",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081340,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081341,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081340
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 653289,
+      "type": "multi",
+      "content": "公司手机号码业务办理主要包括（  ）？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102267,
+          "content": "申请号码",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102268,
+          "content": "注销号码",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102269,
+          "content": "办理话费套餐",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102270,
+          "content": "号码业务变更",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102267,
+        2102268,
+        2102269,
+        2102270
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646872,
+      "type": "multi",
+      "content": "以下哪些属于违规行为",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工违规处罚管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081143,
+          "content": "主观违纪:玩忽职守、故意破坏、作假作弊等行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081144,
+          "content": "背信弃义:违背承诺或约定、从事第二职业、泄露公司商业秘密等失信行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081145,
+          "content": "职业操守败坏:以权谋私、对外勾结、贪污腐败等行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081146,
+          "content": "触犯法律法规:违法乱纪产生刑事责任的行为",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081143,
+        2081144,
+        2081145,
+        2081146
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647178,
+      "type": "single",
+      "content": "S&F品牌是由哪个品牌切换过来的？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082093,
+          "content": "C&U",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082094,
+          "content": "XX",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082095,
+          "content": "人本",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082096,
+          "content": "N&U",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082093
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 653263,
+      "type": "single",
+      "content": "包庇、协助他人作弊的，给予责任人（  ）处理？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102159,
+          "content": "六级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102160,
+          "content": "七级",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102161,
+          "content": "五级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102162,
+          "content": "四级",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102160
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662123,
+      "type": "single",
+      "content": "B2B开通账号时，下面选项哪一个不是必填项（    ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131636,
+          "content": "用户名",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131637,
+          "content": "联系电话",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131638,
+          "content": "E-mail",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131639,
+          "content": "密码",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131638
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 662163,
+      "type": "single",
+      "content": "软件工程的根本要素包括方法、工具和〔  〕。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131778,
+          "content": "过程",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131779,
+          "content": "软件系统",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131780,
+          "content": "硬件环境",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131781,
+          "content": "人员",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131778
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662212,
+      "type": "single",
+      "content": "发送会议通知的正确工作顺序是( )",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131941,
+          "content": "填写会议通知单并准备好相关附件--明确会议通知发送对象和联系方式--选择会议通知信息传递方式--确认会议通知是否进达",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131942,
+          "content": "选择会议通知信息传递方式--填写会议通知单并准备好相关附件--明确会议通知发送对象和联系方式--确认会议通知是否进达",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131943,
+          "content": "明确会议通知发送对象和联系方式--填写会议通知单并准备好相关附件--选择会议通知信息传递方式--确认会议通知是否进达",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131944,
+          "content": "确认会议通知是否进达--明确会议通知发送对象和联系方式--选择会议通知信息传递方式--填写会议通知单并准备好相关附件",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131943
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662160,
+      "type": "single",
+      "content": "下列软件属性中，软件产品首要满足的应该是 〔  〕",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131766,
+          "content": "功能需求",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131767,
+          "content": "性能需求",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131768,
+          "content": "可扩展性和灵活性",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131769,
+          "content": "容错纠错能力",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131766
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646864,
+      "type": "multi",
+      "content": "请假理由不充分或足以妨碍工作的，可如何处理",
+      "score": 2,
+      "analysis": {
+        "content": "关于《有关各类假期管理规定》的补充规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081108,
+          "content": "不予准假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081109,
+          "content": "缩短假期",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081110,
+          "content": "暂缓准假",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081111,
+          "content": "劝退",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081108,
+        2081109,
+        2081110
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662154,
+      "type": "single",
+      "content": "〔  〕变更时指风险很小或没有风险的变更，并且执行这些变更的步骤和方法已经很成熟，这些变更事先已经得到审批并记录在案，遵循简化的标准变更管理过程",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131743,
+          "content": "标准变更",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131744,
+          "content": "紧急变更",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131745,
+          "content": "普通变更",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131746,
+          "content": "常规变更",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131746
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 662151,
+      "type": "single",
+      "content": "原型化方法是用户和软件开发人员之间进展的一种交互过程，适用于〔  〕系统",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131731,
+          "content": "需求不确定的",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131732,
+          "content": "需求确定的",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131733,
+          "content": "管理信息",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131734,
+          "content": "决策支持",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131732
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 653265,
+      "type": "single",
+      "content": "重要、特殊岗位配置的手机号码使用权归属于该岗位人员，人员调动或离职时，应将号码移交给（  ）？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102167,
+          "content": "离职人员",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102168,
+          "content": "交接人员",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102169,
+          "content": "调动人员",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102170,
+          "content": "本人",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102168
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647248,
+      "type": "multi",
+      "content": "在商务礼仪中，当下列人员走来时应起立（）。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082347,
+          "content": "客户或客人",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082348,
+          "content": "上级和职位比自己高的人",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082349,
+          "content": "与自己平级的女职员",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082350,
+          "content": "下属或同事",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082347,
+        2082348,
+        2082349
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646883,
+      "type": "multi",
+      "content": "大专生新学员培训责任人(师傅)应符合以下哪些要求",
+      "score": 2,
+      "analysis": {
+        "content": "有关新学员学徒期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081185,
+          "content": "责任心强、对企业认同度高",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081186,
+          "content": "工作技能、综合素质好",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081187,
+          "content": "工作、生活态度积极乐观",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081188,
+          "content": "岗位工作时间1年以上，不足1年的应由公司负责人确认胜任该工作。",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081185,
+        2081186,
+        2081187,
+        2081188
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 653282,
+      "type": "multi",
+      "content": "根据交接原因，工作交接分为（  ）？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102239,
+          "content": "离职交接",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102240,
+          "content": "调岗交接",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102241,
+          "content": "临时交接(因请假等原因离岗达 60天)",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102242,
+          "content": "继任交接",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102239,
+        2102240,
+        2102241
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647273,
+      "type": "judge",
+      "content": "当进行正式宴会时,一定要在主人宣布开饭之后再动手吃饭。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082436,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082437,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082436
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662166,
+      "type": "single",
+      "content": "人员要素管理的活动有: 人员储备与连续性管理， 〔  〕，人员培训计划执行，人员绩效管理",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131790,
+          "content": "能力评价与管理",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131791,
+          "content": "资格认证管理",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131792,
+          "content": "年龄与技能",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131793,
+          "content": "经验教训",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131790
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646911,
+      "type": "judge",
+      "content": "可以将被引荐人安排在引荐人直接管理、监督等上下级的岗位工作",
+      "score": 2,
+      "analysis": {
+        "content": "有关人员引荐管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081258,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081259,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081259
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662201,
+      "type": "judge",
+      "content": "不完善的系统定义往往是导致软件工程失败的主要原因。〔  〕",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131919,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131920,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2131919
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646954,
+      "type": "judge",
+      "content": "社会保险是非强制性的。。",
+      "score": 2,
+      "analysis": {
+        "content": "社会保险法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081356,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081357,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081356
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647236,
+      "type": "single",
+      "content": "在接待客人中(客人第一次来),上下楼梯有时不可避免,下面符合正确商务礼仪的做法是（）。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082300,
+          "content": "上楼时让领导,来宾走在前方,下楼时将相反",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082301,
+          "content": "上楼时让领导,来宾走在后方,下楼时一样",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082302,
+          "content": "上下楼时都让领导,来宾走在前方",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082303,
+          "content": "为其指好方向，让来宾领导自己前行",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082301
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662124,
+      "type": "single",
+      "content": "人本股份手机OA服务器地址是（    ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131640,
+          "content": "http://202.107.222.149:90",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131641,
+          "content": "http://oa.cugoup.com",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131642,
+          "content": "http://202.107.222.149:89",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131643,
+          "content": "http://202.107.222.150:89",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131643
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 653256,
+      "type": "single",
+      "content": "系统管理模块采取文档验收、现场查验，合格分数为？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102131,
+          "content": "60",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102132,
+          "content": "70",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102133,
+          "content": "80",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102134,
+          "content": "90",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102133
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647202,
+      "type": "multi",
+      "content": "人本轴承双品牌指标的是（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082206,
+          "content": "C&U",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082207,
+          "content": "S&F",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082208,
+          "content": "人本",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082209,
+          "content": "双喜",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2082207
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646853,
+      "type": "single",
+      "content": "用人单位应在新学员报道（），制定学徒期培训责任人或团队，并指导其编制新学员培训计划",
+      "score": 2,
+      "analysis": {
+        "content": "有关新学员学徒期管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081063,
+          "content": "3日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081064,
+          "content": "7日内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081065,
+          "content": "10日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081066,
+          "content": "30日内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081063
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 647167,
+      "type": "single",
+      "content": "信息公司团建时间为（）",
+      "score": 2,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082049,
+          "content": "41699.0",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082050,
+          "content": "42948.0",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082051,
+          "content": "43101.0",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082052,
+          "content": "43647.0",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082050
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647175,
+      "type": "single",
+      "content": "人本集团的制度执行的监督部门是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082081,
+          "content": "董事办",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082082,
+          "content": "企管部",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2082083,
+          "content": "促标部",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082084,
+          "content": "财务部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082083
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 647256,
+      "type": "multi",
+      "content": "在商务礼仪中对于眼睛的要求是（）。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2082378,
+          "content": "眼镜端正",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082379,
+          "content": "洁净明亮",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082380,
+          "content": "无睡意，有精神",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2082381,
+          "content": "不眨眼",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2082378,
+        2082379,
+        2082380
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662185,
+      "type": "multi",
+      "content": "风险跟踪过程的活动不包括〔  〕",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131873,
+          "content": "评估风险",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131874,
+          "content": "对比项目状态与风险闻值",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131875,
+          "content": "风险信息的通知",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131876,
+          "content": "报告风险度量",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131873,
+        2131874
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 653267,
+      "type": "single",
+      "content": "公司财务人员应在每月（  ）日前，按号码管理员统计的话费额度充入手机使用账户。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2102175,
+          "content": "20",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2102176,
+          "content": "15",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102177,
+          "content": "18",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2102178,
+          "content": "16",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2102175
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646931,
+      "type": "judge",
+      "content": "男同事体检费的人均上限为300元/年",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工福利开支管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081298,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081299,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081298
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646944,
+      "type": "judge",
+      "content": "出差人员出差期间，应做好授权/委托工作，妥善安排好相关事务。",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081334,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081335,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081334
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 662172,
+      "type": "multi",
+      "content": "需求验证过程的步骤包括审查需求文档和〔  〕",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2131814,
+          "content": "编写需求规格说明书",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2131815,
+          "content": "制定验收标准",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131816,
+          "content": "设计测试用例",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131817,
+          "content": "编写用户手册",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2131818,
+          "content": "编写可行性研究报告",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2131815,
+        2131816
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    }
+  ],
+  "data_is_from_mongo": true
+}

@@ -1,0 +1,2148 @@
+{
+  "analysis": true,
+  "time_spend": 1591,
+  "exam_name": "转正考试",
+  "check_status": "avoid",
+  "is_analysis": true,
+  "exercise_data": [
+    {
+      "id": 746383,
+      "type": "multi",
+      "content": "目前JDE系统的环境有哪些",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389352,
+          "content": "JPV900",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389353,
+          "content": "JST900",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389354,
+          "content": "JPY900",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389355,
+          "content": "JPG900",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2389352,
+        2389353,
+        2389354,
+        2389355
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746260,
+      "type": "multi",
+      "content": "在我们集团日常业务中说的采配、销售指的是哪些公司简称",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388941,
+          "content": "和协",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388942,
+          "content": "双动",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388943,
+          "content": "上轴",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388944,
+          "content": "为尚",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2388941,
+        2388942,
+        2388943,
+        2388944
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746377,
+      "type": "multi",
+      "content": "项目总结会的意义包含以下哪些？",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389328,
+          "content": "总结经验教训",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389329,
+          "content": "表彰优秀员工",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389330,
+          "content": "标志项目工作基本完成",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389331,
+          "content": "将项目资源分配到新的项目",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2389328,
+        2389329,
+        2389330,
+        2389331
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640433,
+      "type": "single",
+      "content": "以下离开办公室的哪个行为不正确？",
+      "score": 2,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059763,
+          "content": "关闭电灯、电器",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059764,
+          "content": "锁门",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059765,
+          "content": "关闭电脑",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059766,
+          "content": "打开空调",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059766
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646880,
+      "type": "multi",
+      "content": "工龄满3周年的员工可介绍亲属进公司工作，应满足以下哪些条件",
+      "score": 3,
+      "analysis": {
+        "content": "有关特殊人员招聘与任职管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081174,
+          "content": "本人2年内无八级以上主观违纪",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081175,
+          "content": "本人之前所介绍亲属进公司后3年内无八级以上主观违纪和自动离职等违反担保协议行为",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081176,
+          "content": "经亲属介绍进公司的员工不可再介绍亲属，但介绍本人配偶的除外",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081174,
+        2081175
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746244,
+      "type": "single",
+      "content": "下列哪个订单类型是机电公司结算价销售单（    ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388881,
+          "content": "S1",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388882,
+          "content": "S3",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388883,
+          "content": "SU",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388884,
+          "content": "ST",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2388884
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746314,
+      "type": "single",
+      "content": "〔  〕是把对象的属性和操作结合在一起，构成一个独立的对象，其内部信息对外界是隐蔽的，外界只能通过有限的接口与对象发生联络。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389116,
+          "content": "多态性",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389117,
+          "content": "继承",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389118,
+          "content": "封装",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389119,
+          "content": "消息",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389118
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640824,
+      "type": "judge",
+      "content": "员工之间相互交流应使用普通话或外语，不得使用地方方言",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061034,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061035,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061034
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746408,
+      "type": "judge",
+      "content": "一个用户可以分配多个不同组织的权限。",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389431,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389432,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2389432
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640805,
+      "type": "judge",
+      "content": "信息公司的前身是商贸业信息部门－人本企划公司（信息与广告）",
+      "score": 1,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060996,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060997,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060996
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 646870,
+      "type": "multi",
+      "content": "客户送的东西哪些需要上交给公司",
+      "score": 3,
+      "analysis": {
+        "content": "有关廉政建设管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081134,
+          "content": "茶叶",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081135,
+          "content": "月饼",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081136,
+          "content": "星巴克咖啡券",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081137,
+          "content": "电视机",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081134,
+        2081135,
+        2081137
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746322,
+      "type": "multi",
+      "content": "对问题管理描述不正确的是〔  〕",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389148,
+          "content": "问题管理流程须确保供方具有检测事件、尽快解决事件的能力",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389149,
+          "content": "问题管理流程须确保供方通过识别引起事件的原因并解决问题，预防同类事件重复发生",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389150,
+          "content": "问题管理流程须确保供方维护运行维护服务对象的必要记录",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389151,
+          "content": "问题管理流程须确保供方通过管理、控制变更的过程，确保变更有序实施",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2389148,
+        2389149,
+        2389150
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 646866,
+      "type": "multi",
+      "content": "以下哪些各项业务交往活动所产生的招待费用可以报销？含：餐饮、住宿、交通、娱乐、礼品、礼金、礼券等费用。",
+      "score": 3,
+      "analysis": {
+        "content": "有关业务招待费用管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081116,
+          "content": "餐饮",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081117,
+          "content": "住宿",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081118,
+          "content": "交通",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081119,
+          "content": "礼品",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081120,
+          "content": "娱乐",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081116,
+        2081117,
+        2081118,
+        2081119,
+        2081120
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 646899,
+      "type": "judge",
+      "content": "因工作需要向公司外人员传递、发送保密文件和资料时，应报所在单位负责人批准",
+      "score": 1,
+      "analysis": {
+        "content": "有关保密工作管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081234,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081235,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081234
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 646887,
+      "type": "multi",
+      "content": "新进员工在入职7天内，单位人事管理团队应将员工个人信息录入人事系统，必录入项目包括:",
+      "score": 3,
+      "analysis": {
+        "content": "有关人事档案管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081201,
+          "content": "基本信息",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081202,
+          "content": "家庭信息",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081203,
+          "content": "工作履历",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081204,
+          "content": "劳动合同",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081205,
+          "content": "社保、公积金",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081201,
+        2081202,
+        2081203,
+        2081204,
+        2081205
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 646934,
+      "type": "judge",
+      "content": "员工可以将个人电脑带到办公场所使用",
+      "score": 1,
+      "analysis": {
+        "content": "有关办公软件管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081304,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081305,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081305
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746299,
+      "type": "single",
+      "content": "项目接近结束的时候，如果客户希望对项目范围进行大的变更，项目经理应该如何做?〔  〕",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389057,
+          "content": "进行变更",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389058,
+          "content": "告诉客户变更带来的影响",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389059,
+          "content": "拒绝变更",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389060,
+          "content": "不理会",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389058
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746254,
+      "type": "single",
+      "content": "订单驳回后到哪里处理？（   ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388917,
+          "content": "A. 发货列表",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388918,
+          "content": "B.供应商确认",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388919,
+          "content": "C.和协确认",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388920,
+          "content": "D.需求计划分割",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2388919
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640795,
+      "type": "multi",
+      "content": "信息运维服务基本业务包括（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060955,
+          "content": "例行巡检",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060956,
+          "content": "日常故障处理",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060957,
+          "content": "沟通培训",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060958,
+          "content": "新店安装",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060959,
+          "content": "系统开发",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060960,
+          "content": "设备维修",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2060955,
+        2060956,
+        2060957,
+        2060958,
+        2060960
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640784,
+      "type": "multi",
+      "content": "我们业务覆盖以下哪些省份及直辖市？",
+      "score": 3,
+      "analysis": {
+        "content": "信息公司介绍",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060897,
+          "content": "浙江省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060898,
+          "content": "上海市",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060899,
+          "content": "江苏省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060900,
+          "content": "安徽省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060901,
+          "content": "湖北省",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060902,
+          "content": "四川省",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2060897,
+        2060898,
+        2060899,
+        2060900,
+        2060901,
+        2060902
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640542,
+      "type": "single",
+      "content": "出差人员应在出差结束的（）前提交出差费用报销申请",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060104,
+          "content": "7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060105,
+          "content": "15日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060106,
+          "content": "当月底",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060107,
+          "content": "次月底",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060107
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640444,
+      "type": "single",
+      "content": "体检合格的社会招聘人员体检费用由（   ）承担。",
+      "score": 2,
+      "analysis": {
+        "content": "有关新进人员体检管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059807,
+          "content": "公司",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059808,
+          "content": "个人先垫付，入职满6个月后报销",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059809,
+          "content": "公司个人各50%",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059810,
+          "content": "公司30%，个人70%",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059808
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746274,
+      "type": "multi",
+      "content": "编写需求规格说明书是需求阶段的必要工作，需求说明书的的内容应当包括什么()",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388997,
+          "content": "软件功能描述",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388998,
+          "content": "编码规范",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388999,
+          "content": "系统业务规则",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389000,
+          "content": "软件性能描述",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2388997,
+        2388999
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640454,
+      "type": "single",
+      "content": "一般团队成员劳动合同期限为？",
+      "score": 2,
+      "analysis": {
+        "content": "有关劳动合同管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059847,
+          "content": "三年",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059848,
+          "content": "五年",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059849,
+          "content": "七年",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059850,
+          "content": "九年",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059847
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646875,
+      "type": "multi",
+      "content": "用于制作胸卡的照片应为近期一寸免冠照片，具体要求包含以下哪些",
+      "score": 3,
+      "analysis": {
+        "content": "有关胸卡管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081154,
+          "content": "白底",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081155,
+          "content": "白衬衣",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081156,
+          "content": "深色西服",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2081157,
+          "content": "紫红色领带",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2081154,
+        2081156,
+        2081157
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 640451,
+      "type": "single",
+      "content": "员工离职后，各单位人事管理团队应在（）根据离职审批表在人事系统中登记离职（月底离职人员应及时登记）",
+      "score": 2,
+      "analysis": {
+        "content": "有关人事档案管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059835,
+          "content": "3日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059836,
+          "content": "5日内",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059837,
+          "content": "7日内",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059838,
+          "content": "10日内",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059836
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 646950,
+      "type": "judge",
+      "content": "负有保密义务的人员离职，不会得到公司的经济补偿。",
+      "score": 1,
+      "analysis": {
+        "content": "劳动法",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081348,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081349,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081349
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746412,
+      "type": "judge",
+      "content": "关于用户体验的定义。首先是“用户”\n这里的用户有两类，一种是使用者，一种是消费者",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389439,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389440,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389439
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746366,
+      "type": "single",
+      "content": "数据库系统的基础和核心是什么？",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389284,
+          "content": "物料模型",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389285,
+          "content": "概念模型",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389286,
+          "content": "数据模型",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389287,
+          "content": "逻辑模型",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389286
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746326,
+      "type": "multi",
+      "content": "软件测试的目的不是〔  〕",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389164,
+          "content": "表明软件的正确性",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389165,
+          "content": "评价软件质量",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389166,
+          "content": "尽可能发现软件中错误",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389167,
+          "content": "判定软件是否合格",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389164,
+        2389165,
+        2389167
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 746309,
+      "type": "single",
+      "content": "软件需求规格说明的内容不应包括〔  〕。",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389097,
+          "content": "主要功能",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389098,
+          "content": "算法的详细描述",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389099,
+          "content": "用户界面及运行环境",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389100,
+          "content": "软件的性能",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389098
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746406,
+      "type": "judge",
+      "content": "项目过程中，新增需求应该直接拒绝掉，待交付后再进行新需求讨论",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389427,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389428,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389428
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746268,
+      "type": "multi",
+      "content": "有关表格排序的，说法不正确的是",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388973,
+          "content": "只有数字类型可以作为排序的依据",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388974,
+          "content": "只有日期类型可以作为排序的依据",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388975,
+          "content": "笔画和拼音不能作为排序的依据",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388976,
+          "content": "排序规则有升序和降序",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2388973,
+        2388974,
+        2388975
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 3
+    },
+    {
+      "id": 640443,
+      "type": "single",
+      "content": "单个用人单位人数在100人以内的，聘请人数上限为10人，100人以上的，聘请人员上限为（）",
+      "score": 2,
+      "analysis": {
+        "content": "有关聘请人员管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059803,
+          "content": "总人数的10%",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059804,
+          "content": "总人数的20%",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059805,
+          "content": "10",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059806,
+          "content": "20",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059803
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746376,
+      "type": "single",
+      "content": "需求分析阶段产生的主要文档是什么（）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389324,
+          "content": "软件集成测试计划",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389325,
+          "content": "软件详细设计说明书",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389326,
+          "content": "软件需求规格说明书",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389327,
+          "content": "用户操作手册",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389326
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746398,
+      "type": "judge",
+      "content": "轴承的BOM主要是由五大件组成的",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389411,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389412,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389411
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640809,
+      "type": "judge",
+      "content": "在公司内部的各种场合，无论职务高低一律要求直呼其姓名。",
+      "score": 1,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061004,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061005,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061004
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640772,
+      "type": "single",
+      "content": "人本集团的制度执行的监督部门是（）",
+      "score": 2,
+      "analysis": {
+        "content": "企业文化",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060849,
+          "content": "董事办",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060850,
+          "content": "企管部",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060851,
+          "content": "促标部",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060852,
+          "content": "财务部",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060851
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640823,
+      "type": "judge",
+      "content": "周一到周六，夏季需穿工作服上下班",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2061032,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2061033,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2061032
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746241,
+      "type": "single",
+      "content": "B2B开通账号时，下面选项哪一个不是必填项（    ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388869,
+          "content": "用户名",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388870,
+          "content": "联系电话",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2388871,
+          "content": "E-mail",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388872,
+          "content": "密码",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2388871
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746242,
+      "type": "single",
+      "content": "系统中客户编码是多少位数组成（    ）",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2388873,
+          "content": "4位",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388874,
+          "content": "5位",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388875,
+          "content": "6位",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2388876,
+          "content": "7位",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2388875
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746285,
+      "type": "judge",
+      "content": "（   ）凭证只可以单独过账。",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389023,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389024,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389024
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 646903,
+      "type": "judge",
+      "content": "同事不在时，可以直接使用他人电脑或翻阅他人资料",
+      "score": 1,
+      "analysis": {
+        "content": "有关办公纪律管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2081242,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2081243,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2081243
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746302,
+      "type": "single",
+      "content": "需求分析是分析员经了解用户的要求，认真细致地调研、分析，最终建立目标系统的逻辑模型并写出〔  〕的过程",
+      "score": 2,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389069,
+          "content": "模块说明书",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389070,
+          "content": "需求规格说明书",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389071,
+          "content": "项目开发计划",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2389072,
+          "content": "合同文档",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389070
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 746389,
+      "type": "multi",
+      "content": "关于数据库，下列说法正确的是（）",
+      "score": 3,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389376,
+          "content": "数据库能够存储大量结构化和非结构化的数据，包括文本、数字、图像、音频等各种类型的数据",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389377,
+          "content": "数据库是计算机系统中最重要的组件之一，被广泛用于各种应用程序和业务领域",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389378,
+          "content": "数据库可以包含多个表格或者集合，每个表格或集合包含一组相似的数据",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389379,
+          "content": "数据库的核心概念包括数据、表格、字段、记录和主键等",
+          "imgs": [],
+          "is_right": 1
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 0,
+      "user_answer_id": [
+        2389377,
+        2389379
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 0
+    },
+    {
+      "id": 746283,
+      "type": "judge",
+      "content": "（   ）销售退货单可以参照销售订单生成。",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389019,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389020,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389019
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 746397,
+      "type": "judge",
+      "content": "确定项目管理计划范围组成部分应当包含工作分解结构（WBS）字典",
+      "score": 1,
+      "analysis": {
+        "content": "",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2389409,
+          "content": "正确",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2389410,
+          "content": "错误",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2389409
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 1
+    },
+    {
+      "id": 640457,
+      "type": "single",
+      "content": "高温补贴发放时间为每年（），标准为（），工作区域无空调的人员和一线生产人员另加50元/月",
+      "score": 2,
+      "analysis": {
+        "content": "有关员工福利开支管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059859,
+          "content": "6-9月、50元/月",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059860,
+          "content": "6-9月、100元/月",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059861,
+          "content": "7-9月、50元/月",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059862,
+          "content": "7-9月、100元/月",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059861
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640537,
+      "type": "single",
+      "content": "信息公司管理团队长单人出差2天，住宿1晚，消费250元，住宿可报销（）元",
+      "score": 2,
+      "analysis": {
+        "content": "有关出差管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2060092,
+          "content": "250",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2060093,
+          "content": "270",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060094,
+          "content": "260",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2060095,
+          "content": "180",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2060092
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    },
+    {
+      "id": 640445,
+      "type": "single",
+      "content": "内部讲师每（   ）年复评一次，未参加复评者自动降（   ）。",
+      "score": 2,
+      "analysis": {
+        "content": "有关集团内部兼职讲师管理规定",
+        "imgs": []
+      },
+      "imgs": [],
+      "answer": [
+        {
+          "id": 2059811,
+          "content": "1，1级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059812,
+          "content": "3,1级",
+          "imgs": [],
+          "is_right": 1
+        },
+        {
+          "id": 2059813,
+          "content": "3,2级",
+          "imgs": [],
+          "is_right": 0
+        },
+        {
+          "id": 2059814,
+          "content": "3,3级",
+          "imgs": [],
+          "is_right": 0
+        }
+      ],
+      "remark": null,
+      "answer_is_right": 1,
+      "user_answer_id": [
+        2059812
+      ],
+      "user_answer_contents": [],
+      "filling_num": 0,
+      "user_score": 2
+    }
+  ]
+}
