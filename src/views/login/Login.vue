@@ -85,7 +85,7 @@ function postLogin() {
   // ruleForm.password = md5.end()
   login(ruleForm).then((res: any) => {
     if (res.data.code === 0) {
-      setCookie('tenantId', '1739466802218676224', 7)
+      setCookie('tenantId', '1831943906264248320', 7)
       setCookie('Authorization', res.headers.get('authorization'), 7)
       localStorage.setItem('UserData', JSON.stringify(res.data.data))
       router.push({name: 'home'})

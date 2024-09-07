@@ -2,10 +2,12 @@
   <div class="container">
     <div class="header">
       <el-card shadow="always">
-        <el-button class="refer" plain type="success" :icon="Refresh" @click="RefreshData">刷新/重置</el-button>
+        <el-button v-has="'/exception/refer'" class="refer" plain type="success" :icon="Refresh" @click="RefreshData">
+          刷新/重置
+        </el-button>
         <el-popover placement="bottom" :width="100" trigger="hover">
           <template #reference>
-            <el-button class="search" type="success">增减搜索条件</el-button>
+            <el-button v-has="'/exception/search'" class="search" type="success" :icon="Search">增减搜索条件</el-button>
           </template>
           <el-checkbox
               v-model="store.hidesAll"
@@ -48,7 +50,7 @@
 
 <script setup lang="ts">
 import {computed, nextTick, onMounted, onUnmounted, reactive, ref} from "vue";
-import {Refresh} from "@element-plus/icons-vue";
+import {Refresh, Search} from "@element-plus/icons-vue";
 import MyTable from "../../components/my-table/index.vue";
 import Pagination from "../../components/pagination/index.vue";
 import HeaderSearch from "../../components/header-search/index.vue";
