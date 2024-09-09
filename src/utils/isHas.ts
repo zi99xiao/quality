@@ -1,7 +1,7 @@
 export default function isHas(app: any) {
-    app.directive('has', (el, binding) => {
+    app.directive('has', (el: any, binding: any) => {
             let timeOut = setTimeout(() => {
-                const buttonUrls = JSON.parse(localStorage.getItem('buttons')).map((val: any) => val.url)
+                const buttonUrls = JSON.parse(localStorage.getItem('buttons')!).map((val: any) => val.url)
                 if (!buttonUrls.includes(binding.value)) {
                     // 方法一，移除该元素
                     el.parentNode.removeChild(el)

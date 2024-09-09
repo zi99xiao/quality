@@ -127,7 +127,7 @@ import {FormInstance, FormRules} from "element-plus";
 import {editPwdData, getMenuButtonList, getUserRole} from "../../api/login";
 import {useFullScreenEffect} from "../../utils/full-screen";
 import {Message} from "../../utils/message";
-import RC from "../../assets/R-C.png"
+import RC from "../../assets/R-C.png";
 import {showMenus} from "../../utils/menus";
 
 

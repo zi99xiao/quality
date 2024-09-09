@@ -171,7 +171,7 @@ export const routes = [
                         path: '/test/test9',
                         name: 'test9',
                         meta: {
-                            title: '2020-09制度',
+                            title: '2024-09制度',
                             icon: 'Warning',
                             requireAuth: true,
                             hidden: false
